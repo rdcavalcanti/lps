@@ -1,0 +1,243 @@
+/*
+Template Name: Wrapkit Ui Kit
+Author: Themedesigner
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+
+
+/*============================================================== 
+ For Laptop & above all (1650px) 
+ ============================================================== */
+
+@media(min-width:1650px) {
+   
+}
+
+
+/*============================================================== 
+ For Laptop & above all (1370px) 
+ ============================================================== */
+
+@media(max-width:1370px) {
+    .slider2 {
+        overflow-y:hidden;
+        .slide-image {
+            height:550px;
+            width:auto !important;
+        }
+
+        .slider-control span {
+            width:44px;
+            height:44px;
+            line-height:44px;
+        }
+    }
+}
+
+
+/*-- ============================================================== 
+ Small Desktop & above all (1024px) 
+ ============================================================== */
+
+@media(min-width:1024px) {
+    .page-wrapper {
+        padding-top: 205px;
+    }
+    .hover-dropdown .navbar-nav {
+        > .dropdown:hover {
+            > .dropdown-menu {
+                display: block;
+                margin-top: 0px;
+                
+            }
+        }
+    }
+    .navbar-nav {
+        > .dropdown {
+             .dropdown-menu {
+                min-width: 210px;
+                margin-top: 0px;
+            }
+        }
+    }
+    .dropdown-submenu:hover > .dropdown-menu {
+        display: block;
+    }
+}
+
+
+@media(max-width:1023px) {
+    .d-flex{
+        display: block!important;
+        &.no-block{
+            display: flex !important;
+        }
+    }
+    .h14-info-bar{
+        .donate-btn{
+            a{
+                display: block;
+                margin-left: 0px;
+            }
+        }
+        .nav-item .nav-link{
+            padding: 0 10px;
+            margin: 10px 0;
+        }
+    }
+    .po-absolute{
+        position: relative;
+    }
+    .slider2 {
+        h2 {
+            font-size:34px;
+        }
+        .slide-image {
+            left:-20%;
+            position:relative;
+        }
+        .slide-text {
+            width:80% !important;
+        }
+    }
+    .topbar{
+        background: $white; 
+        position: relative;
+        &.animated{
+            animation-duration:0s;
+            &.slideInDown{
+                    -webkit-animation-name: none;
+                    animation-name: none;
+            }
+        }
+    }
+}
+
+
+/*-- ============================================================== 
+ Ipad & above all(768px) 
+ ============================================================== */
+
+@media(min-width:768px) {
+    
+}
+
+
+/*-- ============================================================== 
+ Phone and below ipad(767px) 
+ ============================================================== */
+
+@media(max-width:767px) {
+    /*This is for the Global*/
+    .b-l, .b-r{
+        border-left: 0px;
+        border-right: 0px;
+        border-bottom: 1px solid $border;
+    }
+    .img-inline{
+        li.half-width{
+            width: 100%;
+        }
+    }
+    .both-space{
+        margin: 10px 0;
+    }
+    .side-content{
+        padding: 40px 20px;
+    }
+    
+    .general-listing.two-part{
+        li{
+            width: 100%;
+            display: block;
+        }
+    }
+    .testimonial6 {
+        .testi6{
+            flex-direction: row!important;
+            border-right:0px solid $border;
+            border-bottom: 1px solid $border;
+            margin-bottom: 40px;
+            .nav-link {
+                margin: 0px 0px -2px 0;
+                padding: 10px;
+                &.active{
+                    border-right:0px solid $yellow;
+                    border-bottom:3px solid $yellow;
+                }
+                img{
+                    width: 40px;
+                }
+            }
+        }
+    }
+    .slider2 {
+        .slider-control span {
+            width:34px;
+            height:34px;
+            line-height:34px;
+        }
+        .slide-text {
+            padding:0 !important;
+            width:80% !important;
+        }
+        h2 {
+            font-size:28px;
+            line-height:36px;
+            margin-bottom:30px;
+        }
+        .slide-image {
+            left:0;
+            height:300px;
+        }
+        .btn {
+            padding-left:15px;
+            padding-right:15px;
+            
+            &.btn-md {
+                padding-left:25px;
+                padding-right:25px;
+            }
+        }
+        .btn-pad {
+            padding-right:0;
+        }
+    }
+    .dropdown-submenu > .dropdown-menu.show {
+        display: block;
+    }
+}
+
+@media (max-width: 428px) {
+    .slider2 {
+        .slider-control span {
+            width:26px;
+            height:26px;
+            line-height:26px;
+            font-size:12px !important;
+        }
+        h2 {
+            font-size:22px;
+            line-height:30px;
+            margin-bottom:20px;
+        }
+        i.icon-Play-Music {
+            font-size:26px;
+        }
+        a.btn-md {
+            text-align:center;
+            margin-bottom:10px;
+        }
+        .slide-image {
+            left:-75%;
+            height:380px;
+        }
+        .btn {
+            padding-left:0;
+        }
+        video {
+            width:160%;
+        }
+    }
+}

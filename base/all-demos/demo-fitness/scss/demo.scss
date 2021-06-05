@@ -1,0 +1,314 @@
+/*
+Template Name: Wrapkit
+Author: Wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+
+@import 'variable';
+
+/*============================================================== 
+ This scss/css we made it from our predefine componenet 
+ we just copy that css and paste here you can also do that
+ ============================================================== */
+
+
+/*******************
+This is for Header
+*******************/
+/*******************
+Header 3
+*******************/
+
+.h3-topbar {
+    padding: 10px 0;
+    .list-inline {
+        margin-bottom: 0px;
+        li {
+            display: inline-block;
+            a {
+                padding: 10px 8px;
+                display: block;
+                color: $muted;
+                font-weight: 400;
+                font-size: 14px;
+                &:hover {
+                    color: $dark;
+                }
+                .info-icon {
+                    display: inline-block;
+                    vertical-align: middle;
+                    margin-right: 8px;
+                    font-size: 25px;
+                }
+                .vdevider {
+                    width: 1px;
+                    background: $border;
+                    display: inline-block;
+                    height: 25px;
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+    .t-r {
+        text-align: right;
+    }
+}
+.h3-navbar{
+    border-top:1px solid $border;
+    position: relative;
+    .navbar-brand{
+        position: absolute;
+        left:0;
+        right:0;
+        margin: 0 auto;
+        width: 240px;
+        text-align: center;
+        background: $white;
+        box-shadow: $card-shadow;
+        padding: 20px 15px;
+        top:-67px;
+        
+    }
+    .navbar{
+        padding:0px;
+        margin-top: -1px;
+        .navbar-nav{
+            .nav-item{
+                margin: 0 10px;
+            }
+            .nav-link{
+                padding:22px 20px;
+                font-weight: 500;
+                text-transform: uppercase;
+                font-size: 14px;
+                color:$muted;
+                border-top:1px solid transparent;
+            }
+            .nav-item.active .nav-link, .nav-item:hover .nav-link{
+                    border-top:1px solid $danger;
+                    color:$danger;
+                }
+        }
+    }
+}
+
+
+/*-------------------*/
+/*Slider Style Start*/
+/*-------------------*/
+.slider6 {
+	.slide-text {
+		bottom:0;
+		top:auto !important;
+		transform:translate(-50%, 0) !important;;
+		-webkit-transform:translate(-50%, 0) !important;;
+		-moz-transform:translate(-50%, 0) !important;;
+	}
+	.slider-control span {
+		width:53px;
+		height:53px;
+		line-height:53px;
+		border-radius:50%;
+	}
+	h2 {
+		line-height:42px;
+		font-size:36px;
+	}
+    p{
+        color:$white;
+    }
+	.btn-md {
+		border:1px solid $white;
+	}
+	.slide-content {
+		padding:40px;
+		position:relative;
+		opacity:0.9;
+	}
+	.price-tag {
+		position:absolute;
+		right:-65px;
+		top:-65px;
+		width:130px;
+		height:130px;
+		padding-top:33px;
+		border-radius:50%;
+		
+		span {
+			font-weight:300;
+			font-size:36px;
+			line-height:36px;
+		}
+	}
+}
+
+@media (max-width:767px) {
+	.slider6 {
+		.slider-control span {
+			width:34px;
+			height:34px;
+			line-height:34px;
+		}
+		h2 {
+			font-size:28px;
+			line-height:36px;
+		}
+		.slide-text {
+			padding:0 !important;
+			width:80% !important;
+			
+		}
+		.slide-image {
+			height:430px;
+		}
+		.slide-content {
+			padding:30px;
+		}
+	}
+}
+@media (max-width: 590px) {
+	.slider6 {
+		.price-tag {
+			right:0;
+			top:-80px;
+			left:0;
+			margin:auto;
+			padding-top:20px;
+			width:100px;
+			height:100px;
+			
+			span {
+				font-size:30px;
+				
+			}
+			label {
+				font-size:12px;
+			}
+		}
+	}
+}
+@media (max-width: 428px) {
+	.slider6 {
+		.slider-control span {
+			width:26px;
+			height:26px;
+			line-height:26px;
+			font-size:12px !important;
+		}
+		.slide-content {
+			padding:30px 20px;
+		}
+		.slide-image {
+			left:-90%;
+		}
+		h2 {
+			font-size:22px;
+			line-height:30px;
+		}
+		.btn-md {
+			padding-left:25px;
+			padding-right:25px;
+		}
+	}
+}
+@media (max-width: 320px) {
+	.slider6 {
+		.slide-content {
+			padding:30px 15px;
+		}
+		h2 {
+			font-size:20px;
+		}
+		.btn-md {
+			padding-left:20px;
+			padding-right:20px;
+		}
+		.slide-image {
+			height:390px;
+		}
+	}
+}
+/*******************
+Feature 2
+*******************/
+
+.wrap-feature2-box .card-body {
+  padding: 40px;
+}
+
+
+
+/*******************
+Feature 47
+*******************/
+.wrap-feature47-box {
+    .f-47-line {
+      line-height: 40px;
+    }
+    .video-img {
+        cursor: pointer;
+    }
+}
+
+/*******************
+Pricing 4
+*******************/
+.pricing4{
+    .price{
+        small{
+            color:$muted;
+            font-size: 16px;
+        }
+    }
+    
+}
+
+/*******************
+Testimonial 10
+*******************/
+.testimonial10 {
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    .testi10{
+        .quote-bg{
+            max-width: 800px; 
+            width: 100%;
+            margin: 0 auto;
+            padding: 60px;
+            background: url(../images/testi/up-quote.png) no-repeat top left, url(../images/testi/down-quote.png) no-repeat bottom right;
+        }
+        h3{
+            line-height: 40px;
+        }
+        .customer-thumb{
+            margin: 15px 0;
+            img{
+                width: 60px;
+            }
+        }
+    }
+    
+}
+
+
+/*******************
+Blog homepage 4
+*******************/
+  
+.blog-home4 {
+    .tweet{
+        text-align: center;
+        .card-title{
+            color:$white;
+            a{
+                color:$white;
+                &:hover{
+                    color:$dark;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,128 @@
+/*
+Template Name: Wrapkit Ui Kit
+Author: wrapkit
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+
+
+/*============================================================== 
+ For Laptop & above all (1650px) 
+ ============================================================== */
+
+@media(min-width:1650px) {
+   
+}
+
+
+/*============================================================== 
+ For Laptop & above all (1370px) 
+ ============================================================== */
+
+@media(max-width:1370px) {
+    
+}
+
+
+/*-- ============================================================== 
+ Small Desktop & above all (1024px) 
+ ============================================================== */
+
+@media(min-width:1024px) {
+     .hover-dropdown .navbar-nav {
+        > .dropdown:hover {
+            > .dropdown-menu {
+                display: block;
+                margin-top: 0px;
+                
+            }
+        }
+    }
+    .navbar-nav {
+        > .dropdown {
+             .dropdown-menu {
+                min-width: 210px;
+                margin-top: 0px;
+            }
+        }
+    }
+    .dropdown-submenu:hover > .dropdown-menu {
+        display: block;
+    } 
+}
+
+
+@media(max-width:1023px) {
+    .d-flex{
+        display: block!important;
+        &.no-block{
+            display: flex !important;
+        }
+    }
+    .po-absolute{
+        position: relative;
+    }
+    .topbar{
+        position: absolute;                   
+        &.animated{
+            animation-duration:0s;
+            &.slideInDown{
+                -webkit-animation-name: none;
+                animation-name: none;
+            }
+        }
+    }
+}
+
+
+/*-- ============================================================== 
+ Ipad & above all(768px) 
+ ============================================================== */
+
+@media(min-width:768px) {
+    
+}
+
+
+/*-- ============================================================== 
+ Phone and below ipad(767px) 
+ ============================================================== */
+
+@media(max-width:767px) {
+    /*This is for the Global*/
+    .general-listing.two-part{
+        li{
+            width: 100%;
+            display: block;
+        }
+    }
+    /*This is for the Header*/
+    .topbar{
+        position: absolute;
+    }
+    .h1-nav {
+        .social-icon{
+            flex-direction:row;
+            li.nav-item{
+                margin:5px;
+                .nav-link{
+                    padding:10px;
+                }
+            }
+        }
+    }
+    .h2-nav {
+        padding: 10px 0;
+    }
+    /*This is for the slider*/
+    .static-slider1 {
+        h1 {
+            font-weight: 700;
+            line-height: 36px;
+            font-size: 24px;
+        }
+    }
+    .wrap-feature11-box{
+        margin-top: 30px;
+    }
+}

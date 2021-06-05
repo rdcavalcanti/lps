@@ -1,0 +1,339 @@
+/*
+Template Name: Wrapkit
+Author: Wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+
+@import 'variable';
+
+/*============================================================== 
+ This scss/css we made it from our predefine componenet 
+ we just copy that css and paste here you can also do that
+ ============================================================== */
+
+
+/*******************
+This is for Header
+*******************/
+
+/*******************
+Header 14
+*******************/
+.h14-topbar{
+        background: $light;
+        .navbar-brand{
+            font-size: 14px;
+            color:$dark;
+            font-weight: 500;
+            padding: 15px 0;
+        }
+        .navbar{
+            padding: 0;
+            .search-box{
+                padding: 15px;
+                width: 240px;
+            }
+            .nav-item .nav-link{
+                color:$muted;
+                padding: 15px 20px;
+                &:first-child{
+                     padding-left:0px;
+                }
+            }
+            .nav-item:hover .nav-link{
+                
+            }
+        }
+    }
+.h14-navbar {
+    background:$yellow;
+    .navbar{
+        padding: 0;
+        .hidden-lg-up{
+            padding:15px;
+            color:$dark;
+            font-weight: 500;
+            font-size: 14px;
+            text-transform: uppercase;    
+        }
+        .navbar-nav{
+            .nav-link{
+                padding:18px 15px;
+                color:$dark;
+                font-weight: 400;
+                font-size: 13px;
+                text-transform: uppercase;
+            }
+            .nav-item:hover .nav-link, .nav-item.active .nav-link{
+                background: $border;
+                color:$dark;
+            }
+            .search {
+                .nav-link{
+                    background: $dark-transparent;
+                    padding: 18px 23px;
+                    
+                }
+                .dropdown-menu{
+                    padding: 20px;
+                    min-width: 300px;
+                }
+            }
+        }
+        .dropdown-menu{
+            
+            border-radius: 0 0 4px 4px;
+            margin-top: 0px;
+            .dropdown-item{
+                color:$dark;
+                &.active, &:active, &:hover{
+                    background: $border;
+                    
+                }
+            }    
+        }
+    }
+}
+.h14-info-bar{
+    padding: 15px 0px;
+    .donate-btn{
+        a{
+            font-size:13px;
+            font-weight: 500;
+            padding: 13px 25px;
+            margin-left: 15px;
+        }
+    }
+    .nav-item .nav-link{
+        display: flex;
+        padding: 0 25px;
+    }
+}
+
+/*-------------------*/
+/*Slider Style Start*/
+/*-------------------*/
+#slider-sec {
+    .slide-text {
+        max-width:1170px;
+        padding:0 15px;
+        top:50%;
+        left:50%;
+        right:auto;
+        width:100%;
+        transform:translate(-50%, -50%);
+        -webkit-transform:translate(-50%, -50%);
+        -moz-transform:translate(-50%, -50%);
+    }
+    .carousel-indicators {
+        li {
+            border-radius:50%;
+            width:14px;
+            height:14px;
+            cursor:pointer;
+        }
+    }
+    .carousel-item {
+        max-height:700px;
+    }
+    .carousel-control-next {
+        width:auto;
+        padding-right:15px;
+    }
+    .carousel-control-prev {
+        width:auto;
+        padding-left:15px;
+    }
+    .slide-image {
+        margin: auto;
+        width: 100%;
+        -webkit-animation-delay: 0.3s;
+        animation-delay: 0.3s;
+    }
+    h2 {
+        -webkit-animation-delay: 0.7s;
+        animation-delay: 0.7s;
+    }
+    p {
+        -webkit-animation-delay: 1.1s;
+        animation-delay: 1.1s;
+    }
+    .btn {
+        -webkit-animation-delay: 1.3s;
+        animation-delay: 1.3s;
+    }
+}
+
+/*-------------------*/
+/*Slider2 and Slider3 Style Start*/
+/*-------------------*/
+
+.slider2 {
+    .bs-slider-overlay {
+        background:rgba(32, 35, 43, 0.8);
+    }
+    .slider-control span {
+        width:53px;
+        height:53px;
+        line-height:53px;
+        text-align:center;
+        border-radius:50%;
+        border:1px solid #fff;
+    }
+    label {
+        line-height:27px;
+        border-radius:0;
+        color:#1a1a1a;
+        -webkit-animation-delay: 0.5s;
+        animation-delay: 0.5s;
+    }
+    h2 {
+        line-height:42px;
+        font-size:36px;
+        
+    }
+    p {
+        line-height:24px;
+        font-weight:400;
+    }
+    i.icon-Play-Music {
+        font-size:32px;
+    }
+}
+
+
+/*******************
+Feature 12
+*******************/
+.wrap-feature-12{
+    position: relative;
+    [class*=col-md-12]{
+        margin-bottom: 30px;
+        transition: 0.2s ease-in;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+    .uneven-box{
+        margin-top: 100px;
+    }
+}
+
+/*******************
+Feature 2
+*******************/
+
+.wrap-feature2-box {
+    .card-body {
+        padding: 40px;
+    }
+}
+
+/*******************
+Feature 8
+*******************/
+.feature8{
+    .list-block{
+        li{
+            font-weight: 400;
+            color:$dark;
+        }
+    }
+}
+
+/*******************
+projects
+*******************/
+.img-ho{
+    overflow:hidden;
+    img{
+        transition:0.1s ease-in;
+        &:hover{
+            transform:scale(1.1);
+        }
+    }
+}
+
+/*******************
+Testimonial 6
+*******************/
+  
+.testimonial6 {
+    .testi6{
+        border-right:1px solid $border;
+        .nav-link {
+            border-radius: 0px;
+            margin: 8px -2px 8px 0;
+            img{
+                width: 70px;
+                opacity: 0.5;
+            }
+            &.active{
+                background: transparent;
+                color:$bodytext;
+                border-right:3px solid $yellow;
+                img{
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+
+/*******************
+Blog homepage 1
+*******************/
+  
+  .blog-home1 {
+      [class*=col-] {
+          transition: 0.2s ease-in;
+          &:hover {
+              transform: translateY(-10px);
+          } 
+      }
+  }
+
+
+/*******************
+Footer 3
+*******************/
+.footer3{
+    padding-top: 50px;
+    .f3-topbar{
+        padding-bottom: 20px;
+        border-bottom: 1px solid $border;
+        .input-group{
+            .form-control{
+                font-size:16px;
+            }
+            .btn{
+                padding: 15px 20px;
+            }
+        }
+    }
+    .f3-middle{
+        padding-top:40px; 
+    }
+    .general-listing{
+        li:hover {
+            a, i{
+                color:$white;
+            }
+        }
+    }
+    .link{
+        color:$bodytext;
+        &:hover{
+            color:$white;
+        }
+    }
+    .f3-bottom-bar{
+        background: rgba(0, 0, 0, 0.1);
+        padding: 20px 0;
+        .link{
+            padding: 0 12px;
+        }
+    }
+}

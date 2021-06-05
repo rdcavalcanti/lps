@@ -1,0 +1,352 @@
+/*
+Template Name: Wrapkit
+Author: Wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+
+@import 'variable';
+
+
+/*============================================================== 
+ This scss/css we made it from our predefine componenet 
+ we just copy that css and paste here you can also do that
+ ============================================================== */
+
+
+/*******************
+This is for Header
+*******************/
+.header7{
+    background: $inverse;
+    max-height:120px;
+    .h7-topbar{
+        padding: 15px 0;
+        color:$white;
+    }
+    .con-btn{
+        a{ 
+            padding: 5px 20px;
+            text-transform: uppercase;
+        }
+    }
+    .h7-nav-bar{
+        background: $white;
+        display: flex;
+        box-shadow: $card-shadow;
+        .logo-box{
+            padding: 20px;
+            flex-shrink: 0;
+            width: 230px;
+            border-right:1px solid $border;
+        }
+        .h7-nav-box{
+            display: block;
+            width: calc(100% - 230px);
+            .h7-mini-bar{
+                border-bottom: 1px solid $border;
+                .gen-info{
+                    span{
+                        display: inline-block;
+                        padding: 15px 20px;
+                        font-weight: 400;
+                    }
+                }
+                .social-info{
+                    padding-right: 10px;
+                    a{
+                        display: inline-block;
+                        padding: 15px 8px;
+                        font-weight: 400;
+                        color:$muted;
+                        &:hover{
+                            color:$dark;
+                        }
+                    }
+                }
+            }
+            .main-nav{
+                ul{
+                    margin: 0px;
+                    padding: 0px;
+                    font-size: 13px;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    li{
+                        list-style: none;
+                        margin: 0px;
+                        padding: 0px;
+                        position: relative;
+                        a{
+                            padding: 20px 0px 21px;
+                            color:$muted;
+                            display: block;
+                        }
+                    }
+                }
+                >ul{
+                    display: table;
+                    width: 100%;
+                    >li{
+                        display: table-cell;
+                        text-align: center;
+                        border-left: 1px solid $border;
+                        &:first-child{
+                            border-left:0px;
+                        }
+                        &:hover{
+                            background: $light;
+                            > ul{
+                                display: block;
+                            }
+                        }
+                        ul{
+                            position: absolute;
+                            display: none;
+                            background: $light;
+                            text-align: left;
+                            padding: 18px;
+                            width: 250px;
+                            li a{
+                                padding: 13px 10px;
+                                transition: 0.2s ease-in;
+                                &:hover{
+                                    padding: 13px 10px 13px 18px;
+                                    color:$dark;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media(max-width:767px) {
+      
+}
+
+
+/*******************
+Static slide 1
+*******************/
+.slider1 {
+    
+    h2 {
+        display:inline-block;
+        color:#fff;
+        font-weight:800;
+        font-size:36px;
+        padding:20px;
+        text-transform:uppercase;
+        margin:0;
+    }
+    p {
+        font-size:18px;
+        
+        a {
+            border-radius:0;
+            box-shadow:none;
+            color:$muted;
+            padding-left:20px;
+            padding-right:60px;
+            
+            i {
+                opacity:1;
+                right:-2rem;
+                color:$success;
+            }
+            
+            &:hover {
+                color:$muted;
+                span {
+                    transform: translate3d(0, 0, 0);
+                }
+                i {
+                    right:-2.7rem;
+                    color:$success;
+                }
+            }
+        }
+    }
+    .slide-image {
+        min-width:716px;
+        min-height:375px;
+    }
+}
+
+
+/*******************
+Feature 43
+*******************/
+
+.wrap-feature43-box{
+    .col-md-6{
+        margin-bottom: 50px;
+    }
+}  
+
+
+
+
+/*******************
+Serrvices
+*******************/
+.wrap-feature2-box .card-body {
+  padding: 40px;
+}
+ 
+/*******************
+Feature 42
+*******************/
+.feature42{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    .wrap-feature42-box{
+        padding: 8% 0;
+    }
+}
+
+/*******************
+Client 2
+*******************/
+.client2{
+    padding:40px 0;
+    .client-box{
+        margin:0px;
+        [class*="col-"]{
+            padding-top:10px;
+            padding-bottom:10px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+        }
+    }
+}
+/*******************
+Case Study
+*******************/
+.img-ho{
+    overflow:hidden;
+    img{
+        transition:0.1s ease-in;
+        &:hover{
+            transform:scale(1.1);
+        }
+    }
+}
+
+/*******************
+Testimonial 9
+*******************/
+.testimonial9 {
+    .card{
+        position: relative;
+            .p-40::after{
+            position: absolute;
+            bottom:-15px;
+            left: 20;
+            content: '';
+            border-left: 15px solid transparent;
+            border-right: 15px solid transparent;
+            border-top: 15px solid $white;
+        }
+    }
+    .owl-theme .owl-dots .owl-dot{
+        &.active span, &:hover span{
+            background: $white;
+        }
+    }
+    .owl-dots{
+        position: absolute;
+        left: -98%;
+        top: 70%;
+    }
+    .devider{
+        height:2px;
+        width: 40px;
+        display: inline-block;
+        margin: 22px 0;
+    }
+    h5.text{
+        line-height: 30px;
+        font-weight: 300;
+    }
+    .customer-thumb{
+        img{
+            width: 60px;
+            margin-right: 20px;
+        }
+    }
+    .d-flex{
+        margin-left: 25px;
+    }
+}
+
+@media(max-width:767px) {
+   .testimonial9 {
+       .owl-dots{
+        position: relative;
+        top:0px;
+        left:0px;
+        }
+    }   
+}
+
+/*******************
+Blog homepage 1
+*******************/
+  
+  .blog-home1 {
+      [class*=col-] {
+          transition: 0.2s ease-in;
+          &:hover {
+              transform: translateY(-10px);
+          } 
+      }
+  } 
+/*******************
+Footer 2
+*******************/
+.footer2{
+    padding: 60px 0;
+    .f2-topbar{
+        padding-bottom: 20px;
+        border-bottom: 1px solid $border;
+    }
+    .f2-middle{
+        padding-top:40px;
+    }
+    .link{
+        color:$muted;
+        padding:10px 15px 10px 0;  
+    }
+    .general-listing{
+        li a{
+            i{
+                font-size:9px;
+                margin-right: 10px;
+            }
+        }
+    }
+    .info-box .d-flex{
+        padding: 15px 0;
+        border-bottom: 1px solid $border;
+    }
+    .subscribe-box{
+        background: $border;
+        padding: 25px;
+        .form-control{
+            background: transparent;
+            padding: 10px 0;
+            border:0px;
+            border-bottom: 1px solid $border;
+            color:$white;
+            border-radius: 0px;
+            &:focus{
+                border-bottom: 1px solid $white;
+            }
+        }
+    }
+}

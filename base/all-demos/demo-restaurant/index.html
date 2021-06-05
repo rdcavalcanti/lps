@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <title>Wrapkit - The awesome and beautiful ui kit</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../assets/node_modules/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- This is for the animation CSS -->
+    <link href="../assets/node_modules/aos/dist/aos.css" rel="stylesheet">
+    <link href="../assets/node_modules/bootstrap-touch-slider/bootstrap-touch-slider.css" rel="stylesheet" media="all">
+    <link href="../assets/node_modules/owl.carousel/dist/assets/owl.theme.green.css" rel="stylesheet">
+    <!-- This css we made it from our predefine componenet 
+    we just copy that css and paste here you can also do that -->
+    <link href="css/demo.css" rel="stylesheet">
+    <!-- Common style CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/yourstyle.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body class="">
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader__figure"></div>
+            <p class="loader__label">Wrapkit</p>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper">
+        <!-- ============================================================== -->
+        <!-- Top header  -->
+        <!-- ============================================================== -->
+        <div class="topbar">
+            <!-- ============================================================== -->
+            <!-- Header 16  -->
+            <!-- ============================================================== -->
+            <div class="header16 po-relative">
+                <!-- Topbar  -->
+                <div class="h16-topbar">
+                    <div class="container">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand hidden-lg-up" href="#">Top Menu</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header16a" aria-controls="header16a" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="sl-icon-options"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="header16a">
+                                <ul class="navbar-nav font-14">
+                                    <li class="nav-item">Welcome to Divine <span class="text-dark">Food Restaurant</span></li>
+                                </ul>
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-envelope"></i> info@wrappixel.com</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-facebook-square"></i></a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <!-- Infobar  -->
+                <div class="h16-infobar">
+                    <div class="container">
+                        <nav class="navbar navbar-expand-lg h16-info-bar">
+                            <a class="navbar-brand"><img src="images/logo.png" alt="wrapkit"/></a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#h16-info" aria-controls="h16-info" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="sl-icon-options-vertical"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="h16-info">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link">
+                                            <div class="display-6 m-r-10"><i class="icon-Over-Time text-danger"></i></div>
+                                            <div><small>Mon to Sat - <span class="text-dark">9:00-18:00</span> <br/>Sunday - Closed</small></div>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link">
+                                            <div class="display-6 m-r-10"><i class="icon-Phone-2 text-danger"></i></div>
+                                            <div><small>Book Table</small>
+                                                <h5 class="font-bold">703 (123) 4567</h5></div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <!-- Navbar  -->
+                <div class="h16-navbar">
+                    <div class="container">
+                        <nav class="navbar navbar-expand-lg h16-nav">
+                            <a class="hidden-lg-up">Navigation</a>
+                            <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#header16" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="ti-menu"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="header16">
+                                <div class="hover-dropdown">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item dropdown mega-dropdown active"> <a class="nav-link dropdown-toggle" href="#" id="h6-mega-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      Demos <i class="fa fa-angle-down m-l-5"></i>
+                                    </a>
+                                            <div class="dropdown-menu b-none font-14 animated fadeInUp" aria-labelledby="h6-mega-dropdown">
+                                                <div class="row">
+                                                    <div class="col-lg-3 inside-bg hidden-md-down">
+                                                        <div class="bg-img" style="background-image:url(images/mega-bg.jpg)">
+                                                            <h3 class="text-white font-light">Most Powerfull Bootstrap 4 UI Kit</h3> </div>
+                                                    </div>
+                                                    <div class="col-lg-2 col-md-6">
+                                                        <ul class="list-style-none">
+                                                            <li>
+                                                                <h6>Niche Homepages</h6></li>
+                                                            <li><a href="../demo-business/index.html" target="_blank">Business</a></li>
+                                                            <li><a href="../demo-creative/index.html" target="_blank">Creative</a></li>
+                                                            <li><a href="../demo-charity/index.html" target="_blank">Charity</a></li>
+                                                            <li><a href="../demo-medical/index.html" target="_blank">Health & Medical</a></li>
+                                                            <li><a href="../demo-software-application/index.html" target="_blank">Software Application</a></li>
+                                                            <li><a href="../demo-real-estate/index.html" target="_blank">Real Estate</a></li>
+                                                            <li><a href="../demo-restaurant/index.html" target="_blank">Restaurant</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-2 col-md-6">
+                                                        <ul class="list-style-none">
+                                                            <li>
+                                                                <h6>&nbsp;</h6></li>
+                                                            <li><a href="../demo-web-agency/index.html" target="_blank">Web-Agency</a></li>
+                                                            <li><a href="../demo-fitness/index.html" target="_blank">Fitness</a></li>
+                                                            <li><a href="../demo-accounting/index.html" target="_blank">Accounting</a></li>
+                                                            <li><a href="../demo-onepage/index.html" target="_blank">One Page</a></li>
+                                                            <li><a href="../demo-marketing-seo/index.html" target="_blank">Marketing / SEO</a></li>
+                                                            <li><a href="../demo-industrial/index.html" target="_blank">Industrial</a></li>
+                                                            <li><a href="../demo-cryptocurrency/index.html" target="_blank">Cryptocurrency</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-2 col-md-6">
+                                                        <ul class="list-style-none">
+                                                            <li>
+                                                                <h6>Landing Pages</h6></li>
+                                                            <li><a href="../demo-landingpage-app/index.html" target="_blank">App Landing</a></li>
+                                                            <li><a href="../demo-landingpage-medical/index.html" target="_blank">Health & Medical</a></li>
+                                                            <li><a href="../demo-landingpage-personal/index.html" target="_blank">Personal Landing</a></li>
+                                                            <li><a href="../demo-landingpage-form/index.html" target="_blank">Form Landing</a></li>
+                                                            <li><a href="../demo-landingpage-appointment/index.html" target="_blank">Appointment Landing</a></li>
+                                                            <li><a class="text-muted">More Coming soon...</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-6">
+                                                        <ul class="list-style-none">
+                                                            <li>
+                                                                <h6>Freelancer / Portfolio</h6></li>
+                                                            <li><a href="../demo-freelancer1/index.html" target="_blank">Freelancer 1</a></li>
+                                                            <li><a href="../demo-freelancer2/index.html" target="_blank">Freelancer 2</a></li>
+                                                            <li><a href="../demo-photography1/index.html" target="_blank">Photographer Light</a></li>
+                                                            <li><a href="../demo-photography2/index.html" target="_blank">Photographer Dark</a></li>
+                                                            <li><a href="../demo-coming-soon/index.html" target="_blank">Comming Soon</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item dropdown mega-dropdown"> <a class="nav-link dropdown-toggle" href="#" id="h6-mega-dropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      Sections <i class="fa fa-angle-down m-l-5"></i>
+                                    </a>
+                                            <div class="dropdown-menu b-none font-14 animated fadeInUp" aria-labelledby="h6-mega-dropdown1">
+                                                <div class="row">
+                                                    <div class="col-lg-4 inside-bg hidden-md-down">
+                                                        <div class="bg-img" style="background-image:url(images/mega-bg2.jpg)">
+                                                            <h3 class="text-white font-light">Create anything <br/>with our amazing <br/>sections</h3> </div>
+                                                    </div>
+                                                    <div class="col-lg-2 col-md-4">
+                                                        <ul class="list-style-none">
+                                                            <li>
+                                                                <h6>Headers &amp; Footers</h6></li>
+                                                            <li><a href="../../wrapkit/sliders-static.html" target="_blank">Banners</a></li>
+                                                            <li><a href="../../wrapkit/form-banners.html" target="_blank">Form Banners</a></li>
+                                                            <li><a href="../../wrapkit/headers1.html" target="_blank">Navigation 1-10</a></li>
+                                                            <li><a href="../../wrapkit/headers2.html" target="_blank">Navigation 11-20</a></li>
+                                                            <li><a href="../../wrapkit/footers.html" target="_blank">Footers</a></li>
+                                                            <li><a href="../../wrapkit/call-to-action.html" target="_blank">Call to Actions</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-1 col-md-4">
+                                                        <ul class="list-style-none">
+                                                            <li>
+                                                                <h6>Sliders</h6></li>
+                                                            <li><a href="../../wrapkit/slider1.html" target="_blank">Slider1</a></li>
+                                                            <li><a href="../../wrapkit/slider2.html" target="_blank">Slider2</a></li>
+                                                            <li><a href="../../wrapkit/slider3.html" target="_blank">Slider3</a></li>
+                                                            <li><a href="../../wrapkit/slider4.html" target="_blank">Slider4</a></li>
+                                                            <li><a href="../../wrapkit/slider5.html" target="_blank">Slider5</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-1 col-md-4">
+                                                        <ul class="list-style-none">
+                                                            <li>
+                                                                <h6>&nbsp;</h6></li>
+                                                            <li><a href="../../wrapkit/slider6.html" target="_blank">Slider6</a></li>
+                                                            <li><a href="../../wrapkit/slider7.html" target="_blank">Slider7</a></li>
+                                                            <li><a href="../../wrapkit/slider8.html" target="_blank">Slider8</a></li>
+                                                            <li><a href="../../wrapkit/slider9.html" target="_blank">Slider9</a></li>
+                                                            <li><a href="../../wrapkit/slider10.html" target="_blank">Slider10</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-2 col-md-4">
+                                                        <ul class="list-style-none">
+                                                            <li>
+                                                                <h6>Other Sections</h6></li>
+                                                            <li><a href="../../wrapkit/contacts-forms.html" target="_blank">Contacts</a></li>
+                                                            <li><a href="../../wrapkit/blog-homepage.html" target="_blank">Blogs</a></li>
+                                                            <li><a href="../../wrapkit/pricing.html" target="_blank">Pricing</a></li>
+                                                            <li><a href="../../wrapkit/ui-custom-modals.html" target="_blank">Popups / Modals</a></li>
+                                                            <li><a href="../../wrapkit/team.html" target="_blank">Teams</a></li>
+                                                            <li><a href="../../wrapkit/testimonial.html" target="_blank">Testimonials</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-2 col-md-4">
+                                                        <ul class="list-style-none">
+                                                            <li>
+                                                                <h6>Features</h6></li>
+                                                            <li><a href="../../wrapkit/feature1.html" target="_blank">Features 1-10</a></li>
+                                                            <li><a href="../../wrapkit/feature2.html" target="_blank">Features 11-20</a></li>
+                                                            <li><a href="../../wrapkit/feature3.html" target="_blank">Features 21-30</a></li>
+                                                            <li><a href="../../wrapkit/feature4.html" target="_blank">Features 31-40</a></li>
+                                                            <li><a href="../../wrapkit/feature5.html" target="_blank">Features 41-50</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="h6-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      Pages <i class="fa fa-angle-down m-l-5"></i>
+                                    </a>
+                                            <ul class="b-none dropdown-menu font-14 animated fadeInUp">
+                                                <li><a class="dropdown-item" href="../../wrapkit/pages-aboutus.html" target="_blank">About Us</a></li>
+                                                <li><a class="dropdown-item" href="../../wrapkit/pages-pricing.html" target="_blank">Pricing</a></li>
+                                                <li><a class="dropdown-item" href="../../wrapkit/pages-services.html" target="_blank">Services</a></li>
+                                                <li class="divider" role="separator"></li>
+                                                <li class="dropdown-submenu"> <a class="dropdown-toggle dropdown-item" href="javascript:void(0)" aria-haspopup="true" aria-expanded="false">Portfolio <i class="fa fa-angle-right ml-auto"></i></a>
+                                                    <ul class="dropdown-menu font-14 b-none animated flipInY">
+                                                        <li><a class="dropdown-item" href="../../wrapkit/pages-portfolio-one-column.html" target="_blank">Portfolio 1 Column</a></li>
+                                                        <li><a class="dropdown-item" href="../../wrapkit/pages-portfolio-two-column.html" target="_blank">Portfolio 2 Column</a></li>
+                                                        <li><a class="dropdown-item" href="../../wrapkit/pages-portfolio-three-column.html" target="_blank">Portfolio 3 Column</a></li>
+                                                        <li class="divider" role="separator"></li>
+                                                        <li><a class="dropdown-item" href="../../wrapkit/pages-portfolio-masonry.html" target="_blank">Portfolio with Masonry</a></li>
+                                                        <li class="divider" role="separator"></li>
+                                                        <li><a class="dropdown-item" href="../../wrapkit/pages-portfolio-with-popup.html" target="_blank">Portfolio with Popup</a></li>
+                                                        <li><a class="dropdown-item" href="../../wrapkit/pages-portfolio-detail.html" target="_blank">Portfolio Detail</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a class="dropdown-item" href="../../wrapkit/pages-portfolio-detail.html" target="_blank">Portfolio Detail</a></li>
+                                                <li class="divider" role="separator"></li>
+                                                <li><a class="dropdown-item" href="../../wrapkit/pages-blog.html" target="_blank">Blog</a></li>
+                                                <li><a class="dropdown-item" href="../../wrapkit/pages-blog-detail.html" target="_blank">Blog Single</a></li>
+                                                <li><a class="dropdown-item" href="../../wrapkit/pages-contact-us.html" target="_blank">Contact Us</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="h6-dropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      Shop <i class="fa fa-angle-down m-l-5"></i>
+                                    </a>
+                                            <ul class="b-none dropdown-menu font-14 animated fadeInUp">
+                                                <li class="dropdown-submenu"> <a class="dropdown-toggle dropdown-item" href="javascript:void(0)" aria-haspopup="true" aria-expanded="false">Shop Listing <i class="fa fa-angle-right ml-auto"></i></a>
+                                                    <ul class="dropdown-menu menu-right font-14 b-none animated flipInY">
+                                                        <li><a class="dropdown-item font-medium">With Sidebar</a></li>
+                                                        <li><a class="dropdown-item" href="../../wrapkit/shop-listing-2-column-sidebar.html" target="_blank">2 Columns</a></li>
+                                                        <li><a class="dropdown-item" href="../../wrapkit/shop-listing-3-column-sidebar.html" target="_blank">3 Columns</a></li>
+                                                        <li class="divider" role="separator"></li>
+                                                        <li><a class="dropdown-item font-medium">Without Sidebar</a></li>
+                                                        <li><a class="dropdown-item" href="../../wrapkit/shop-listing-3-column-nosidebar.html" target="_blank">3 Columns</a></li>
+                                                        <li><a class="dropdown-item" href="../../wrapkit/shop-listing-4-column-nosidebar.html" target="_blank">4 Columns</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a class="dropdown-item" href="../../wrapkit/shop-detail.html" target="_blank">Shop Details</a></li>
+                                                <li><a class="dropdown-item" href="../../wrapkit/shop-cart.html" target="_blank">Shopping Cart</a></li>
+                                                <li><a class="dropdown-item" href="../../wrapkit/shop-checkout.html" target="_blank">Checkout</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown mega-dropdown"> <a class="nav-link dropdown-toggle" href="#" id="h6-mega-dropdown2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      Elements <i class="fa fa-angle-down m-l-5"></i>
+                                    </a>
+                                            <div class="dropdown-menu b-none font-14 animated fadeInUp" aria-labelledby="h6-mega-dropdown2">
+                                                <div class="row">
+                                                    <div class="col-lg-5 inside-bg hidden-md-down">
+                                                        <div class="bg-img" style="background-image:url(images/mega-bg2.jpg)">
+                                                            <h3 class="text-white font-light">Create anything <br/>with our amazing <br/>Elements</h3> </div>
+                                                    </div>
+                                                    <div class="col-lg-2 col-md-4">
+                                                        <ul class="list-style-none">
+                                                            <li><a href="../../wrapkit/ui-breadcrumb.html" target="_blank">Breadcrumb</a></li>
+                                                            <li><a href="../../wrapkit/ui-buttons.html" target="_blank">Buttons</a></li>
+                                                            <li><a href="../../wrapkit/ui-bootstrap.html" target="_blank">Bootstrap Ui</a></li>
+                                                            <li><a href="../../wrapkit/ui-cards.html" target="_blank">Cards</a></li>
+                                                            <li><a href="../../wrapkit/ui-carousel.html" target="_blank">Carousel</a></li>
+                                                            <li><a href="../../wrapkit/ui-counter.html" target="_blank">Counter</a></li>
+                                                            <li><a href="../../wrapkit/ui-typography.html" target="_blank">Typography</a></li>
+                                                            <li><a href="../../wrapkit/ui-dropdowns.html" target="_blank">Dropdowns</a></li>
+                                                            <li><a href="../../wrapkit/ui-overlay.html" target="_blank">Overlays</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-2 col-md-4">
+                                                        <ul class="list-style-none">
+                                                            <li><a href="../../wrapkit/ui-custom-modals.html" target="_blank">Custom Modal</a></li>
+                                                            <li><a href="../../wrapkit/ui-form.html" target="_blank">Forms</a></li>
+                                                            <li><a href="../../wrapkit/ui-grid.html" target="_blank">Grid</a></li>
+                                                            <li><a href="../../wrapkit/ui-list-media.html" target="_blank">List media</a></li>
+                                                            <li><a href="../../wrapkit/ui-modals.html" target="_blank">Modals</a></li>
+                                                            <li><a href="../../wrapkit/ui-tables.html" target="_blank">Tables</a></li>
+                                                            <li><a href="../../wrapkit/ui-video-inline.html" target="_blank">Videos</a></li>
+                                                            <li><a href="../../wrapkit/ui-animation.html" target="_blank">Animations</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-4">
+                                                        <ul class="list-style-none">
+                                                            <li><a href="../../wrapkit/ui-notification.html" target="_blank">Notifications</a></li>
+                                                            <li><a href="../../wrapkit/ui-progressbar.html" target="_blank">Progressbar</a></li>
+                                                            <li><a href="../../wrapkit/ui-tab.html" target="_blank">Tabs</a></li>
+                                                            <li><a href="../../wrapkit/ui-timeline.html" target="_blank">Timeline</a></li>
+                                                            <li><a href="../../wrapkit/ui-tooltip-popover.html" target="_blank">Tooltip / Popover</a></li>
+                                                            <li><a href="../../wrapkit/ui-typed-text.html" target="_blank">Typed Text</a></li>
+                                                            <li><a href="../../wrapkit/ui-utility-classes.html" target="_blank">Utility Classes</a></li>
+                                                            <li><a href="../../wrapkit/ui-accordion.html" target="_blank">Accordions</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item search"><a class="nav-link" href="javascript:void(0)">RESERVE TABLE</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Header 16  -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- Top header  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+                <!-- ============================================================== -->
+                <!-- Slider  -->
+                <!-- ============================================================== -->
+                <div class="bg-light">
+                    <section id="slider-sec" class="slider5">
+                        <div id="slider5" class="carousel bs-slider control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="7000">
+                            <ol class="carousel-indicators">
+                                <li data-target="#slider5" data-slide-to="0" class="active"></li>
+                                <li data-target="#slider5" data-slide-to="1"></li>
+                            </ol>
+                            <!-- Wrapper For Slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <!-- Slide Background --><img src="images/slider/slide1.jpg" alt="We are Digital Agency" class="slide-image" />
+                                    <div class="bs-slider-overlay"></div>
+                                    <!-- Slide Text Layer -->
+                                    <div class="slide-text slide_style_left">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-9 col-lg-5 ml-auto">
+                                                    <h2 data-animation="animated zoomInRight" class="title font-stylish font-bold m-0 p-b-20 p-t-30">Delicious Food</h2>
+                                                    <p data-animation="animated lightSpeedIn" class="m-b-40 d-none d-md-block">Not like the brazen giant of Greek fame With conquering limbs astride from land to land Here</p>
+                                                    <a class="btn btn-outline-danger btn-md btn-rounded btn-arrow" data-animation="animated fadeInRight" data-toggle="collapse" href="#"> <span>Today's Special <i class="ti-arrow-right"></i></span> </a>
+                                                    <div class="promo-code" data-animation="animated fadeInUp">
+                                                        <h3 class="title font-semibold text-uppercase m-b-0">Hot Summer - 35 % OFF</h3>
+                                                        <p>Apply promocode '154FEB'
+                                                            <p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-1 hidden-md-down"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End of Slide -->
+                                <!-- Second Slide -->
+                                <div class="carousel-item">
+                                    <!-- Slide Background --><img src="images/slider/slide2.jpg" alt="Building Magical Apps" class="slide-image" />
+                                    <div class="bs-slider-overlay"></div>
+                                    <!-- Slide Text Layer -->
+                                    <div class="slide-text">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-9 col-lg-5 ml-auto">
+                                                    <h2 data-animation="animated flipInX" class="title font-stylish font-bold m-0 p-b-20 p-t-30">Delicious Food</h2>
+                                                    <p data-animation="animated lightSpeedIn" class="m-b-40 d-none d-md-block">Not like the brazen giant of Greek fame With conquering limbs astride from land to land Here </p>
+                                                    <a class="btn btn-danger btn-md btn-rounded btn-arrow" data-animation="animated fadeInRight" data-toggle="collapse" href="#"> <span>Today's Special <i class="ti-arrow-right"></i></span> </a>
+                                                    <div class="promo-code" data-animation="animated fadeInUp">
+                                                        <h3 class="title font-semibold text-uppercase m-b-0">Hot Summer - 35 % OFF</h3>
+                                                        <p>Apply promocode '154FEB'
+                                                            <p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-1 hidden-md-down"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Slider 1  -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Feature 14  -->
+                <!-- ============================================================== -->
+                <div class="spacer feature14">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <h2 class="m-t-20 m-b-30 font-stylish">Awesome with Extra Ordinary Flexibility</h2>
+                                <p>You can relay on our amazing features list and also our customer services will be great experience for our users</p>
+                                <p>You will surely fall in love with ready touse bootstrap ui kit framework.</p>
+                                <a class="btn btn-rounded btn-danger-gradiant btn-md btn-arrow m-t-20 m-b-30" href="#"><span>View Other Features <i class="ti-arrow-right"></i></span></a>
+                            </div>
+                            <div class="col-lg-4 wrap-feature14-box">
+                                <div class="" data-aos="flip-left" data-aos-duration="1200">
+                                    <img class="rounded img-responsive video-img" src="images/features/1.jpg" alt="wrappixel kit" />
+                                    <div class="embed-responsive hide embed-responsive-16by9" data-animation="animated fadeIn">
+                                        <iframe width="350" height="315" src="https://www.youtube.com/embed/h_YmYLYi65k?rel=0&amp;showinfo=0" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="m-t-30">
+                                        <h5 class="font-medium">Retargeting Market <i class="ti-arrow-right m-l-10 font-14"></i></h5>
+                                        <p class="m-t-20">You can relay on our amazing features list and also our customer services will be great experience.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Column -->
+                            <div class="col-lg-4 wrap-feature14-box">
+                                <div class="" data-aos="flip-up" data-aos-duration="1200">
+                                    <img class="rounded img-responsive" src="images/features/2.jpg" alt="wrappixel kit" />
+                                    <div class="m-t-30">
+                                        <h5 class="font-medium">Instant Solution <i class="ti-arrow-right m-l-10 font-14"></i></h5>
+                                        <p class="m-t-20">You can relay on our amazing features list and also our customer services will be great experience.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Column -->
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Feature 14  -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Feature 44  -->
+                <!-- ============================================================== -->
+                <div class="spacer feature44 bg-light">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 text-center align-self-center">
+                                <div class="max-500 m-auto">
+                                    <h2 class="title font-light font-stylish">Make Unlimited Websites in No-Time with WrapKit</h2>
+                                    <h6 class="subtitle">You can relay on our amazing features list and also our customer services will be great experience for you without doubt and in no-time</h6>
+                                    <h6 class="subtitle m-t-30">You can relay on our amazing features list and also our customer services will be great experience.</h6>
+                                    <a class="btn btn-danger-gradiant btn-md btn-rounded btn-arrow m-t-20 m-b-20" href="#"><span>View Other Features <i class="ti-arrow-right"></i></span></a> </div>
+                            </div>
+                            <div class="col-md-4 wrap-feature2-box">
+                                <div class="card card-shadow" data-aos="flip-up" data-aos-duration="1200"> <img class="card-img-top" src="images/features/fruit.jpg" alt="wrappixel kit">
+                                    <div class="card-body text-center p-40">
+                                        <h6 class="text-muted">Great Products</h6>
+                                        <h4 class="font-bold">The New way of Making Your Website in mins </h4>
+                                        <a href="#" class="btn btn-link text-success m-t-30 text-underline">View Other Features</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Feature 44  -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Feature 28 -->
+                <!-- ============================================================== -->
+                <div class="feature28">
+                    <div class="wrap-feature-28 row">
+                        <div class="col-lg-6 bg-cover" style="background-image:url(images/features/3.jpg)"></div>
+                        <div class="col-lg-6">
+                            <div class="side-content both-space">
+                                <small class="text-danger">Great Feature</small>
+                                <h2 class="title font-stylish m-t-0">Fully Responsive</h2>
+                                <p>You can relay on our amazing features list and also our customer services will be great experience for you without doubt and in no-time and with great quality.</p>
+                                <a class="btn btn-outline-danger btn-rounded btn-md btn-arrow m-t-20" href="#"><span>View More <i class="ti-arrow-right"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap-feature-28 row">
+                        <div class="col-lg-6">
+                            <div class="side-content both-space text-right pull-right">
+                                <small class="text-danger">Great Feature</small>
+                                <h2 class="title font-stylish m-t-0">Build Amazing Sites</h2>
+                                <p>You can relay on our amazing features list and also our customer services will be great experience for you without doubt and in no-time and with great quality.</p>
+                                <a class="btn btn-outline-danger btn-rounded btn-md btn-arrow m-t-20" href="#"><span>View More<i class="ti-arrow-right"></i></span></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 bg-cover" style="background-image:url(images/features/4.jpg)"></div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Feature 28 -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Feature 49  -->
+                <!-- ============================================================== -->
+                <div class="spacer feature42 bg-danger-gradiant">
+                    <div class="container">
+                        <div class="row justify-content-center wrap-feature49-box">
+                            <div class="col-md-10 col-lg-7 text-center" data-aos="fade-up">
+                                <h2 class="title text-white font-stylish">Grab our IOS or Android App from Stores</h2>
+                                <h6 class="subtitle text-white op-7 m-b-20">You can relay on our amazing features list. </h6>
+                                <a href="javascript:void(0)" class="m-b-20"><img src="images/features/5.png" alt="wrapkit" /></a>
+                                <a href="javascript:void(0)" class="m-b-20"><img src="images/features/6.png" alt="wrapkit" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Feature 49  -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Gallery  -->
+                <!-- ============================================================== -->
+                <div class="portfolio1 spacer up">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 text-center">
+                                <h2 class="title font-stylish">Amazing Gallery of Delicious Food just made for you</h2>
+                            </div>
+                        </div>
+                        <!-- Card Columns -->
+                        <div class="row gallery-box">
+                            <!-- Columns -->
+                            <div class="col-lg-4 col-md-6 g-item">
+                                <div class="overlay-box">
+                                    <img src="images/gallery/img1.jpg" alt="wrpkit" class="img-fluid">
+                                    <a href="javascript:void(0)" class="overlay">
+                                        <div class="port-text">
+                                            <h5>New Food Dish</h5>
+                                            <span>New Dish</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Columns -->
+                            <!-- Columns -->
+                            <div class="col-lg-4 col-md-6 g-item">
+                                <div class="overlay-box">
+                                    <img src="images/gallery/img2.jpg" alt="wrpkit" class="img-fluid">
+                                    <a href="javascript:void(0)" class="overlay">
+                                        <div class="port-text">
+                                            <h5>New Food Dish</h5>
+                                            <span>New Dish</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Columns -->
+                            <!-- Columns -->
+                            <div class="col-lg-4 col-md-6 g-item">
+                                <div class="overlay-box">
+                                    <img src="images/gallery/img3.jpg" alt="wrpkit" class="img-fluid">
+                                    <a href="javascript:void(0)" class="overlay">
+                                        <div class="port-text">
+                                            <h5>New Food Dish</h5>
+                                            <span>New Dish</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Columns -->
+                            <!-- Columns -->
+                            <div class="col-lg-4 col-md-6 g-item">
+                                <div class="overlay-box">
+                                    <img src="images/gallery/img4.jpg" alt="wrpkit" class="img-fluid">
+                                    <a href="javascript:void(0)" class="overlay">
+                                        <div class="port-text">
+                                            <h5>New Food Dish</h5>
+                                            <span>New Dish</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Columns -->
+                            <!-- Columns -->
+                            <div class="col-lg-4 col-md-6 g-item">
+                                <div class="overlay-box">
+                                    <img src="images/gallery/img5.jpg" alt="wrpkit" class="img-fluid">
+                                    <a href="javascript:void(0)" class="overlay">
+                                        <div class="port-text">
+                                            <h5>New Food Dish</h5>
+                                            <span>New Dish</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Columns -->
+                            <!-- Columns -->
+                            <div class="col-lg-4 col-md-6 g-item">
+                                <div class="overlay-box">
+                                    <img src="images/gallery/img6.jpg" alt="wrpkit" class="img-fluid">
+                                    <a href="javascript:void(0)" class="overlay">
+                                        <div class="port-text">
+                                            <h5>New Food Dish</h5>
+                                            <span>New Dish</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Columns -->
+                            <!-- Columns -->
+                            <div class="col-lg-4 col-md-6 g-item">
+                                <div class="overlay-box">
+                                    <img src="images/gallery/img7.jpg" alt="wrpkit" class="img-fluid">
+                                    <a href="javascript:void(0)" class="overlay">
+                                        <div class="port-text">
+                                            <h5>New Food Dish</h5>
+                                            <span>New Dish</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Columns -->
+                            <!-- Columns -->
+                            <div class="col-lg-4 col-md-6 g-item">
+                                <div class="overlay-box">
+                                    <img src="images/gallery/img8.jpg" alt="wrpkit" class="img-fluid">
+                                    <a href="javascript:void(0)" class="overlay">
+                                        <div class="port-text">
+                                            <h5>Golden Fish Dish</h5>
+                                            <span>New Dish</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Columns -->
+                        </div>
+                        <!-- End Card Columns -->
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Gallery  -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Testimonial 9 -->
+                <!-- ============================================================== -->
+                <div class="testimonial9 spacer bg-light">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-6">
+                                <h2 class="m-t-40 font-stylish">What Our Customers Say</h2>
+                                <span class="devider bg-danger"></span>
+                                <p>We care what our customers think of us and so should you. We are partners in your business and your success is ours in your business.</p>
+                            </div>
+                            <div class="col-lg-6 col-md-6 ml-auto">
+                                <div class="owl-carousel owl-theme testi9">
+                                    <!-- item -->
+                                    <div class="item">
+                                        <div class="card card-shadow">
+                                            <div class="p-40">
+                                                <h5 class="text">WrapKit has given our websites huge national presence. We are #1 on page one in Google search results for every website we’ve built, and rank for more keywords than I ever expected in a very competitive, high-value customer industry. In addition,</h5>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex no-block align-items-center">
+                                            <div class="customer-thumb"><img src="images/test/1.jpg" alt="wrapkit" class="circle" /></div>
+                                            <div class="">
+                                                <h6 class="font-bold m-b-0">Michael Anderson</h6><span class="font-13">Project client</span></div>
+                                        </div>
+                                    </div>
+                                    <!-- item -->
+                                    <!-- item -->
+                                    <div class="item">
+                                        <div class="card card-shadow">
+                                            <div class="p-40">
+                                                <h5 class="text">WrapKit has given our websites huge national presence. We are #1 on page one in Google search results for every website we’ve built, and rank for more keywords than I ever expected in a very competitive, high-value customer industry. In addition,</h5>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex no-block align-items-center">
+                                            <div class="customer-thumb"><img src="images/test/2.jpg" alt="wrapkit" class="circle" /></div>
+                                            <div class="">
+                                                <h6 class="font-bold m-b-0">Michael Anderson</h6><span class="font-13">Project client</span></div>
+                                        </div>
+                                    </div>
+                                    <!-- item -->
+                                    <!-- item -->
+                                    <div class="item">
+                                        <div class="card card-shadow">
+                                            <div class="p-40">
+                                                <h5 class="text">WrapKit has given our websites huge national presence. We are #1 on page one in Google search results for every website we’ve built, and rank for more keywords than I ever expected in a very competitive, high-value customer industry. In addition,</h5>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex no-block align-items-center">
+                                            <div class="customer-thumb"><img src="images/test/3.jpg" alt="wrapkit" class="circle" /></div>
+                                            <div class="">
+                                                <h6 class="font-bold m-b-0">Michael Anderson</h6><span class="font-13">Project client</span></div>
+                                        </div>
+                                    </div>
+                                    <!-- item -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Testimonial 9 -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Client 2  -->
+                <!-- ============================================================== -->
+                <div class="client2 bg-light">
+                    <div class="container">
+                        <div class="row client-box text-center">
+                            <div class="col-lg-2 col-md-4">
+                                <img src="images/client/c1.png" alt="wrapkit" />
+                            </div>
+                            <div class="col-lg-2 col-md-4">
+                                <img src="images/client/c2.png" alt="wrapkit" />
+                            </div>
+                            <div class="col-lg-2 col-md-4">
+                                <img src="images/client/c3.png" alt="wrapkit" />
+                            </div>
+                            <div class="col-lg-2 col-md-4">
+                                <img src="images/client/c4.png" alt="wrapkit" />
+                            </div>
+                            <div class="col-lg-2 col-md-4">
+                                <img src="images/client/c5.png" alt="wrapkit" />
+                            </div>
+                            <div class="col-lg-2 col-md-4">
+                                <img src="images/client/c6.png" alt="wrapkit" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Client 2  -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Feature 23 -->
+                <!-- ============================================================== -->
+                <div class="feature23 wrap-feature23-box" style="background-image:url(images/features/7.jpg)">
+                    <div class="container">
+                        <!-- Row -->
+                        <div class="row justify-content-center">
+                            <div class="col-lg-5 col-md-7 text-center both-space">
+                                <div class="card bg-danger-gradiant" data-aos="flip-left" data-aos-duration="1200">
+                                    <div class="card-body">
+                                        <div class="text-box">
+                                            <h3 class="title text-white font-stylish">Make your Reservation for Delicious Food</h3>
+                                            <h6 class="subtitle text-white op-5">You can relay on our amazing features list and also our customer services will be great experience for you without doubt</h6> <a class="btn bg-white text-danger btn-rounded btn-md btn-arrow m-t-20" href="#"><span>Reserve Your Table <i class="ti-arrow-right"></i></span></a> </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Column -->
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Feature 23 -->
+                <!-- ============================================================== -->
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Back to top -->
+            <!-- ============================================================== -->
+            <a class="bt-top btn btn-circle btn-lg btn-danger" href="#top"><i class="ti-arrow-up"></i></a>
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- footer 4  -->
+        <!-- ============================================================== -->
+        <div class="footer4 spacer b-t">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 m-b-30">
+                        <h5 class="m-b-20">Address</h5>
+                        <p>71 Amsteroum Avenue Cronish Night, NY 35098</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 m-b-30">
+                        <h5 class="m-b-20">Phone</h5>
+                        <p>Reception : +205 123 4567
+                            <br/>Office : +207 235 7890</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 m-b-30">
+                        <h5 class="m-b-20">Email</h5>
+                        <p>Office : <a href="#" class="link">info@wrappixel.com</a>
+                            <br/>Site : <a href="#" class="link">wrapkit@wrappixel.com</a></p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="m-b-20">Social</h5>
+                        <div class="round-social light">
+                            <a href="#" class="link"><i class="fa fa-facebook"></i></a>
+                            <a href="#" class="link"><i class="fa fa-twitter"></i></a>
+                            <a href="#" class="link"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="f4-bottom-bar">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="d-flex font-14">
+                                <div class="m-t-10 m-b-10 copyright"><img src="images/footer-logo.png" class="m-r-10" alt="wrapkit" width="50" />All Rights Reserved by WrapPixel.</div>
+                                <div class="links ml-auto m-t-10 m-b-10">
+                                    <a href="#" class="p-10 p-l-0">Terms of Use</a>
+                                    <a href="#" class="p-10">Legal Disclaimer</a>
+                                    <a href="#" class="p-10">Privacy Policy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- footer 4  -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="../assets/node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap popper Core JavaScript -->
+    <script src="../assets/node_modules/popper/dist/popper.min.js"></script>
+    <script src="../assets/node_modules/bootstrap/js/bootstrap.min.js"></script>
+    <!-- This is for the animation -->
+    <script src="../assets/node_modules/aos/dist/aos.js"></script>
+    <!--Custom JavaScript -->
+    <script src="js/custom.min.js"></script>
+    <!-- ============================================================== -->
+    <!-- This page plugins -->
+    <!-- ============================================================== -->
+    <script src="../assets/node_modules/bootstrap-touch-slider/bootstrap-touch-slider.js"></script>
+    <script src="../assets/node_modules/jquery.touchSwipe.min.js"></script>
+    <script src="../assets/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/portfolio.js"></script>
+    <script type="text/javascript">
+    $('#slider5').bsTouchSlider();
+    $(".carousel .carousel-inner").swipe({
+        swipeLeft: function(event, direction, distance, duration, fingerCount) {
+            this.parent().carousel('next');
+        },
+        swipeRight: function() {
+            this.parent().carousel('prev');
+        },
+        threshold: 0
+    });
+    /*******************************/
+    // this is for the testimonial 9
+    /*******************************/
+    $('.testi9').owlCarousel({
+        loop: true,
+        margin: 30,
+        nav: false,
+        dots: true,
+        autoplay: true,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            1650: {
+                items: 1
+            }
+        }
+    });
+    // This is for the static slider 6
+    $('.video-img').on('click', function() {
+        $(this).addClass('hide');
+        $('.embed-responsive').show()
+            .removeClass('hide');
+        $("video").each(function() { this.play() });
+    });
+    </script>
+</body>
+
+</html>

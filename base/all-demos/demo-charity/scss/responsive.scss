@@ -1,0 +1,211 @@
+/*
+Template Name: Wrapkit Ui Kit
+Author: Themedesigner
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+
+
+/*============================================================== 
+ For Laptop & above all (1650px) 
+ ============================================================== */
+
+@media(min-width:1650px) {
+   
+}
+
+
+/*============================================================== 
+ For Laptop & above all (1370px) 
+ ============================================================== */
+
+@media(max-width:1370px) {
+    .slider8 {
+    overflow-y:hidden;
+    
+    .slide-image {
+      height:550px;
+      width:auto !important;
+    }
+  }
+}
+
+
+/*-- ============================================================== 
+ Small Desktop & above all (1024px) 
+ ============================================================== */
+
+@media(min-width:1024px) {
+    .page-wrapper {
+        padding-top: 150px;
+    }
+    .hover-dropdown .navbar-nav {
+        > .dropdown:hover {
+            > .dropdown-menu {
+                display: block;
+                margin-top: 0px;
+                
+            }
+        }
+    }
+    .navbar-nav {
+        > .dropdown {
+             .dropdown-menu {
+                min-width: 210px;
+                margin-top: 0px;
+            }
+        }
+    }
+    .dropdown-submenu:hover > .dropdown-menu {
+        display: block;
+    }
+}
+
+
+@media(max-width:1023px) {
+    .d-flex{
+        display: block!important;
+        &.no-block{
+            display: flex !important;
+        }
+    }
+    .h4-nav-bar {
+        .donate-btn {
+            a {
+                display: block;
+                margin-left: 0px;
+            }
+        }
+        .nav-item .nav-link {
+            padding: 0 10px;
+            margin: 10px 0;
+        }
+    }
+    .slider8 {
+        .slide-image {
+          left:-20%;
+          position:relative;
+        }
+        .slide-text {
+          width:80% !important;
+        }
+        .slide-content {
+          min-width:350px;
+          right:12%;
+        }
+        h2.text-white {
+          font-size:28px;
+        }
+    }
+    .topbar{
+        background: $white; 
+        position: relative;
+        &.animated{
+            animation-duration:0s;
+            &.slideInDown{
+                -webkit-animation-name: none;
+                animation-name: none;
+            }
+        }
+    }
+}
+
+/*-- ============================================================== 
+ Only for banner
+ ============================================================== */
+
+@media (max-width: 992px) {
+    .banner {
+        height:auto !important;
+        padding:100px 0;
+    }
+}
+
+/*-- ============================================================== 
+ Ipad & above all(768px) 
+ ============================================================== */
+
+@media(min-width:768px) {
+    
+}
+
+
+/*-- ============================================================== 
+ Phone and below ipad(767px) 
+ ============================================================== */
+
+@media(max-width:767px) {
+    .img-inline{
+        li.half-width{
+            width: 100%;
+        }
+    }
+    .both-space{
+        margin: 10px 0;
+    }
+    .side-content{
+        padding: 40px 20px;
+    }
+    
+    .general-listing.two-part{
+        li{
+            width: 100%;
+            display: block;
+        }
+    }
+    .feature2 {
+        h3 {
+            font-size: 18px;
+        }
+    }
+    /*This is for the banner*/
+    .banner {
+        padding:30px 0;
+        .appointment-form {
+            margin-top: 100px;
+            .p-30 {
+                padding: 15px;
+            }
+        }
+    }
+    #banner2 {
+        .left, .right {
+            padding:15px;
+        }
+    }
+    .slider8 {
+        .slide-text {
+          padding:0 !important;
+          width:100% !important;
+
+        }
+        .slide-content {
+          opacity:0.9;
+        }
+        .slide-image {
+          height:450px;
+          left:-30%;
+        }
+        .carousel-indicators {
+          bottom:-10px;
+        }
+  }
+    .dropdown-submenu > .dropdown-menu.show {
+        display: block;
+    }
+}
+
+@media (max-width: 428px) {
+  .slider8 {
+    .slide-image {
+      left:-100%;
+    }
+    h3 {
+      font-size:24px;
+    }
+    .slide-content {
+      padding:30px;
+    }
+  }
+}
+

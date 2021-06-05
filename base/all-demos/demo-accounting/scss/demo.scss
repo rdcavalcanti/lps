@@ -1,0 +1,283 @@
+/*
+Template Name: Wrapkit
+Author: Wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+
+@import 'variable';
+
+/*============================================================== 
+ This scss/css we made it from our predefine componenet 
+ we just copy that css and paste here you can also do that
+ ============================================================== */
+
+
+/*******************
+This is for Header
+*******************/
+/******************* 
+Main & Page wrapper
+*******************/
+
+.topbar.fixed-header {
+    background:$white;
+}
+/*******************
+Header 11
+*******************/
+
+.h11-nav {
+    padding:0;
+    .navbar-brand{
+        padding: 10px 0;
+    }
+    .h11-topbar{
+        ul{
+            margin-bottom: 0px;
+            padding: 15px 0;
+            li{
+                display: inline-block;
+                vertical-align: middle;
+                a{
+                    padding: 0px 7px;
+                    color:$muted;
+                    display: block;
+                    
+                }
+                &:hover a{
+                    color:$dark;
+                }
+                &:last-child{
+                    a {
+                        font-size: 21px;
+                        font-weight: 600;
+                        color:$dark;
+                        padding-left: 15px;
+                        margin-left: 7px;
+                        border-left:1px solid $border;
+                    }
+                    
+                }
+            }
+        }
+    }
+    .navbar-nav .nav-item {
+        margin: 0 20px;
+        .nav-link {
+            padding: 12px 0px;
+            color: $muted;
+            border-bottom: 1px solid transparent;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        &:hover .nav-link, &.active .nav-link{
+            color: $info;
+            border-bottom: 1px solid $info;
+            }
+        &:last-child {
+            margin-right: 0px;
+        }
+    }
+}
+@media(max-width:1023px) {
+    .h11-nav .navbar-nav .nav-item{
+        margin: 0;
+    }
+    
+} 
+
+/*-------------------*/
+/*Slider4 Style Start*/
+/*-------------------*/
+@keyframes imagescale {
+    0% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+		-moz-transform: scale(1.0);
+		-o-transform: scale(1.0);
+    }
+    100% {
+        transform: scale(1.3);
+        -webkit-transform: scale(1.3);
+		-moz-transform: scale(1.3);
+		-o-transform: scale(1.3);
+    }
+}
+
+.slider4 {
+	.slide-image {
+		animation: imagescale 15s ease-in-out infinite alternate;
+		-webkit-animation: imagescale 15s ease-in-out infinite alternate;
+		-moz-animation: imagescale 15s ease-in-out infinite alternate;
+		-o-webkit-animation: imagescale 15s ease-in-out infinite alternate;
+	}
+	.carousel-indicators {
+		bottom:0;
+		
+		li {
+			background-color:#fff;
+			
+			&.active{
+				background-color:$info;
+			}
+		}
+	}
+	label {
+		font-style:italic;
+		font-family:'PlayFairDisplay', sans-sarif;
+		-webkit-animation-delay: 0.5s;
+		animation-delay: 0.5s;
+	}
+	ul {
+		list-style:none;
+		margin:0;
+		-webkit-animation-delay: 1.1s;
+		animation-delay: 1.1s;
+		 
+		li{
+			line-height:36px;
+		}
+	}
+	h2 {
+		font-size:36px;
+		line-height:42px;
+		font-size:36px;
+	}
+	p {
+		font-size:18px;
+	}
+	.btn-secondary {
+		background:transparent;
+		color:$inverse;
+		
+		&:hover {
+			color:$inverse !important;
+		}
+	}
+}
+
+
+
+/*******************
+Feature 7
+*******************/
+
+.wrap-feature7-box {
+    margin-bottom: 30px;
+}
+
+/*******************
+Feature 3
+*******************/
+
+.wrap-feature3-box {
+    .card-body {
+        padding: 40px;
+        .icon-space {
+            padding: 0px 40px 20px 0px;
+        }
+    }
+}
+/*******************
+Feature 4
+*******************/
+
+.wrap-feature4-box {
+    .icon-round {
+        font-size: 45px;
+        width: 80px;
+        color: $themecolor;
+        line-height: 80px;
+        text-align: center;
+        display: inline-block;
+        margin: 20px 0 30px;
+        border-radius: 100%;
+    }
+}
+/*******************
+Feature 21
+*******************/
+.wrap-feature21-box {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+/*******************
+Testimonial 4
+*******************/
+  
+  .testimonial4 {
+      .owl-dots {
+          counter-reset: dots;
+          text-align: left;
+          .owl-dot {
+              padding: 15px 20px 10px 0;
+              cursor: pointer;
+              span {
+                  display: none;
+              }
+              &:before {
+                  counter-increment: dots;
+                  content: counter(dots);
+              }
+              &.active:before{
+                  font-weight: 500;
+                  color:$themecolor;
+                  border-bottom: 2px solid $themecolor;
+              }
+          }
+      }
+  }
+/*******************
+Blog homepage 1
+*******************/
+  
+  .blog-home1 {
+      .col-md-4 {
+          transition: 0.2s ease-in;
+          &:hover {
+              transform: translateY(-10px);
+          } 
+      }
+  }
+/*******************
+Footer 2
+*******************/
+.footer2{
+    padding: 60px 0;
+    .f2-middle{
+        padding-top:40px;
+    }
+    .link{
+        color:$muted;
+        padding:10px 15px 10px 0;  
+    }
+    .general-listing{
+        li a{
+            i{
+                font-size:9px;
+                margin-right: 10px;
+            }
+        }
+    }
+    .info-box .d-flex{
+        padding: 15px 0;
+        border-bottom: 1px solid $border;
+    }
+    .subscribe-box{
+        background: $border;
+        padding: 25px;
+        .form-control{
+            background: transparent;
+            padding: 10px 0;
+            border:0px;
+            border-bottom: 1px solid $border;
+            color:$white;
+            border-radius: 0px;
+            &:focus{
+                border-bottom: 1px solid $white;
+            }
+        }
+    }
+}

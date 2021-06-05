@@ -1,0 +1,269 @@
+/*
+Template Name: Wrapkit
+Author: Wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+
+@import 'variable';
+
+/*============================================================== 
+ This scss/css we made it from our predefine componenet 
+ we just copy that css and paste here you can also do that
+ ============================================================== */
+
+/*******************
+This is for Header
+*******************/
+
+/*******************
+Header 5
+*******************/
+.h5-nav-bar{
+    padding: 0px 0px;
+    width: 100%;
+    left: 0px;
+    
+    .navbar-nav {
+        .nav-link{
+            color:$dark;
+            font-size:14px;
+            padding: 25px 18px;
+            font-weight: 500;
+            line-height: 60px;
+        }
+        .nav-item:hover .nav-link{
+            color:$themecolor;
+        }
+    }
+    .rounded-button{
+        border-radius: 60px;
+        padding: 10px 30px;
+        display: inline-block;
+        border:2px solid $dark;
+        position: absolute;
+        right: 0px;
+        
+        font-size:14px;
+        a{
+            color:$dark;
+            font-weight: 500;
+            &:hover{
+                color:$themecolor;
+            }
+        }
+    }
+}
+@media(max-width:1023px) {
+    .h5-nav-bar{
+        padding: 15px 0px;
+        .navbar-brand{
+            position: relative;
+        }
+         .navbar-collapse {
+            background: $dark;
+            padding: 15px 15px 20px;
+            border-radius: $radius;
+            box-shadow: $card-shadow;
+             z-index: 10;
+          }
+        .rounded-button{
+            position: relative;
+            
+        }
+        .navbar-nav {
+            .nav-link{
+                color:$white;
+                line-height: 30px;
+            }
+        }
+    }
+}
+
+/*******************
+Static slide 10
+*******************/
+.static-slider10{
+    padding: 18% 0;
+    background-size:cover;
+    background-position: center center;
+    h1{
+        font-size: 72px;
+        line-height: 80px;
+        font-family: 'Calafia-Regular'; 
+    }
+    .subtitle{
+        
+    }
+}
+@media(max-width:900px) {
+    .static-slider10{
+        .title{
+                font-size:40px;
+                line-height: 45px;
+            }
+    }
+} 
+
+/*******************
+Feature 1
+*******************/
+.wrap-feature1-box .card-body {
+    padding: 40px;
+}
+@media (max-width: 768px) {
+    .wrap-feature1-box .card-body {
+        padding: 15px;
+    }
+}
+/*******************
+Feature 16
+*******************/
+
+.wrap-feature-16{
+    [class*=col-]{
+        padding:100px 35px;
+    }
+    .with-bg{
+        width:100%;
+        min-height: 200px;
+        background-size:cover;
+        background-position: center center;
+    }
+    .with-text{
+        max-width: 500px;
+        margin-left: 80px;
+    }
+}
+/*******************
+Testimonial 3
+*******************/
+  
+  .testimonial3 {
+      .testi3 {
+          .card-body {
+              padding: 40px;
+          }
+          h6 {
+              line-height: 26px;
+          }
+          .thumb-img {
+              img {
+                  width: 60px;
+              }
+          }
+          .customer {
+              text-transform: uppercase;
+              font-size: 14px;
+              font-weight: 500;
+          }
+      }
+  }
+
+/*******************
+Client
+*******************/
+.client-box {
+        margin: 0px;
+        [class*="col-"] {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+/*******************
+Pricing 2
+*******************/
+.pricing2{
+    background-size: cover;
+    max-height: 530px;
+    margin-bottom: 250px;
+    .pricing-box{
+        margin-top: 150px;
+    }
+    .above-card{
+        margin: -70px -32px -32px;
+        .card{
+            padding: 30px;
+        }
+    }
+    .pricing-text{
+        sup{
+           top:-50px;
+            font-size:24px;
+        }
+        span{
+            font-size: 100px;
+            font-weight: 400;
+            line-height: 100px;
+            color:$dark;
+        }
+    }
+    .list-inline{
+        margin: 0 0 30px 0;
+        li{
+            padding: 7px 0;
+        }
+    }
+}
+@media(max-width:767px) {
+    .pricing2{
+        max-height: 100%;
+        margin-bottom: 0px;
+        .pricing-box{
+            margin-top: 20px;
+        }
+        .display-5{
+            font-size:36px;
+        }
+        .above-card{
+            margin:0;
+            .card{
+                padding: 0px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+	.form2 {
+		h1 {
+			margin-top: 25px;
+		}
+		.have-ac {
+			margin-top: 25px;
+		}
+	}
+}
+
+/*******************
+Footer 4
+*******************/
+.footer4{
+    .f4-bottom-bar{
+        padding-top: 10px;
+        margin-top: 20px;
+        a {
+            color: $bodytext;
+            &:hover {
+                color: $info;
+            }
+        }
+    }
+    .round-social.light {
+        a {
+            width: 34px;
+            height: 34px;
+            line-height: 34px;
+            color: $bodytext;
+            background: $light;
+            &:hover {
+                background: $info;
+                color: $white;
+            }
+        }
+    }
+}

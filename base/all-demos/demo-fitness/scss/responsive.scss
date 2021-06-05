@@ -1,0 +1,285 @@
+/*
+Template Name: Wrapkit Ui Kit
+Author: Themedesigner
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+
+
+/*============================================================== 
+ For Laptop & above all (1650px) 
+ ============================================================== */
+
+@media(min-width:1650px) {
+   
+}
+
+
+/*============================================================== 
+ For Laptop & above all (1370px) 
+ ============================================================== */
+
+@media(max-width:1370px) {
+    .slider6 {
+        overflow-y:hidden;
+        
+        .slide-image {
+            height:550px;
+            width:auto !important;
+        }
+
+        .slider-control span {
+            width:44px;
+            height:44px;
+            line-height:44px;
+        }
+    }
+}
+
+
+/*-- ============================================================== 
+ Small Desktop & above all (1024px) 
+ ============================================================== */
+
+@media(min-width:1024px) {
+    .page-wrapper {
+        padding-top: 131px;
+    }
+    .hover-dropdown .navbar-nav {
+        > .dropdown:hover {
+            > .dropdown-menu {
+                display: block;
+                margin-top: 0px;
+                
+            }
+        }
+    }
+    .navbar-nav {
+        > .dropdown {
+             .dropdown-menu {
+                min-width: 210px;
+                margin-top: 0px;
+            }
+        }
+    }
+    .dropdown-submenu:hover > .dropdown-menu {
+        display: block;
+    } 
+}
+
+
+@media(max-width:1023px) {
+    .d-flex{
+        display: block!important;
+        &.no-block{
+            display: flex !important;
+        }
+    }
+    .h3-topbar {
+        .t-r {
+            text-align: left;
+        }
+    }
+    .h3-navbar{
+        .navbar-brand{
+            position: relative;
+            top:0px;
+            margin-right: auto;
+            box-shadow: none; 
+            width: auto;
+            background: transparent;
+            padding: 10px 0;
+            margin-left: 0px;
+            
+            .spare-text{
+                display: none;
+            }
+        }
+        
+        .navbar .navbar-nav{
+            .nav-link{
+                border-top:0px;
+                border-left:1px solid transparent;
+            }
+            
+            .nav-item.active .nav-link, .nav-item:hover .nav-link{
+                border-top:0px solid $danger;
+                border-left:1px solid $danger;
+            }
+        }
+    }
+    .slider6 {
+        .slide-image {
+            left:-20%;
+            position:relative;
+        }
+        .slide-text {
+            width:80% !important;
+        }
+        h2 {
+            font-size:30px;
+            margin-top:0;
+        }
+    }
+    .topbar{
+        background: $white; 
+        position: relative;
+        &.animated{
+            animation-duration:0s;
+            &.slideInDown{
+                -webkit-animation-name: none;
+                animation-name: none;
+            }
+        }
+    }
+}
+
+
+/*-- ============================================================== 
+ Ipad & above all(768px) 
+ ============================================================== */
+
+@media(min-width:768px) {
+    
+}
+
+
+/*-- ============================================================== 
+ Phone and below ipad(767px) 
+ ============================================================== */
+
+@media(max-width:767px) {
+    /*This is for the Global*/
+    .b-l, .b-r{
+        border-left: 0px;
+        border-right: 0px;
+        border-bottom: 1px solid $border;
+    }
+    .img-inline{
+        li.half-width{
+            width: 100%;
+        }
+    }
+    .h3-topbar {
+        display: none;
+    }
+    
+    .both-space{
+        margin: 10px 0;
+    }
+    .side-content{
+        padding: 40px 20px;
+    }
+    
+    .general-listing.two-part{
+        li{
+            width: 100%;
+            display: block;
+        }
+    }
+    .slider6 {
+        .slider-control span {
+            width:34px;
+            height:34px;
+            line-height:34px;
+        }
+        h2 {
+            font-size:28px;
+            line-height:36px;
+        }
+        .slide-text {
+            padding:0 !important;
+            width:80% !important;
+            
+        }
+        .slide-image {
+            height:430px;
+        }
+        .slide-content {
+            padding:30px;
+        }
+    }
+    .testimonial10 {
+        .testi10 {
+            h3{
+                line-height: 30px;
+               font-size:20px;
+            }
+            .quote-bg {
+                padding: 60px 30px;
+            }
+        }
+    }  
+    .dropdown-submenu > .dropdown-menu.show {
+        display: block;
+    }
+}
+
+@media (max-width: 590px) {
+    .slider6 {
+        .price-tag {
+            right:0;
+            top:-80px;
+            left:0;
+            margin:auto;
+            padding-top:20px;
+            width:100px;
+            height:100px;
+            
+            span {
+                font-size:30px;
+                
+            }
+            label {
+                font-size:12px;
+            }
+        }
+    }
+}
+@media (max-width: 428px) {
+    .slider6 {
+        .slider-control span {
+            width:26px;
+            height:26px;
+            line-height:26px;
+            font-size:12px !important;
+        }
+        .slide-content {
+            padding:30px 20px;
+        }
+        .slide-image {
+            left:-90%;
+        }
+        h2 {
+            font-size:22px;
+            line-height:30px;
+        }
+        .btn-md {
+            padding-left:25px;
+            padding-right:25px;
+        }
+    }
+}
+@media (max-width: 320px) {
+    .slider6 {
+        .slide-content {
+            padding:30px 15px;
+        }
+        h2 {
+            font-size:20px;
+        }
+        .btn-md {
+            padding-left:20px;
+            padding-right:20px;
+        }
+        .slide-image {
+            height:390px;
+        }
+    }
+}
+
+@media(min-width:768px) and (max-width:1024px) {
+    .card-columns{
+        column-count:2;
+    }
+}

@@ -1,0 +1,147 @@
+/*
+Template Name: Wrapkit
+Author: Wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+/*
+Template Name: Wrapkit
+Author: wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+/*Theme Colors*/
+/*bootstrap Color*/
+/*Light colors*/
+/*Normal Color*/
+/*Extra Variable*/
+/*Gradiant*/
+/*============================================================== 
+ This scss/css we made it from our predefine componenet 
+ we just copy that css and paste here you can also do that
+ ============================================================== */
+/*******************
+This is for Header
+*******************/
+/*******************
+Header 2
+*******************/
+.h2-nav {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  left: 0px;
+  padding: 0px 15px; }
+  .h2-nav .navbar-nav > .nav-item > .nav-link {
+    line-height: 80px; }
+  .h2-nav .navbar-nav .nav-item {
+    margin: 0 15px; }
+    .h2-nav .navbar-nav .nav-item .nav-link {
+      padding: 12px 0px;
+      color: #ffffff;
+      font-weight: 400; }
+    .h2-nav .navbar-nav .nav-item:hover .nav-link {
+      color: #263238; }
+    .h2-nav .navbar-nav .nav-item .btn {
+      opacity: 0.3; }
+      .h2-nav .navbar-nav .nav-item .btn:hover {
+        opacity: 1; }
+
+@media (max-width: 1023px) {
+  .h2-nav .navbar-collapse {
+    background: #2cdd9b;
+    background: -webkit-linear-gradient(legacy-direction(to right), #2cdd9b 0%, #1dc8cd 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#2cdd9b), to(#1dc8cd));
+    background: -webkit-linear-gradient(left, #2cdd9b 0%, #1dc8cd 100%);
+    background: -o-linear-gradient(left, #2cdd9b 0%, #1dc8cd 100%);
+    background: linear-gradient(to right, #2cdd9b 0%, #1dc8cd 100%);
+    padding: 15px 15px 20px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1); } }
+
+.topbar.fixed-header .h2-nav .navbar-nav > .nav-item > .nav-link {
+  line-height: 60px; }
+
+/*******************
+Static slide 5
+*******************/
+.static-slider5 {
+  padding-top: 190px; }
+  .static-slider5 .middle-image {
+    margin-top: 80px;
+    margin-bottom: -100px; }
+  .static-slider5 .left-right-bg {
+    background-repeat: no-repeat;
+    background-position: left center, right center, bottom  center;
+    background-size: auto, auto, 100%; }
+
+@media (max-width: 1370px) {
+  .static-slider5 .left-right-bg {
+    background-position: left -250px center, right -150px center, bottom 70px center; } }
+
+@media (max-width: 767px) {
+  .static-slider5 .left-right-bg {
+    background-image: none !important; } }
+
+/*******************
+Feature 1
+*******************/
+.wrap-feature1-box .card-body {
+  padding: 20px;
+  line-height: 30px; }
+  .wrap-feature1-box .card-body .icon-space {
+    font-size: 55px; }
+
+/*******************
+Feature 46
+*******************/
+.feature46 {
+  background-repeat: no-repeat;
+  background-position: top; }
+
+/*******************
+Testimonial 2
+*******************/
+.testimonial2 .testi2 .image-thumb {
+  background: url(../images/testimonial/greadint-bg.png) no-repeat 90% 46%;
+  text-align: center;
+  padding: 10% 0; }
+  .testimonial2 .testi2 .image-thumb img {
+    width: 400px; }
+
+.testimonial2 .testi2 .owl-dots {
+  display: inline-block;
+  position: relative;
+  top: -115px; }
+  .testimonial2 .testi2 .owl-dots .owl-dot {
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    margin-right: 10px;
+    opacity: 0.4;
+    cursor: pointer; }
+    .testimonial2 .testi2 .owl-dots .owl-dot span {
+      display: none; }
+    .testimonial2 .testi2 .owl-dots .owl-dot.active, .testimonial2 .testi2 .owl-dots .owl-dot:hover {
+      opacity: 1; }
+
+/*******************
+Footer 4
+*******************/
+.footer4 .navbar-nav .nav-link {
+  font-size: 14px;
+  font-weight: 300;
+  color: #8d97ad; }
+  .footer4 .navbar-nav .nav-link:hover {
+    background: #2cdd9b;
+    background: -webkit-linear-gradient(legacy-direction(to right), #2cdd9b 0%, #1dc8cd 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#2cdd9b), to(#1dc8cd));
+    background: -webkit-linear-gradient(left, #2cdd9b 0%, #1dc8cd 100%);
+    background: -o-linear-gradient(left, #2cdd9b 0%, #1dc8cd 100%);
+    background: linear-gradient(to right, #2cdd9b 0%, #1dc8cd 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent; }

@@ -1,0 +1,153 @@
+/*
+Template Name: Wrapkit
+Author: Wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+/*
+Template Name: Wrapkit
+Author: wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+/*Theme Colors*/
+/*bootstrap Color*/
+/*Light colors*/
+/*Normal Color*/
+/*Extra Variable*/
+/*Gradiant*/
+/*============================================================== 
+ This scss/css we made it from our predefine componenet 
+ we just copy that css and paste here you can also do that
+ ============================================================== */
+/*******************
+This is for Header
+*******************/
+/*******************
+Header 1
+*******************/
+.h1-nav {
+  padding: 15px 0; }
+  .h1-nav .navbar-nav .nav-item {
+    margin: 0 20px; }
+    .h1-nav .navbar-nav .nav-item .nav-link {
+      padding: 12px 0px;
+      color: #8d97ad;
+      font-weight: 400; }
+    .h1-nav .navbar-nav .nav-item:hover .nav-link {
+      color: #009efb; }
+    .h1-nav .navbar-nav .nav-item:last-child {
+      margin-right: 0px; }
+
+/*******************
+form 4
+*******************/
+.form4 {
+  padding: 100px 0 200px 0; }
+  .form4 .video-link i {
+    font-size: 36px; }
+
+/*******************
+Feature 11
+*******************/
+.wrap-feature11-box {
+  margin-top: 60px; }
+  .wrap-feature11-box .card-body {
+    padding: 40px; }
+  .wrap-feature11-box .icon-space {
+    margin: -80px 0 20px; }
+    .wrap-feature11-box .icon-space .icon-round {
+      font-size: 45px;
+      color: #ffffff; }
+
+/*******************
+Feature 26
+*******************/
+.wrap-feature-26 .max-box {
+  max-width: 580px; }
+
+/*******************
+Pricing 1
+*******************/
+.pricing1 .card {
+  -webkit-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s; }
+  .pricing1 .card:hover {
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -webkit-font-smoothing: antialiased; }
+
+.pricing1 .badge {
+  top: -13px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100px;
+  margin: 0 auto; }
+
+.pricing1 .title {
+  margin-top: 20px;
+  margin-bottom: 5px; }
+
+.pricing1 .subtitle {
+  font-size: 14px; }
+
+.pricing1 .pricing {
+  margin: 20px 0; }
+  .pricing1 .pricing sup {
+    font-size: 18px;
+    top: -20px; }
+  .pricing1 .pricing .display-5 {
+    color: #263238; }
+  .pricing1 .pricing .yearly {
+    display: none; }
+
+.pricing1 .list-inline {
+  margin-top: 30px; }
+  .pricing1 .list-inline li {
+    padding: 8px 0;
+    display: block; }
+
+.pricing1 .bottom-btn {
+  position: relative;
+  bottom: 0px; }
+
+/*******************
+Testimonial 5
+*******************/
+.testimonial5 .testi5 {
+  position: relative; }
+  .testimonial5 .testi5 .content {
+    font-size: 21px;
+    line-height: 30px;
+    padding: 50px 30px; }
+  .testimonial5 .testi5 .owl-item.center .content {
+    color: #ffffff;
+    background: #20d7e3;
+    background: -webkit-linear-gradient(legacy-direction(to right), #20d7e3 0%, #20aee3 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#20d7e3), to(#20aee3));
+    background: -webkit-linear-gradient(left, #20d7e3 0%, #20aee3 100%);
+    background: -o-linear-gradient(left, #20d7e3 0%, #20aee3 100%);
+    background: linear-gradient(to right, #20d7e3 0%, #20aee3 100%); }
+  .testimonial5 .testi5 .customer-thumb {
+    margin-top: -30px;
+    display: none; }
+    .testimonial5 .testi5 .customer-thumb img {
+      width: 60px;
+      margin-bottom: 20px; }
+  .testimonial5 .testi5 .owl-item.center .customer-thumb {
+    display: block; }
+
+/*******************
+Footer 6
+*******************/
+.footer6 .round-social a {
+  background: rgba(120, 130, 140, 0.13);
+  color: #8d97ad;
+  width: 40px;
+  height: 40px;
+  line-height: 40px; }
+  .footer6 .round-social a:hover {
+    color: #20d7e3; }

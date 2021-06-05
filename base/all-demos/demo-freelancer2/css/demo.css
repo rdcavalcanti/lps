@@ -1,0 +1,231 @@
+/*
+Template Name: Wrapkit
+Author: Wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+/*
+Template Name: Wrapkit
+Author: wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+/*Theme Colors*/
+/*bootstrap Color*/
+/*Light colors*/
+/*Normal Color*/
+/*Extra Variable*/
+/*Gradiant*/
+/*============================================================== 
+ This scss/css we made it from our predefine componenet 
+ we just copy that css and paste here you can also do that
+ ============================================================== */
+/*******************
+This is for Header
+*******************/
+/*******************
+Header 17
+*******************/
+.header17 .h17-nav {
+  padding: 15px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .header17 .h17-nav .call-info {
+    padding-left: 20px;
+    border-left: 1px solid rgba(120, 130, 140, 0.13);
+    vertical-align: middle; }
+  .header17 .h17-nav .h17nav-bar {
+    margin-bottom: 0px; }
+    .header17 .h17-nav .h17nav-bar li {
+      display: inline-block;
+      vertical-align: middle; }
+      .header17 .h17-nav .h17nav-bar li a.nav-link {
+        color: #8d97ad;
+        padding: 10px 15px;
+        display: block; }
+    .header17 .h17-nav .h17nav-bar:hover .nav-link, .header17 .h17-nav .h17nav-bar.active .nav-link {
+      color: #ff4d7e; }
+    .header17 .h17-nav .h17nav-bar:last-child {
+      margin-left: 10px; }
+
+.h17-main-nav {
+  position: fixed;
+  z-index: 999;
+  overflow: auto;
+  top: 0px;
+  padding: 60px 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: none;
+  background: #3e4555; }
+  .h17-main-nav.show {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  .h17-main-nav .close-icons {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    color: #8d97ad; }
+    .h17-main-nav .close-icons:hover {
+      color: #ffffff; }
+  .h17-main-nav ul {
+    margin: 0px;
+    padding: 0px; }
+    .h17-main-nav ul li {
+      list-style: none; }
+      .h17-main-nav ul li a {
+        color: #8d97ad; }
+        .h17-main-nav ul li a:hover {
+          color: #ffffff; }
+  .h17-main-nav .nav-menu {
+    display: inline-block; }
+    .h17-main-nav .nav-menu li a {
+      font-size: 24px;
+      padding: 10px 0 7px;
+      margin-bottom: 5px;
+      display: block;
+      border-bottom: 2px solid transparent; }
+    .h17-main-nav .nav-menu li:hover a, .h17-main-nav .nav-menu li.active a {
+      border-bottom: 2px solid #188ef4;
+      color: #ffffff; }
+    .h17-main-nav .nav-menu li:last-child a, .h17-main-nav .nav-menu li:last-child:hover a {
+      font-size: 14px;
+      color: #ffffff;
+      margin-top: 20px;
+      padding: 10px 25px;
+      border-bottom: 2px solid transparent; }
+  .h17-main-nav .info-nav {
+    margin-top: 60px; }
+    .h17-main-nav .info-nav li {
+      display: inline-block; }
+      .h17-main-nav .info-nav li a {
+        padding: 0 10px; }
+  .h17-main-nav .social-nav li {
+    display: inline-block; }
+    .h17-main-nav .social-nav li a {
+      padding: 10px;
+      display: block; }
+    .h17-main-nav .social-nav li:last-child {
+      display: block; }
+
+@media (max-width: 599px) {
+  .h-17navbar {
+    -webkit-align-self: auto !important;
+    -ms-flex-item-align: auto !important;
+    align-self: auto !important; } }
+
+/*******************
+Static slide 1
+*******************/
+.static-slider1 {
+  padding: 140px 0 80px; }
+
+@media (max-width: 767px) {
+  .static-slider1 h1 {
+    font-weight: 700;
+    line-height: 36px;
+    font-size: 24px; } }
+
+/*******************
+Filter section
+*******************/
+.filterby a {
+  padding: 10px;
+  font-weight: 400;
+  color: #8d97ad; }
+  .filterby a:hover {
+    color: #009efb; }
+  .filterby a:first-child {
+    padding-left: 0px; }
+
+.hidden {
+  display: none; }
+
+@media (max-width: 767px) {
+  .filterby a {
+    padding: 10px 5px; } }
+
+/*******************
+Portfolio1
+*******************/
+.portfolio-box {
+  margin-top: 40px; }
+  .portfolio-box .filter .overlay-box {
+    margin-bottom: 30px;
+    position: relative; }
+    .portfolio-box .filter .overlay-box .img-ho {
+      overflow: hidden;
+      display: block; }
+      .portfolio-box .filter .overlay-box .img-ho img {
+        -webkit-transition: 0.1s ease-in;
+        -o-transition: 0.1s ease-in;
+        transition: 0.1s ease-in; }
+      .portfolio-box .filter .overlay-box .img-ho:hover img {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1); }
+    .portfolio-box .filter .overlay-box .port-text {
+      -webkit-transition: 0.3s;
+      -o-transition: 0.3s;
+      transition: 0.3s; }
+      .portfolio-box .filter .overlay-box .port-text > div {
+        padding: 20px 0 10px 0; }
+      .portfolio-box .filter .overlay-box .port-text h5 {
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 0px; }
+      .portfolio-box .filter .overlay-box .port-text span {
+        color: #8d97ad;
+        font-size: 14px; }
+
+.like-dislike {
+  padding: 0px !important; }
+  .like-dislike .text-active {
+    display: none; }
+  .like-dislike.active .text {
+    display: none; }
+  .like-dislike.active .text-active {
+    display: inline-block; }
+
+/*******************
+Client 2
+*******************/
+.client2 {
+  padding: 50px 0; }
+  .client2 .client-box {
+    margin: 0px; }
+    .client2 .client-box [class*="col-"] {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+
+/*******************
+footer social icons
+*******************/
+.footer7 {
+  padding: 50px 0; }
+  .footer7 .round-social a {
+    background: rgba(0, 0, 0, 0.05);
+    color: #ffffff;
+    margin: 0 0 0 5px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px; }
+    .footer7 .round-social a:hover {
+      color: #ffffff; }

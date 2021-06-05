@@ -1,0 +1,189 @@
+/*
+Template Name: Wrapkit
+Author: Wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+
+@import 'variable';
+
+/*============================================================== 
+ This scss/css we made it from our predefine componenet 
+ we just copy that css and paste here you can also do that
+ ============================================================== */
+
+/*******************
+This is for Header
+*******************/
+/*******************
+Header 1
+*******************/
+
+.h1-nav {
+    padding: 15px 0;
+    .navbar-nav .nav-item {
+        margin: 0 20px;
+        .nav-link {
+            padding: 12px 0px;
+            color: $muted;
+            font-weight: 400;
+            
+        }
+        &:hover .nav-link{
+                color: $themecolor;
+            }
+        &:last-child {
+            margin-right: 0px;
+        }
+    } 
+}
+
+
+
+/*******************
+form 4
+*******************/
+
+.form4 {
+    padding: 100px 0 200px 0;
+  .video-link {
+    i {
+      font-size: 36px;
+    }
+  }
+}
+
+
+/*******************
+Feature 11
+*******************/
+
+.wrap-feature11-box {
+    margin-top: 60px;
+    .card-body {
+        padding: 40px;
+    }
+    .icon-space{
+        margin: -80px 0 20px;
+        .icon-round{
+            font-size:45px;
+            color:$white;
+        }
+    }
+}
+
+
+/*******************
+Feature 26
+*******************/
+.wrap-feature-26{
+    .max-box{
+        max-width: 580px;
+    }   
+}
+
+
+/*******************
+Pricing 1
+*******************/
+.pricing1{
+    .card{
+        transition: 0.1s;
+        &:hover{
+            transform: scale(1.05);
+            -webkit-transform: scale(1.05);
+           -webkit-font-smoothing: antialiased;
+            
+        }
+    }
+    .badge{
+        top: -13px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 100px;
+        margin: 0 auto;
+    }
+    .title{
+        margin-top:20px;
+        margin-bottom: 5px; 
+    }
+    .subtitle{
+        font-size: 14px;
+    }
+    .pricing{
+        margin: 20px 0;
+        sup{
+            font-size: 18px;
+            top:-20px;
+        }
+        .display-5{
+            color:$dark;
+        }
+        .yearly{
+            display: none;
+        }
+    }
+    .list-inline{
+        margin-top: 30px;
+        li{
+            padding: 8px 0;
+            display: block;
+        }
+    }
+    .bottom-btn{
+        position: relative;
+        bottom: 0px;
+        
+    }
+}
+
+/*******************
+Testimonial 5
+*******************/
+  
+.testimonial5 {
+    .testi5{
+        position: relative;
+        .content{
+            font-size: 21px;
+            line-height: 30px;
+            padding: 50px 30px;
+        }
+        .owl-item.center .content{
+            color:$white;
+            @include linear-gradient (to right, $info 0%, $primary 100%); 
+        }
+        .customer-thumb{
+            margin-top: -30px;
+            display: none;
+            img{
+                width:60px;
+                margin-bottom: 20px;
+            }
+        }
+        .owl-item.center .customer-thumb{
+            display: block;
+        }
+        
+    }
+}
+
+/*******************
+Footer 6
+*******************/
+.footer6{
+    .round-social{
+        a {
+            background:$border;
+            color:$muted;
+            width:40px;
+            height:40px;
+            line-height:40px;
+            &:hover{
+              color:$info;
+            }
+        }
+    }
+   
+}

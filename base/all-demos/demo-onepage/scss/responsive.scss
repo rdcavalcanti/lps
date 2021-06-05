@@ -1,0 +1,168 @@
+/*
+Template Name: Wrapkit Ui Kit
+Author: wrapkit
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+
+
+/*============================================================== 
+ For Laptop & above all (1650px) 
+ ============================================================== */
+
+@media(min-width:1650px) {}
+
+
+
+/*============================================================== 
+ For Laptop & above all (1370px) 
+ ============================================================== */
+
+@media(max-width:1370px) {}
+
+
+
+/*-- ============================================================== 
+ Small Desktop & above all (1024px) 
+ ============================================================== */
+
+@media(min-width:1024px) {
+    
+}
+
+
+@media(max-width:1023px) {
+    .d-flex {
+        display: block!important;
+        &.no-block {
+            display: flex !important;
+        }
+    }
+    .header7 .h7-nav-bar .logo-box{
+        width:170px;
+        img{
+            width:135px;
+        }
+    }
+    .header7 .h7-nav-bar .h7-nav-box{
+        width:calc(100% - 170px)
+    }
+    .po-absolute {
+        position: relative;
+    }
+}
+
+
+
+/*-- ============================================================== 
+ Ipad & above all(768px) 
+ ============================================================== */
+
+@media(min-width:768px) {}
+
+
+
+/*-- ============================================================== 
+ Phone and below ipad(767px) 
+ ============================================================== */
+
+@media(max-width:767px) {
+    /*This is for the Global*/
+    .general-listing.two-part {
+        li {
+            width: 100%;
+            display: block;
+        }
+    }
+
+    /*This is for the Header*/
+    .header7 {
+        .h7-nav-bar {
+            display: block;
+            .logo-box {
+                display: inline-block;
+                width: 160px;
+                padding: 10px;
+                img {
+                    width: 120px;
+                }
+            }
+            .h7-nav-box {
+                display: none;
+                width: 100%;
+                &.show {
+                    display: block;
+                }
+                .h7-mini-bar {
+                    border-top: 1px solid $border;
+                }
+
+                .main-nav {
+                    max-height: 200px;
+                    overflow: auto;
+                    >ul {
+                        display: block;
+                        >li {
+                            display: block;
+                            text-align: left;
+                            a {
+                                padding: 20px;
+                            }
+                            ul {
+                                position: relative;
+                                width: 100%;
+                                padding-top: 0px;
+                            }
+                        }
+                    }
+                }
+            }
+            .op-clo {
+                padding: 10px 12px;
+                float: right;
+                margin: 15px 20px 0 0;
+            }
+        }
+    }
+
+    /*This is for the slider*/
+    .slider1 {
+        h2 {
+            font-size: 30px;
+        }
+    }
+
+    /*This is for the footer*/
+    .footer1 {
+        margin-bottom: 100px;
+        .bg-image {
+            margin-right: 15px;
+            margin-left: 15px;
+        }
+        .contact-container {
+            top: 150px;
+            .copyright {
+                margin-top: 30px;
+            }
+        }
+        .detail-box {
+            .round-social {
+                &.light a {
+                    margin: 0 3px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 428px) {
+    .slider1 {
+        h2 {
+            font-size: 18px;
+            padding: 15px 15px;
+        }
+        a{
+            font-size:14px;
+        }
+    }
+}

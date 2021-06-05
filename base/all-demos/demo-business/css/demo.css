@@ -1,0 +1,226 @@
+/*
+Template Name: Wrapkit
+Author: Wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+/*
+Template Name: Wrapkit
+Author: wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+/*Theme Colors*/
+/*bootstrap Color*/
+/*Light colors*/
+/*Normal Color*/
+/*Extra Variable*/
+/*Gradiant*/
+/*============================================================== 
+ This scss/css we made it from our predefine componenet 
+ we just copy that css and paste here you can also do that
+ ============================================================== */
+/*******************
+This is for Header
+*******************/
+/*******************
+Header 5
+*******************/
+.h5-nav-bar {
+  padding: 0px 15px;
+  position: relative;
+  width: 100%;
+  left: 0px; }
+  .h5-nav-bar .navbar-brand {
+    position: absolute; }
+  .h5-nav-bar .navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 14px;
+    padding: 25px 18px;
+    font-weight: 500;
+    opacity: 0.7;
+    line-height: 50px; }
+  .h5-nav-bar .navbar-nav .nav-item:hover .nav-link {
+    opacity: 1; }
+  .h5-nav-bar .rounded-button {
+    border-radius: 60px;
+    padding: 10px 30px;
+    display: inline-block;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    position: absolute;
+    right: 0px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px; }
+    .h5-nav-bar .rounded-button a {
+      color: #ffffff;
+      font-weight: 500;
+      opacity: 0.7; }
+      .h5-nav-bar .rounded-button a:hover {
+        opacity: 1; }
+
+/*******************
+Static slide 10
+*******************/
+.static-slider10 {
+  padding: 15% 0;
+  background-size: cover;
+  background-position: center center; }
+  .static-slider10 .title {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 72px;
+    font-family: "Lavanderia-Sturdy"; }
+  .static-slider10 .subtitle {
+    color: #ffffff; }
+
+/*******************
+Feature 16
+*******************/
+.wrap-feature-16 [class*=col-] {
+  padding: 80px 35px; }
+
+.wrap-feature-16 .with-bg {
+  width: 100%;
+  min-height: 200px;
+  background-size: cover;
+  background-position: right center; }
+
+.wrap-feature-16 .with-text {
+  max-width: 500px;
+  margin-left: 80px; }
+
+/*******************
+Client 2
+*******************/
+.client2 {
+  padding: 40px 0; }
+  .client2 .client-box {
+    margin: 0px; }
+    .client2 .client-box [class*="col-"] {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+
+/*******************
+Feature 9
+*******************/
+.wrap-feature9-box .card-body {
+  padding: 40px 40px 0px; }
+  .wrap-feature9-box .card-body .icon-space {
+    padding: 0px 40px 20px 0px; }
+
+/*******************
+Feature 26
+*******************/
+.wrap-feature-26 .max-box {
+  max-width: 580px; }
+
+/*******************
+Feature 15
+*******************/
+.feature15 .quote {
+  top: -40px;
+  left: -40px; }
+
+/*******************
+testimonial
+*******************/
+.testimonial3 .owl-item {
+  opacity: 0.3; }
+  .testimonial3 .owl-item.center {
+    opacity: 1; }
+
+/*******************
+Case Study
+*******************/
+.img-ho {
+  overflow: hidden; }
+  .img-ho img {
+    -webkit-transition: 0.1s ease-in;
+    -o-transition: 0.1s ease-in;
+    transition: 0.1s ease-in; }
+    .img-ho img:hover {
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1); }
+
+/*******************
+Blog homepage 5
+*******************/
+.blog-home5 .b-h-box {
+  position: relative;
+  color: #ffffff; }
+  .blog-home5 .b-h-box .card-img-overlay {
+    bottom: 0px;
+    top: auto;
+    -webkit-transition: .2s ease-in;
+    -o-transition: .2s ease-in;
+    transition: .2s ease-in;
+    height: 45%;
+    overflow: hidden; }
+  .blog-home5 .b-h-box .card-title {
+    color: #ffffff;
+    margin: 15px 0; }
+  .blog-home5 .b-h-box .card-text {
+    display: none; }
+  .blog-home5 .b-h-box:hover {
+    color: #8d97ad; }
+    .blog-home5 .b-h-box:hover .card-img-overlay {
+      height: 100%;
+      background: #ffffff;
+      border: 3px solid rgba(120, 130, 140, 0.13); }
+    .blog-home5 .b-h-box:hover .card-title {
+      color: #263238;
+      margin: 15px 0; }
+    .blog-home5 .b-h-box:hover .card-text {
+      display: block; }
+
+/*******************
+Footer 2
+*******************/
+.footer2 {
+  padding: 60px 0; }
+  .footer2 .f2-topbar {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(120, 130, 140, 0.13); }
+  .footer2 .f2-middle {
+    padding-top: 40px; }
+  .footer2 .link {
+    color: #8d97ad;
+    padding: 10px 15px 10px 0; }
+  .footer2 .general-listing li a i {
+    font-size: 9px;
+    margin-right: 10px; }
+  .footer2 .info-box .d-flex {
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(120, 130, 140, 0.13); }
+  .footer2 .subscribe-box {
+    background: rgba(120, 130, 140, 0.13);
+    padding: 25px; }
+    .footer2 .subscribe-box .form-control {
+      background: transparent;
+      padding: 10px 0;
+      border: 0px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+      color: #ffffff;
+      border-radius: 0px; }
+      .footer2 .subscribe-box .form-control:focus {
+        border-bottom: 1px solid #ffffff; }
+    .footer2 .subscribe-box input::-webkit-input-placeholder {
+      color: #ffffff; }
+    .footer2 .subscribe-box input:-ms-input-placeholder {
+      color: #ffffff; }
+    .footer2 .subscribe-box input::placeholder {
+      color: #ffffff; }

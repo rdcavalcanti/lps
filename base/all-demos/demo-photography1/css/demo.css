@@ -1,0 +1,122 @@
+/*
+Template Name: Wrapkit
+Author: Wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+/*
+Template Name: Wrapkit
+Author: wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+/*Theme Colors*/
+/*bootstrap Color*/
+/*Light colors*/
+/*Normal Color*/
+/*Extra Variable*/
+/*Gradiant*/
+/*============================================================== 
+ This scss/css we made it from our predefine componenet 
+ we just copy that css and paste here you can also do that
+ ============================================================== */
+/*******************
+This is for Header
+*******************/
+.h1-nav {
+  padding: 0px 0; }
+  .h1-nav .navbar-nav .nav-item > .nav-link {
+    line-height: 70px; }
+  .h1-nav .navbar-nav .nav-item {
+    margin: 0 20px; }
+    .h1-nav .navbar-nav .nav-item .nav-link {
+      padding: 12px 0px;
+      color: #8d97ad;
+      font-weight: 400; }
+    .h1-nav .navbar-nav .nav-item:hover .nav-link {
+      color: #1dc8cd; }
+    .h1-nav .navbar-nav .nav-item:last-child {
+      margin-right: 0px; }
+  .h1-nav .social-icon li.nav-item {
+    margin: 0 5px; }
+    .h1-nav .social-icon li.nav-item .nav-link {
+      padding: 0 10px; }
+
+/*******************
+Static slide 1
+*******************/
+.static-slider1 {
+  padding: 50px 0 0px; }
+
+/*******************
+Filter section
+*******************/
+.filterby a {
+  padding: 10px;
+  font-weight: 400;
+  color: #8d97ad; }
+  .filterby a:hover {
+    color: #1dc8cd; }
+
+.hidden {
+  display: none; }
+
+/*******************
+Portfolio1
+*******************/
+.portfolio-box .filter .overlay-box {
+  margin-bottom: 30px;
+  position: relative; }
+  .portfolio-box .filter .overlay-box .overlay {
+    position: absolute;
+    background: rgba(26, 32, 36, 0.8);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    height: 0px;
+    width: 100%;
+    display: none;
+    padding-top: 30%; }
+    .portfolio-box .filter .overlay-box .overlay .port-text {
+      -webkit-transition: 0.3s;
+      -o-transition: 0.3s;
+      transition: 0.3s;
+      position: absolute;
+      bottom: 20px;
+      width: 0px;
+      left: 20px; }
+      .portfolio-box .filter .overlay-box .overlay .port-text h5 {
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 0px; }
+      .portfolio-box .filter .overlay-box .overlay .port-text span {
+        color: #ffffff;
+        font-size: 14px; }
+    .portfolio-box .filter .overlay-box .overlay .port-like {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      color: #ffffff; }
+      .portfolio-box .filter .overlay-box .overlay .port-like .like-dislike {
+        background: transparent;
+        border: 2px solid #ffffff;
+        padding: 7px 15px; }
+        .portfolio-box .filter .overlay-box .overlay .port-like .like-dislike .text-active {
+          display: none; }
+        .portfolio-box .filter .overlay-box .overlay .port-like .like-dislike.active .text {
+          display: none; }
+        .portfolio-box .filter .overlay-box .overlay .port-like .like-dislike.active .text-active {
+          display: inline-block; }
+  .portfolio-box .filter .overlay-box:hover .overlay {
+    display: block;
+    top: 0px;
+    height: 100%; }
+    .portfolio-box .filter .overlay-box:hover .overlay .port-text {
+      width: 100%; }
+
+/*******************
+footer 
+*******************/
+footer a.text-success:hover {
+  color: #ffffff !important; }

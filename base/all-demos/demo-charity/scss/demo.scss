@@ -1,0 +1,303 @@
+/*
+Template Name: Wrapkit
+Author: Wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+
+@import 'variable';
+
+
+
+/*============================================================== 
+ This scss/css we made it from our predefine componenet 
+ we just copy that css and paste here you can also do that
+ ============================================================== */
+
+
+/*******************
+This is for Header
+*******************/
+
+.topbar, .topbar.fixed-header{
+    background:$white;
+} 
+
+/*******************
+Header 4
+*******************/
+
+.h4-topbar {
+    @include linear-gradient (to right, $success 0%, $success-dark 100%);
+    .navbar {
+        padding: 0;
+        .hidden-lg-up {
+            padding: 15px;
+            color: $white;
+            font-weight: 500;
+            font-size: 14px;
+            text-transform: uppercase;
+        }
+        .navbar-nav {
+            .nav-link {
+                padding: 15px;
+                color: $white;
+                font-weight: 500;
+                font-size: 14px;
+                text-transform: uppercase;
+            }
+            .nav-item:hover .nav-link,
+            .nav-item.active .nav-link {
+                background: $white;
+                color: $dark;
+            }
+            .search {
+                .nav-link {
+                    background: $dark-transparent;
+                    padding: 15px 23px;
+                }
+                .dropdown-menu {
+                    padding: 20px;
+                    width: 300px;
+                }
+            }
+        }
+    }
+}
+
+.h4-nav-bar {
+    padding: 15px 0px;
+    .donate-btn {
+        a {
+            font-size: 13px;
+            font-weight: 600;
+            padding: 13px 25px;
+            margin-left: 15px;
+        }
+    }
+    .nav-item .nav-link {
+        display: flex;
+        padding: 0 25px;
+    }
+}
+
+/*-------------------*/
+/*Slider Style Start*/
+/*-------------------*/
+#slider-sec {
+  .slide-text {
+    max-width:1170px;
+    padding:0 15px;
+    top:50%;
+    left:50%;
+    right:auto;
+    width:100%;
+    transform:translate(-50%, -50%);
+    -webkit-transform:translate(-50%, -50%);
+    -moz-transform:translate(-50%, -50%);
+  }
+  .carousel-indicators {
+    li {
+      border-radius:50%;
+      width:14px;
+      height:14px;
+      cursor:pointer;
+    }
+  }
+  
+  .carousel-control-next {
+    width:auto;
+    padding-right:15px;
+  }
+  .carousel-control-prev {
+    width:auto;
+    padding-left:15px;
+  }
+  .slide-image {
+    margin: auto;
+    width: 100%;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+  }
+  h2 {
+    -webkit-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+  }
+  p {
+    -webkit-animation-delay: 1.1s;
+    animation-delay: 1.1s;
+  }
+  .btn {
+    -webkit-animation-delay: 1.3s;
+    animation-delay: 1.3s;
+  }
+}
+
+/*-------------------*/
+/*Slider8 Style Start*/
+/*-------------------*/
+
+.slider8 { 
+  .slide-content {
+    padding:40px 30px;
+    position:relative;
+  }
+    .bs-slider{
+        max-height: 100%;
+    }
+  .slide1 {
+    h2 {
+      font-size:18px;
+      line-height:28px;
+    }
+    label, b {
+      -webkit-animation-delay: 0.7s;
+      animation-delay: 0.7s;
+      line-height:26px;
+    }
+    .b-r {
+      border-bottom:none;
+    }
+    .col-6 {
+      -webkit-animation-delay: 1.2s;
+      animation-delay: 1.2s;
+    }
+  }
+  h3 {
+    font-size:28px;
+  }
+}
+
+/*******************
+Feature 1,2
+*******************/
+
+.wrap-feature1-box .card-body,
+.wrap-feature2-box .card-body {
+    padding: 40px;
+}
+
+/*******************
+Blog homepage 2
+*******************/
+  
+.blog-home2 {
+    [class*=col-] {
+          transition: 0.2s ease-in;
+          &:hover {
+              transform: translateY(-10px);
+          } 
+      }
+    .date-pos{
+        padding: 10px;
+        display: inline-block;
+        position: absolute;
+        right:10px;
+        top:10px;
+        color:$white;
+        border-radius: $radius;
+        text-align: center;
+        span{
+            display: block;
+            font-size: 30px;
+            line-height: 30px;
+        }
+    }
+}
+
+
+/*******************
+Feature 23
+*******************/
+
+.wrap-feature23-box {
+    background-size: cover;
+    
+    background-position:left center; 
+    .text-box{
+        padding: 30px 20px;
+    }
+}
+
+/*******************
+Blog homepage 6
+*******************/
+.blog-home6{
+    .form-control{
+        padding:13px;
+    }
+    .blog-row{
+        margin-bottom:30px;
+        a{
+            color:$dark;
+            &:hover{
+                color:$themecolor;
+            }
+        }
+        h5{
+            font-weight: 500;
+            margin-top: 10px;
+        }
+    }
+}
+
+/*******************
+Testimonial 1
+*******************/
+  
+  .testimonial1 {
+      .testi1 {
+          .card-body {
+              padding: 35px;
+          }
+          .thumb {
+              position: relative;
+              padding: 10px 20px 10px;
+              padding-left: 90px;
+              margin-left: -35px;
+              display: inline-block;
+              color: $white;
+              margin-bottom: 30px;
+              .thumb-img {
+                  width: 60px;
+                  position: absolute;
+                  left: 20px;
+                  top: -10px;
+              }
+          }
+          h5 {
+              line-height: 30px;
+          }
+          .devider {
+              height: 1px;
+              background: $border;
+              margin: 20px 0;
+              display: inline-block;
+              width: 100px;
+          }
+      }
+  }
+
+/*******************
+Feature 24
+*******************/ 
+
+.feature24 {
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*******************
+Footer 1
+*******************/
+.footer1{
+    .f1-middle{
+        padding: 40px  0; 
+    }
+    .f1-bottom-bar{
+        padding:20px 0;
+        border-top:1px solid $border;
+    }
+}
+

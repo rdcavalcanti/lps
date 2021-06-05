@@ -1,0 +1,283 @@
+/*
+Template Name: Wrapkit
+Author: Wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+
+@import 'variable';
+
+
+
+/*============================================================== 
+ This scss/css we made it from our predefine componenet 
+ we just copy that css and paste here you can also do that
+ ============================================================== */
+
+
+/*******************
+This is for Header
+*******************/
+
+
+/*******************
+Header 5
+*******************/
+
+.h5-nav-bar {
+    padding: 0px 15px;
+    position: relative;
+    width: 100%;
+    left: 0px;
+    .navbar-brand {
+        position: absolute;
+    }
+    .navbar-nav {
+        .nav-link {
+            color: $white;
+            font-size: 14px;
+            padding: 25px 18px;
+            font-weight: 500;
+            opacity: 0.7;
+            line-height: 50px;
+        }
+        .nav-item:hover .nav-link {
+            opacity: 1;
+        }
+    }
+    .rounded-button {
+        border-radius: 60px;
+        padding: 10px 30px;
+        display: inline-block;
+        border: 2px solid rgba(255, 255, 255, 0.7);
+        position: absolute;
+        right: 0px;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        a {
+            color: $white;
+            font-weight: 500;
+            opacity: 0.7;
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+
+
+/*******************
+Static slide 10
+*******************/
+
+.static-slider10 {
+    padding: 15% 0;
+    background-size: cover;
+    background-position: center center;
+    .title {
+        color: $white;
+        font-weight: 400;
+        font-size: 72px;
+        line-height: 72px;
+        font-family: $stylishfont;
+    }
+    .subtitle {
+        color: $white;
+    }
+}
+
+/*******************
+Feature 16
+*******************/
+
+.wrap-feature-16{
+    [class*=col-]{
+        padding:80px 35px;
+    }
+    .with-bg{
+        width:100%;
+        min-height: 200px;
+        background-size:cover;
+        background-position: right center;
+    }
+    .with-text{
+        max-width: 500px;
+        margin-left: 80px;
+    }
+}
+
+
+
+/*******************
+Client 2
+*******************/
+
+.client2 {
+    padding: 40px 0;
+    .client-box {
+        margin: 0px;
+        [class*="col-"] {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+
+/*******************
+Feature 9
+*******************/
+
+.wrap-feature9-box {
+    .card-body {
+        padding: 40px 40px 0px;
+        .icon-space {
+            padding: 0px 40px 20px 0px;
+        }
+    }
+}
+
+
+/*******************
+Feature 26
+*******************/
+.wrap-feature-26{
+    .max-box{
+        max-width: 580px;
+    }   
+}
+
+
+/*******************
+Feature 15
+*******************/
+
+.feature15 {
+    .quote {
+        top: -40px;
+        left: -40px;
+    }
+}
+
+/*******************
+testimonial
+*******************/
+
+.testimonial3 {
+    .owl-item {
+        opacity: 0.3;
+        &.center {
+            opacity: 1;
+        }
+    }
+}
+
+/*******************
+Case Study
+*******************/
+
+.img-ho {
+    overflow: hidden;
+    img {
+        transition: 0.1s ease-in;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+/*******************
+Blog homepage 5
+*******************/
+
+.blog-home5 {
+    .b-h-box{
+        position:relative;
+        color:$white;
+
+        .card-img-overlay{
+            bottom:0px;
+            top:auto;
+            transition:.2s ease-in;
+            height:45%;
+            overflow:hidden;
+        }
+        .card-title{
+          color:$white;
+          margin:15px 0;
+        }
+        .card-text{
+          display:none;
+        }
+        &:hover{
+            color:$bodytext;
+            .card-img-overlay{
+                height:100%;
+                background:$white;
+                border:3px solid $border;
+
+            }
+            .card-title{
+              color:$dark;
+              margin:15px 0;
+            }
+            .card-text{
+              display:block;
+            }
+        }
+    }
+}
+
+
+/*******************
+Footer 2
+*******************/
+.footer2{
+    padding: 60px 0;
+    .f2-topbar{
+        padding-bottom: 20px;
+        border-bottom: 1px solid $border;
+    }
+    .f2-middle{
+        padding-top:40px;
+    }
+    .link{
+        color:$muted;
+        padding:10px 15px 10px 0;  
+    }
+    .general-listing{
+        li a{
+            i{
+                font-size:9px;
+                margin-right: 10px;
+            }
+        }
+    }
+    .info-box .d-flex{
+        padding: 15px 0;
+        border-bottom: 1px solid $border;
+    }
+    .subscribe-box{
+        background: $border;
+        padding: 25px;
+        .form-control{
+            background: transparent;
+            padding: 10px 0;
+            border:0px;
+            border-bottom: 1px solid rgba(255,255,255,.5);
+            color:$white;
+            border-radius: 0px;
+            &:focus{
+                border-bottom: 1px solid $white;
+            }
+        }
+        input::placeholder {
+          color: $white;
+        }
+    }
+}
+

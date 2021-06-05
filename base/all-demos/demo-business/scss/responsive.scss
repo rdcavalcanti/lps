@@ -1,0 +1,164 @@
+/*
+Template Name: Wrapkit Ui Kit
+Author: wrapkit
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+
+
+/*============================================================== 
+ For Laptop & above all (1650px) 
+ ============================================================== */
+
+@media(min-width:1650px) {}
+ 
+
+
+/*============================================================== 
+ For Laptop & above all (1370px) 
+ ============================================================== */
+
+@media(max-width:1370px) {}
+
+
+
+/*-- ============================================================== 
+ Small Desktop & above all (1024px) 
+ ============================================================== */
+
+@media(min-width:1024px) {
+    .hover-dropdown .navbar-nav {
+        > .dropdown:hover {
+            > .dropdown-menu {
+                display: block;
+                margin-top: 0px;
+                
+            }
+        }
+    }
+    .navbar-nav {
+        > .dropdown {
+             .dropdown-menu {
+                min-width: 210px;
+                margin-top: 0px;
+            }
+        }
+    }
+    .dropdown-submenu:hover > .dropdown-menu {
+        display: block;
+    }
+    
+}
+
+
+@media(max-width:1023px) {
+    .d-flex {
+        display: block!important;
+        &.no-block {
+            display: flex !important;
+        }
+    }
+    .header7 .h7-nav-bar .logo-box{
+        width:170px;
+        img{
+            width:135px;
+        }
+    }
+    .header7 .h7-nav-bar .h7-nav-box{
+        width:calc(100% - 170px)
+    }
+    .po-absolute {
+        position: relative;
+    }
+    .feature15 {
+        .quote {
+            top: 0;
+            left: 0;
+        }
+        .quote-text {
+            padding-left: 100px;
+            margin-top: -100px;
+        }
+    }
+    .h5-nav-bar {
+        padding: 10px 0px;
+        .navbar-brand {
+            position: relative;
+        }
+        .navbar-collapse {
+            background: $themecolor;
+            padding: 15px 0px 0px;
+            border-radius: $radius;
+            box-shadow: none;
+            z-index: 10;
+        }
+        .rounded-button {
+            position: relative;
+        }
+    }
+    .topbar{
+        background: $themecolor; 
+        position: relative;
+        &.animated{
+            animation-duration:0s;
+            &.slideInDown{
+                    -webkit-animation-name: none;
+                    animation-name: none;
+            }
+        }
+    }
+}
+
+@media(max-width:900px) {
+    .static-slider10 {
+        .title {
+            font-size: 40px;
+            line-height: 45px;
+        }
+    }
+}
+
+/*-- ============================================================== 
+ Ipad & above all(768px) 
+ ============================================================== */
+
+@media(min-width:768px) {}
+
+
+
+/*-- ============================================================== 
+ Phone and below ipad(767px) 
+ ============================================================== */
+
+@media(max-width:767px) {
+    /*This is for the Global*/
+    .general-listing.two-part {
+        li {
+            width: 100%;
+            display: block;
+        }
+    }
+
+    .wrap-feature-16 .with-text {
+        margin-left: 0;
+    }
+
+    /*This is for the Header*/
+    .h5-nav-bar {
+        .navbar-nav {
+            .nav-link {
+                line-height: 30px;
+            }
+        }
+    }
+
+    /*This is for the slider*/
+    .static-slider10 {
+        padding: 30% 0;
+    }
+    .dropdown-submenu > .dropdown-menu.show {
+        display: block;
+    }
+    /*This is for the footer*/
+    
+}

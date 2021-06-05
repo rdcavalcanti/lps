@@ -1,0 +1,258 @@
+/*
+Template Name: Wrapkit
+Author: Wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+/*
+Template Name: Wrapkit
+Author: wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+/*Theme Colors*/
+/*bootstrap Color*/
+/*Light colors*/
+/*Normal Color*/
+/*Extra Variable*/
+/*Gradiant*/
+/*============================================================== 
+ This scss/css we made it from our predefine componenet 
+ we just copy that css and paste here you can also do that
+ ============================================================== */
+/*******************
+This is for Header
+*******************/
+.topbar, .topbar.fixed-header {
+  background: #ffffff; }
+
+/*******************
+Header 4
+*******************/
+.h4-topbar {
+  background: #2cdd9b;
+  background: -webkit-linear-gradient(legacy-direction(to right), #2cdd9b 0%, #1dc8cd 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#2cdd9b), to(#1dc8cd));
+  background: -webkit-linear-gradient(left, #2cdd9b 0%, #1dc8cd 100%);
+  background: -o-linear-gradient(left, #2cdd9b 0%, #1dc8cd 100%);
+  background: linear-gradient(to right, #2cdd9b 0%, #1dc8cd 100%); }
+  .h4-topbar .navbar {
+    padding: 0; }
+    .h4-topbar .navbar .hidden-lg-up {
+      padding: 15px;
+      color: #ffffff;
+      font-weight: 500;
+      font-size: 14px;
+      text-transform: uppercase; }
+    .h4-topbar .navbar .navbar-nav .nav-link {
+      padding: 15px;
+      color: #ffffff;
+      font-weight: 500;
+      font-size: 14px;
+      text-transform: uppercase; }
+    .h4-topbar .navbar .navbar-nav .nav-item:hover .nav-link,
+    .h4-topbar .navbar .navbar-nav .nav-item.active .nav-link {
+      background: #ffffff;
+      color: #263238; }
+    .h4-topbar .navbar .navbar-nav .search .nav-link {
+      background: rgba(0, 0, 0, 0.05);
+      padding: 15px 23px; }
+    .h4-topbar .navbar .navbar-nav .search .dropdown-menu {
+      padding: 20px;
+      width: 300px; }
+
+.h4-nav-bar {
+  padding: 15px 0px; }
+  .h4-nav-bar .donate-btn a {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 13px 25px;
+    margin-left: 15px; }
+  .h4-nav-bar .nav-item .nav-link {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 25px; }
+
+/*-------------------*/
+/*Slider Style Start*/
+/*-------------------*/
+#slider-sec .slide-text {
+  max-width: 1170px;
+  padding: 0 15px;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  width: 100%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%); }
+
+#slider-sec .carousel-indicators li {
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  cursor: pointer; }
+
+#slider-sec .carousel-control-next {
+  width: auto;
+  padding-right: 15px; }
+
+#slider-sec .carousel-control-prev {
+  width: auto;
+  padding-left: 15px; }
+
+#slider-sec .slide-image {
+  margin: auto;
+  width: 100%;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s; }
+
+#slider-sec h2 {
+  -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s; }
+
+#slider-sec p {
+  -webkit-animation-delay: 1.1s;
+  animation-delay: 1.1s; }
+
+#slider-sec .btn {
+  -webkit-animation-delay: 1.3s;
+  animation-delay: 1.3s; }
+
+/*-------------------*/
+/*Slider8 Style Start*/
+/*-------------------*/
+.slider8 .slide-content {
+  padding: 40px 30px;
+  position: relative; }
+
+.slider8 .bs-slider {
+  max-height: 100%; }
+
+.slider8 .slide1 h2 {
+  font-size: 18px;
+  line-height: 28px; }
+
+.slider8 .slide1 label, .slider8 .slide1 b {
+  -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+  line-height: 26px; }
+
+.slider8 .slide1 .b-r {
+  border-bottom: none; }
+
+.slider8 .slide1 .col-6 {
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s; }
+
+.slider8 h3 {
+  font-size: 28px; }
+
+/*******************
+Feature 1,2
+*******************/
+.wrap-feature1-box .card-body,
+.wrap-feature2-box .card-body {
+  padding: 40px; }
+
+/*******************
+Blog homepage 2
+*******************/
+.blog-home2 [class*=col-] {
+  -webkit-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in; }
+  .blog-home2 [class*=col-]:hover {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px); }
+
+.blog-home2 .date-pos {
+  padding: 10px;
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #ffffff;
+  border-radius: 4px;
+  text-align: center; }
+  .blog-home2 .date-pos span {
+    display: block;
+    font-size: 30px;
+    line-height: 30px; }
+
+/*******************
+Feature 23
+*******************/
+.wrap-feature23-box {
+  background-size: cover;
+  background-position: left center; }
+  .wrap-feature23-box .text-box {
+    padding: 30px 20px; }
+
+/*******************
+Blog homepage 6
+*******************/
+.blog-home6 .form-control {
+  padding: 13px; }
+
+.blog-home6 .blog-row {
+  margin-bottom: 30px; }
+  .blog-home6 .blog-row a {
+    color: #263238; }
+    .blog-home6 .blog-row a:hover {
+      color: #1dc8cd; }
+  .blog-home6 .blog-row h5 {
+    font-weight: 500;
+    margin-top: 10px; }
+
+/*******************
+Testimonial 1
+*******************/
+.testimonial1 .testi1 .card-body {
+  padding: 35px; }
+
+.testimonial1 .testi1 .thumb {
+  position: relative;
+  padding: 10px 20px 10px;
+  padding-left: 90px;
+  margin-left: -35px;
+  display: inline-block;
+  color: #ffffff;
+  margin-bottom: 30px; }
+  .testimonial1 .testi1 .thumb .thumb-img {
+    width: 60px;
+    position: absolute;
+    left: 20px;
+    top: -10px; }
+
+.testimonial1 .testi1 h5 {
+  line-height: 30px; }
+
+.testimonial1 .testi1 .devider {
+  height: 1px;
+  background: rgba(120, 130, 140, 0.13);
+  margin: 20px 0;
+  display: inline-block;
+  width: 100px; }
+
+/*******************
+Feature 24
+*******************/
+.feature24 {
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed; }
+
+/*******************
+Footer 1
+*******************/
+.footer1 .f1-middle {
+  padding: 40px  0; }
+
+.footer1 .f1-bottom-bar {
+  padding: 20px 0;
+  border-top: 1px solid rgba(120, 130, 140, 0.13); }

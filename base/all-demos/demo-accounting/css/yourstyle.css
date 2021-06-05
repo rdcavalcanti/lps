@@ -1,0 +1,25 @@
+/*
+Template Name: Wrapkit
+Author: Wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+/*============================================================== 
+ You can write your style here and overwrite our style
+ ============================================================== */
+
+ .wrap-feature10-box {
+    padding: 100px 20px;
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    color: #ffffff;
+  }
+  
+  .wrap-feature10-box p {
+    margin: 30px 0 40px;
+  }
+  
+  .wrap-feature10-box .box-title {
+    color: #ffffff;
+  }

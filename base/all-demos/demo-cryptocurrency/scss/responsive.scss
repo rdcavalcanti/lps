@@ -1,0 +1,215 @@
+/*
+Template Name: Wrapkit Ui Kit
+Author: Themedesigner
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+
+
+/*============================================================== 
+ For Laptop & above all (1650px) 
+ ============================================================== */
+
+@media(min-width:1650px) {
+   
+}
+
+ 
+/*============================================================== 
+ For Laptop & above all (1370px) 
+ ============================================================== */
+
+@media(max-width:1370px) {
+    .slider4 {
+		overflow-y:hidden;
+		.slide-image {
+			height:550px;
+			width:auto !important;
+		}
+	}
+    .slider4 {
+		.slide-image {
+			left:0%;
+			position:relative;
+		}
+		ul{
+			li {
+				font-size:15px;
+			}
+		}
+		h2 {
+			font-size:34px;
+		}
+		.btn-md {
+			padding-left:27px;
+			padding-right:27px;
+		}
+	}
+}
+
+
+/*-- ============================================================== 
+ Small Desktop & above all (1024px) 
+ ============================================================== */
+
+@media(min-width:1024px) {
+    .page-wrapper {
+        padding-top: 100px;
+    }
+    .hover-dropdown .navbar-nav {
+        > .dropdown:hover {
+            > .dropdown-menu {
+                display: block;
+                margin-top: 0px;
+                
+            }
+        }
+    }
+    .navbar-nav {
+        > .dropdown {
+             .dropdown-menu {
+                min-width: 210px;
+                margin-top: 0px;
+            }
+        }
+    }
+    .dropdown-submenu:hover > .dropdown-menu {
+        display: block;
+    } 
+}
+
+
+@media(max-width:1023px) {
+    .d-flex{
+        display: block!important;
+        &.no-block{
+            display: flex !important;
+        }
+    }
+    .wrap-feature30-box{
+        left:0;
+        right:0;
+        margin: 0 auto;
+        top:50%;
+    }
+    .wrap-feature31-box {
+        .right-image{
+            position: relative;
+            bottom: -95px;
+            img{
+                width: 100%;
+                
+            }
+        }
+    }
+    .wrap-feature34-box {
+        .left-image{
+            position: relative;
+            top:-90px;
+        }
+    }
+    .po-absolute{
+        position: relative;
+    }
+    .topbar{
+        background: $white; 
+        position: relative;
+        &.animated{
+            animation-duration:0s;
+            &.slideInDown{
+                -webkit-animation-name: none;
+                animation-name: none;
+            }
+        }
+    }
+}
+
+
+/*-- ============================================================== 
+ Ipad & above all(768px) 
+ ============================================================== */
+
+@media(min-width:768px) {
+    
+}
+
+
+/*-- ============================================================== 
+ Phone and below ipad(767px) 
+ ============================================================== */
+
+@media(max-width:767px) {
+    /*This is for the Global*/
+    .b-l, .b-r{
+        border-left: 0px;
+        border-right: 0px;
+        border-bottom: 1px solid $border;
+    }
+    .img-inline{
+        li.half-width{
+            width: 100%;
+        }
+    }
+    .both-space{
+        margin: 10px 0;
+    }
+    .side-content{
+        padding: 40px 20px;
+    }
+    
+    .general-listing.two-part{
+        li{
+            width: 100%;
+            display: block;
+        }
+    }
+    /*This is for the slider*/
+    .slider4 {
+		h2 {
+			font-size:28px;
+			line-height:36px;
+		}
+		.slide-text {
+			padding:0 !important;
+			width:95% !important;
+		}
+		.slide-image {
+			height:340px;
+		}
+		.btn-md {
+			padding-left:25px;
+			padding-right:25px;
+		}
+	}
+    .dropdown-submenu > .dropdown-menu.show {
+        display: block;
+    }
+}
+@media (max-width: 428px) {
+	.slider4 {
+		h2 {
+			font-size:23px;
+			line-height:30px;
+		}
+		.slide-image {
+			left:-80%;
+			height:380px;
+		}
+		.btn-md {
+			text-align:center;
+			margin-bottom:10px;
+		}
+		.btn-secondary {
+			margin-left:0 !important;
+		}
+	}
+    #slider-sec {
+		.carousel-control-next {
+			padding-right:10px;
+		}
+		.carousel-control-prev {
+			padding-left:10px;
+		}
+	}
+    
+}

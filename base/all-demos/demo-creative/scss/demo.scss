@@ -1,0 +1,185 @@
+/*
+Template Name: Wrapkit
+Author: Wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+
+@import 'variable';
+
+
+
+/*============================================================== 
+ This scss/css we made it from our predefine componenet 
+ we just copy that css and paste here you can also do that
+ ============================================================== */
+
+
+/*******************
+This is for Header
+*******************/
+
+
+/*******************
+Header 2
+*******************/
+
+.h2-nav {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    left: 0px;
+    padding: 0px 15px;
+    .navbar-nav > .nav-item > .nav-link{
+        line-height: 80px;
+    }
+    .navbar-nav .nav-item {
+        margin: 0 15px;
+        .nav-link {
+            padding: 12px 0px;
+            color: $white;
+            font-weight: 400;
+            
+        }
+        &:hover .nav-link{
+                color: $dark;
+            }
+        .btn {
+            opacity: 0.3;
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+@media(max-width:1023px) {
+    .h2-nav {
+        .navbar-collapse {
+        @include linear-gradient (to right, $success 0%, $success-dark 100%);
+        padding: 15px 15px 20px;
+        border-radius: $radius;
+        box-shadow: $card-shadow;
+        }
+    }    
+}
+.topbar.fixed-header{
+    .h2-nav {
+        .navbar-nav > .nav-item > .nav-link{
+            line-height: 60px;
+        }
+    }
+}
+
+
+/*******************
+Static slide 5
+*******************/
+.static-slider5{
+    padding-top: 190px;
+    .middle-image{
+        margin-top: 80px;
+        margin-bottom: -100px;
+    }
+    .left-right-bg{
+        background-repeat: no-repeat;
+        background-position: left center, right center, bottom  center;
+        background-size: auto, auto, 100%; 
+    }
+}
+@media(max-width:1370px) {
+    .static-slider5 .left-right-bg{
+        background-position: left -250px center, right -150px center, bottom 70px center;
+    }
+}
+@media(max-width:767px) {
+    .static-slider5 .left-right-bg{
+        background-image: none!important;
+    }
+}
+
+/*******************
+Feature 1
+*******************/
+
+.wrap-feature1-box {
+    .card-body {
+        padding: 20px;
+        line-height: 30px;
+        .icon-space {
+            font-size: 55px;
+        }
+    }
+}
+
+
+/*******************
+Feature 46
+*******************/
+
+.feature46 {
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+
+/*******************
+Testimonial 2
+*******************/
+  
+  .testimonial2 {
+      .testi2 {
+          .image-thumb {
+              background: url(../images/testimonial/greadint-bg.png) no-repeat 90% 46%;
+              text-align: center;
+              padding: 10% 0;
+              img {
+                  width: 400px;
+              }
+          }
+          .owl-dots {
+              display: inline-block;
+              position: relative;
+              top: -115px;
+              .owl-dot {
+                  border-radius: 100%;
+                  width: 70px;
+                  height: 70px;
+                  background-size: cover;
+                  margin-right: 10px;
+                  opacity: 0.4;
+                  cursor: pointer;
+                  span {
+                      display: none;
+                  }
+                  &.active,
+                  &:hover {
+                      opacity: 1;
+                  }
+              }
+          }
+      }
+  }
+
+
+
+/*******************
+Footer 4
+*******************/
+.footer4{
+    
+    .navbar-nav {
+        .nav-link {
+            font-size: 14px;
+            font-weight: 300;
+            color: $bodytext;
+            &:hover {
+              @include linear-gradient (to right, $success 0%, $success-dark 100%);
+              -webkit-background-clip: text;
+              background-clip: text;
+              -webkit-text-fill-color: transparent;
+              text-fill-color:transparent;
+            }
+        }
+    }
+}

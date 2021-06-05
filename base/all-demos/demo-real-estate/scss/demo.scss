@@ -1,0 +1,322 @@
+/*
+Template Name: Wrapkit
+Author: Wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+
+@import 'variable';
+
+/*============================================================== 
+ This scss/css we made it from our predefine componenet 
+ we just copy that css and paste here you can also do that
+ ============================================================== */
+
+
+/*******************
+This is for Header
+*******************/
+/*******************
+Header 12
+*******************/
+.header12{
+    background: $dark;
+    
+    .h12-nav{
+        padding: 0px 0;
+        .navbar-nav .nav-item > .nav-link{
+            line-height: 70px;
+        }
+        .navbar-nav .nav-item {    
+            .nav-link {
+                color:$muted;
+                padding: 10px 15px;
+                display: block;
+            }
+            &:hover .nav-link, &.active .nav-link{
+                color:$white;
+            }
+            &:last-child{
+                margin-left: 10px;
+            }
+        }    
+    }
+    .h12-topbar{
+        border-bottom: 1px solid $border;
+        .navbar-brand{
+            font-size: 14px;
+            color:$white;
+            padding: 15px 0;
+        }
+        .navbar{
+            padding: 0;
+            .nav-item .nav-link{
+                color:$muted;
+                padding: 15px 20px;
+                border-right:1px solid $border;
+                &:first-child{
+                     border-left:1px solid $border;
+                }
+            }
+            .nav-item:hover .nav-link{
+                color:$white;
+            }
+        }
+    }
+}
+
+
+/*-------------------*/
+/*Slider7 Style Start*/
+/*-------------------*/
+
+@keyframes imagescale {
+    0% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+		-moz-transform: scale(1.0);
+		-o-transform: scale(1.0);
+    }
+    100% {
+        transform: scale(1.3);
+        -webkit-transform: scale(1.3);
+		-moz-transform: scale(1.3);
+		-o-transform: scale(1.3);
+    }
+}
+
+.slider10 {
+	.slide-image {
+		animation: imagescale 15s ease-in-out infinite alternate;
+		-webkit-animation: imagescale 15s ease-in-out infinite alternate;
+		-moz-animation: imagescale 15s ease-in-out infinite alternate;
+		-o-webkit-animation: imagescale 15s ease-in-out infinite alternate;
+	}
+	h2 {
+		font-size:32px;
+		
+	}
+	.slide-content {
+		padding:40px;
+		position:relative;
+		max-width: 360px;
+	}
+	label {
+		line-height:20px;
+		position: absolute;
+        top:-12px;
+	}
+    .specifiaction-box{
+        padding: 20px 40px;
+    }
+    .specifiaction{
+        font-size: 13px;
+    }
+    .tag{
+        color:$white;
+        font-size: 13px;
+        padding: 5px 7px;
+        vertical-align: middle;
+        position: relative;
+        font-weight: 300;
+        top: -2px;
+        &::after{
+            border-bottom:13px transparent solid;
+            border-left: 7px $danger solid;
+            border-top: 12px transparent solid;
+            content: '';
+            height: 0;
+            right: -7px;
+            position: absolute;
+            top: 0;
+            width: 0;
+        }
+    }
+	.carousel-indicators {
+		bottom:0;
+		
+		li {
+			background-color:rgba(0,0,0,0.3);
+			
+			&.active{
+				background-color:$dark;
+			}
+		}
+	}
+    
+}
+/*******************
+Portfolio1
+*******************/
+.portfolio-box {
+    margin-top: 60px;
+    .filter {
+        .overlay-box {
+            margin-bottom: 30px;
+            position: relative;
+
+            .overlay {
+                position: absolute;
+                background: rgba(11, 153, 230, 0.9);
+                transition: 0.3s;
+                height: 0px;
+                width: 100%;
+                display: none;
+
+                padding-top: 30%;
+                .port-text {
+                    transition: 0.3s;
+                    position: absolute;
+                    top: 0px;
+                    width: 0px;
+                    text-align: center;
+                    h5 {
+                        color: $white;
+                        font-size: 18px;
+                        font-weight: 500;
+                        margin-bottom: 0px;
+                    }
+                    span {
+                        color: $white;
+                        font-size: 14px;
+                    }
+                }
+            }
+            &:hover {
+                .overlay {
+                    display: block;
+                    top: 0px;
+                    height: 100%;
+                    .port-text {
+                        top: 43%;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*******************
+Property slide
+*******************/
+.property-box{
+label {
+		line-height:20px;
+		position: absolute;
+        top:-12px;
+	}
+    .specifiaction-box{
+        padding: 20px 40px;
+    }
+    .specifiaction{
+        font-size: 13px;
+    }
+    .tag{
+        color:$white;
+        font-size: 13px;
+        padding: 5px 7px;
+        vertical-align: middle;
+        position: relative;
+        font-weight: 300;
+        top: -2px;
+        &::after{
+            border-bottom:13px transparent solid;
+            border-left: 7px $danger solid;
+            border-top: 12px transparent solid;
+            content: '';
+            height: 0;
+            right: -7px;
+            position: absolute;
+            top: 0;
+            width: 0;
+        }
+    }
+}
+
+/*******************
+Blog homepage 3
+*******************/
+  
+.blog-home3 {
+    .date-pos{
+        text-align: center;
+        color:$white;
+        font-size: 12px;
+        padding: 10px;
+    }
+    a{
+       overflow: hidden;
+        img{
+            transition: 0.2s ease-in;
+            &:hover{
+                transform: scale(1.05);    
+            }
+            
+        }
+    }
+}
+
+/*******************
+Feature 3
+*******************/
+
+.wrap-feature3-box {
+    .card-body {
+        padding: 40px;
+        .icon-space {
+            padding: 0px 40px 20px 0px;
+        }
+    }
+}
+/*******************
+Testimonial 10
+*******************/
+.testimonial10 {
+    .testi10{
+        .quote-bg{
+            max-width: 800px; 
+            width: 100%;
+            margin: 0 auto;
+            padding: 60px;
+            background: url(../images/up-quote.png) no-repeat top left, url(../images/down-quote.png) no-repeat bottom right;
+        }
+        h3{
+            line-height: 40px;
+        }
+        .customer-thumb{
+            margin: 15px 0;
+            img{
+                width: 60px;
+            }
+        }
+    }
+    
+}
+
+@media(max-width:767px) {
+   .testimonial10 {
+       .testi10 h3{
+            line-height: 30px;
+           font-size:20px;
+        }
+    }   
+}
+
+/*******************
+Client 2
+*******************/
+.client2{
+    padding:40px 0;
+    .client-box{
+        margin:0px;
+        [class*="col-"]{
+            padding-top:10px;
+            padding-bottom:10px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+        }
+    }
+}
+

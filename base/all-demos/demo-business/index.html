@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <title>Wrapkit - The awesome and beautiful ui kit</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../assets/node_modules/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- This is for the animation CSS -->
+    <link href="../assets/node_modules/aos/dist/aos.css" rel="stylesheet">
+    <!-- This page plugin CSS -->
+    <link href="../assets/node_modules/bootstrap-touch-slider/bootstrap-touch-slider.css" rel="stylesheet">
+    <link href="../assets/node_modules/owl.carousel/dist/assets/owl.theme.green.css" rel="stylesheet">
+    <!-- This css we made it from our predefine componenet 
+    we just copy that css and paste here you can also do that -->
+    <link href="css/demo.css" rel="stylesheet">
+    <!-- Common style CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/yourstyle.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body class="">
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader__figure"></div>
+            <p class="loader__label">Wrapkit</p>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper">
+        <!-- ============================================================== -->
+        <!-- Top header  -->
+        <!-- ============================================================== -->
+        <div class="topbar">
+            <!-- ============================================================== -->
+            <!-- Header 5  -->
+            <!-- ============================================================== -->
+            <div class="header5">
+                <div class="container po-relative">
+                    <nav class="navbar navbar-expand-lg h5-nav-bar">
+                        <a href="javascript:void(0)" class="navbar-brand"><img src="images/white-logo.png" alt="wrapkit"/></a>
+                        <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#h5-info" aria-expanded="false" aria-label="Toggle navigation"><span class="ti-menu"></span></button>
+                        <div class="collapse navbar-collapse hover-dropdown text-uppercase" id="h5-info">
+                            <ul class="navbar-nav m-auto">
+                                <li class="nav-item dropdown mega-dropdown active"> <a class="nav-link dropdown-toggle" href="#" id="h6-mega-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Demos <i class="fa fa-angle-down m-l-5"></i>
+                                </a>
+                                    <div class="dropdown-menu b-none font-14 animated fadeInUp" aria-labelledby="h6-mega-dropdown">
+                                        <div class="row">
+                                            <div class="col-lg-3 inside-bg hidden-md-down">
+                                                <div class="bg-img" style="background-image:url(images/mega-bg.jpg)">
+                                                    <h3 class="text-white font-light">Most Powerfull Bootstrap 4 UI Kit</h3> </div>
+                                            </div>
+                                            <div class="col-lg-2 col-md-6">
+                                                <ul class="list-style-none">
+                                                    <li>
+                                                        <h6>Niche Homepages</h6></li>
+                                                    <li><a href="../demo-business/index.html" target="_blank">Business</a></li>
+                                                    <li><a href="../demo-creative/index.html" target="_blank">Creative</a></li>
+                                                    <li><a href="../demo-charity/index.html" target="_blank">Charity</a></li>
+                                                    <li><a href="../demo-medical/index.html" target="_blank">Health & Medical</a></li>
+                                                    <li><a href="../demo-software-application/index.html" target="_blank">Software Application</a></li>
+                                                    <li><a href="../demo-real-estate/index.html" target="_blank">Real Estate</a></li>
+                                                    <li><a href="../demo-restaurant/index.html" target="_blank">Restaurant</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-2 col-md-6">
+                                                <ul class="list-style-none">
+                                                    <li>
+                                                        <h6>&nbsp;</h6></li>
+                                                    <li><a href="../demo-web-agency/index.html" target="_blank">Web-Agency</a></li>
+                                                    <li><a href="../demo-fitness/index.html" target="_blank">Fitness</a></li>
+                                                    <li><a href="../demo-accounting/index.html" target="_blank">Accounting</a></li>
+                                                    <li><a href="../demo-onepage/index.html" target="_blank">One Page</a></li>
+                                                    <li><a href="../demo-marketing-seo/index.html" target="_blank">Marketing / SEO</a></li>
+                                                    <li><a href="../demo-industrial/index.html" target="_blank">Industrial</a></li>
+                                                    <li><a href="../demo-cryptocurrency/index.html" target="_blank">Cryptocurrency</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-2 col-md-6">
+                                                <ul class="list-style-none">
+                                                    <li>
+                                                        <h6>Landing Pages</h6></li>
+                                                    <li><a href="../demo-landingpage-app/index.html" target="_blank">App Landing</a></li>
+                                                    <li><a href="../demo-landingpage-medical/index.html" target="_blank">Health & Medical</a></li>
+                                                    <li><a href="../demo-landingpage-personal/index.html" target="_blank">Personal Landing</a></li>
+                                                    <li><a href="../demo-landingpage-form/index.html" target="_blank">Form Landing</a></li>
+                                                    <li><a href="../demo-landingpage-appointment/index.html" target="_blank">Appointment Landing</a></li>
+                                                    <li><a class="text-muted">More Coming soon...</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-3 col-md-6">
+                                                <ul class="list-style-none">
+                                                    <li>
+                                                        <h6>Freelancer / Portfolio</h6></li>
+                                                    <li><a href="../demo-freelancer1/index.html" target="_blank">Freelancer 1</a></li>
+                                                    <li><a href="../demo-freelancer2/index.html" target="_blank">Freelancer 2</a></li>
+                                                    <li><a href="../demo-photography1/index.html" target="_blank">Photographer Light</a></li>
+                                                    <li><a href="../demo-photography2/index.html" target="_blank">Photographer Dark</a></li>
+                                                    <li><a href="../demo-coming-soon/index.html" target="_blank">Comming Soon</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown mega-dropdown"> <a class="nav-link dropdown-toggle" href="#" id="h6-mega-dropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Sections <i class="fa fa-angle-down m-l-5"></i>
+                                </a>
+                                    <div class="dropdown-menu b-none font-14 animated fadeInUp" aria-labelledby="h6-mega-dropdown1">
+                                        <div class="row">
+                                            <div class="col-lg-4 inside-bg hidden-md-down">
+                                                <div class="bg-img" style="background-image:url(images/mega-bg2.jpg)">
+                                                    <h3 class="text-white font-light">Create anything <br/>with our amazing <br/>sections</h3> </div>
+                                            </div>
+                                            <div class="col-lg-2 col-md-4">
+                                                <ul class="list-style-none">
+                                                    <li>
+                                                        <h6>Headers &amp; Footers</h6></li>
+                                                    <li><a href="../../wrapkit/sliders-static.html" target="_blank">Banners</a></li>
+                                                    <li><a href="../../wrapkit/form-banners.html" target="_blank">Form Banners</a></li>
+                                                    <li><a href="../../wrapkit/headers1.html" target="_blank">Navigation 1-10</a></li>
+                                                    <li><a href="../../wrapkit/headers2.html" target="_blank">Navigation 11-20</a></li>
+                                                    <li><a href="../../wrapkit/footers.html" target="_blank">Footers</a></li>
+                                                    <li><a href="../../wrapkit/call-to-action.html" target="_blank">Call to Actions</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-1 col-md-4">
+                                                <ul class="list-style-none">
+                                                    <li>
+                                                        <h6>Sliders</h6></li>
+                                                    <li><a href="../../wrapkit/slider1.html" target="_blank">Slider1</a></li>
+                                                    <li><a href="../../wrapkit/slider2.html" target="_blank">Slider2</a></li>
+                                                    <li><a href="../../wrapkit/slider3.html" target="_blank">Slider3</a></li>
+                                                    <li><a href="../../wrapkit/slider4.html" target="_blank">Slider4</a></li>
+                                                    <li><a href="../../wrapkit/slider5.html" target="_blank">Slider5</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-1 col-md-4">
+                                                <ul class="list-style-none">
+                                                    <li>
+                                                        <h6>&nbsp;</h6></li>
+                                                    <li><a href="../../wrapkit/slider6.html" target="_blank">Slider6</a></li>
+                                                    <li><a href="../../wrapkit/slider7.html" target="_blank">Slider7</a></li>
+                                                    <li><a href="../../wrapkit/slider8.html" target="_blank">Slider8</a></li>
+                                                    <li><a href="../../wrapkit/slider9.html" target="_blank">Slider9</a></li>
+                                                    <li><a href="../../wrapkit/slider10.html" target="_blank">Slider10</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-2 col-md-4">
+                                                <ul class="list-style-none">
+                                                    <li>
+                                                        <h6>Other Sections</h6></li>
+                                                    <li><a href="../../wrapkit/contacts-forms.html" target="_blank">Contacts</a></li>
+                                                    <li><a href="../../wrapkit/blog-homepage.html" target="_blank">Blogs</a></li>
+                                                    <li><a href="../../wrapkit/pricing.html" target="_blank">Pricing</a></li>
+                                                    <li><a href="../../wrapkit/ui-custom-modals.html" target="_blank">Popups / Modals</a></li>
+                                                    <li><a href="../../wrapkit/team.html" target="_blank">Teams</a></li>
+                                                    <li><a href="../../wrapkit/testimonial.html" target="_blank">Testimonials</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-2 col-md-4">
+                                                <ul class="list-style-none">
+                                                    <li>
+                                                        <h6>Features</h6></li>
+                                                    <li><a href="../../wrapkit/feature1.html" target="_blank">Features 1-10</a></li>
+                                                    <li><a href="../../wrapkit/feature2.html" target="_blank">Features 11-20</a></li>
+                                                    <li><a href="../../wrapkit/feature3.html" target="_blank">Features 21-30</a></li>
+                                                    <li><a href="../../wrapkit/feature4.html" target="_blank">Features 31-40</a></li>
+                                                    <li><a href="../../wrapkit/feature5.html" target="_blank">Features 41-50</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="h6-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Pages <i class="fa fa-angle-down m-l-5"></i>
+                                </a>
+                                    <ul class="b-none dropdown-menu font-14 animated fadeInUp">
+                                        <li><a class="dropdown-item" href="../../wrapkit/pages-aboutus.html" target="_blank">About Us</a></li>
+                                        <li><a class="dropdown-item" href="../../wrapkit/pages-pricing.html" target="_blank">Pricing</a></li>
+                                        <li><a class="dropdown-item" href="../../wrapkit/pages-services.html" target="_blank">Services</a></li>
+                                        <li class="divider" role="separator"></li>
+                                        <li class="dropdown-submenu"> <a class="dropdown-toggle dropdown-item" href="javascript:void(0)" aria-haspopup="true" aria-expanded="false">Portfolio <i class="fa fa-angle-right ml-auto"></i></a>
+                                            <ul class="dropdown-menu font-14 b-none animated flipInY">
+                                                <li><a class="dropdown-item" href="../../wrapkit/pages-portfolio-one-column.html" target="_blank">Portfolio 1 Column</a></li>
+                                                <li><a class="dropdown-item" href="../../wrapkit/pages-portfolio-two-column.html" target="_blank">Portfolio 2 Column</a></li>
+                                                <li><a class="dropdown-item" href="../../wrapkit/pages-portfolio-three-column.html" target="_blank">Portfolio 3 Column</a></li>
+                                                <li class="divider" role="separator"></li>
+                                                <li><a class="dropdown-item" href="../../wrapkit/pages-portfolio-masonry.html" target="_blank">Portfolio with Masonry</a></li>
+                                                <li class="divider" role="separator"></li>
+                                                <li><a class="dropdown-item" href="../../wrapkit/pages-portfolio-with-popup.html" target="_blank">Portfolio with Popup</a></li>
+                                                <li><a class="dropdown-item" href="../../wrapkit/pages-portfolio-detail.html" target="_blank">Portfolio Detail</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="dropdown-item" href="../../wrapkit/pages-portfolio-detail.html" target="_blank">Portfolio Detail</a></li>
+                                        <li class="divider" role="separator"></li>
+                                        <li><a class="dropdown-item" href="../../wrapkit/pages-blog.html" target="_blank">Blog</a></li>
+                                        <li><a class="dropdown-item" href="../../wrapkit/pages-blog-detail.html" target="_blank">Blog Single</a></li>
+                                        <li><a class="dropdown-item" href="../../wrapkit/pages-contact-us.html" target="_blank">Contact Us</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="h6-dropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Shop <i class="fa fa-angle-down m-l-5"></i>
+                                </a>
+                                    <ul class="b-none dropdown-menu font-14 animated fadeInUp">
+                                        <li class="dropdown-submenu"> <a class="dropdown-toggle dropdown-item" href="javascript:void(0)" aria-haspopup="true" aria-expanded="false">Shop Listing <i class="fa fa-angle-right ml-auto"></i></a>
+                                            <ul class="dropdown-menu menu-right font-14 b-none animated flipInY">
+                                                <li><a class="dropdown-item font-medium">With Sidebar</a></li>
+                                                <li><a class="dropdown-item" href="../../wrapkit/shop-listing-2-column-sidebar.html" target="_blank">2 Columns</a></li>
+                                                <li><a class="dropdown-item" href="../../wrapkit/shop-listing-3-column-sidebar.html" target="_blank">3 Columns</a></li>
+                                                <li class="divider" role="separator"></li>
+                                                <li><a class="dropdown-item font-medium">Without Sidebar</a></li>
+                                                <li><a class="dropdown-item" href="../../wrapkit/shop-listing-3-column-nosidebar.html" target="_blank">3 Columns</a></li>
+                                                <li><a class="dropdown-item" href="../../wrapkit/shop-listing-4-column-nosidebar.html" target="_blank">4 Columns</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="dropdown-item" href="../../wrapkit/shop-detail.html" target="_blank">Shop Details</a></li>
+                                        <li><a class="dropdown-item" href="../../wrapkit/shop-cart.html" target="_blank">Shopping Cart</a></li>
+                                        <li><a class="dropdown-item" href="../../wrapkit/shop-checkout.html" target="_blank">Checkout</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown mega-dropdown"> <a class="nav-link dropdown-toggle" href="#" id="h6-mega-dropdown2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Elements <i class="fa fa-angle-down m-l-5"></i>
+                                </a>
+                                    <div class="dropdown-menu b-none font-14 animated fadeInUp" aria-labelledby="h6-mega-dropdown2">
+                                        <div class="row">
+                                            <div class="col-lg-5 inside-bg hidden-md-down">
+                                                <div class="bg-img" style="background-image:url(images/mega-bg2.jpg)">
+                                                    <h3 class="text-white font-light">Create anything <br/>with our amazing <br/>Elements</h3> </div>
+                                            </div>
+                                            <div class="col-lg-2 col-md-4">
+                                                <ul class="list-style-none">
+                                                    <li><a href="../../wrapkit/ui-breadcrumb.html" target="_blank">Breadcrumb</a></li>
+                                                    <li><a href="../../wrapkit/ui-buttons.html" target="_blank">Buttons</a></li>
+                                                    <li><a href="../../wrapkit/ui-bootstrap.html" target="_blank">Bootstrap Ui</a></li>
+                                                    <li><a href="../../wrapkit/ui-cards.html" target="_blank">Cards</a></li>
+                                                    <li><a href="../../wrapkit/ui-carousel.html" target="_blank">Carousel</a></li>
+                                                    <li><a href="../../wrapkit/ui-counter.html" target="_blank">Counter</a></li>
+                                                    <li><a href="../../wrapkit/ui-typography.html" target="_blank">Typography</a></li>
+                                                    <li><a href="../../wrapkit/ui-dropdowns.html" target="_blank">Dropdowns</a></li>
+                                                    <li><a href="../../wrapkit/ui-overlay.html" target="_blank">Overlays</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-2 col-md-4">
+                                                <ul class="list-style-none">
+                                                    <li><a href="../../wrapkit/ui-custom-modals.html" target="_blank">Custom Modal</a></li>
+                                                    <li><a href="../../wrapkit/ui-form.html" target="_blank">Forms</a></li>
+                                                    <li><a href="../../wrapkit/ui-grid.html" target="_blank">Grid</a></li>
+                                                    <li><a href="../../wrapkit/ui-list-media.html" target="_blank">List media</a></li>
+                                                    <li><a href="../../wrapkit/ui-modals.html" target="_blank">Modals</a></li>
+                                                    <li><a href="../../wrapkit/ui-tables.html" target="_blank">Tables</a></li>
+                                                    <li><a href="../../wrapkit/ui-video-inline.html" target="_blank">Videos</a></li>
+                                                    <li><a href="../../wrapkit/ui-animation.html" target="_blank">Animations</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-3 col-md-4">
+                                                <ul class="list-style-none">
+                                                    <li><a href="../../wrapkit/ui-notification.html" target="_blank">Notifications</a></li>
+                                                    <li><a href="../../wrapkit/ui-progressbar.html" target="_blank">Progressbar</a></li>
+                                                    <li><a href="../../wrapkit/ui-tab.html" target="_blank">Tabs</a></li>
+                                                    <li><a href="../../wrapkit/ui-timeline.html" target="_blank">Timeline</a></li>
+                                                    <li><a href="../../wrapkit/ui-tooltip-popover.html" target="_blank">Tooltip / Popover</a></li>
+                                                    <li><a href="../../wrapkit/ui-typed-text.html" target="_blank">Typed Text</a></li>
+                                                    <li><a href="../../wrapkit/ui-utility-classes.html" target="_blank">Utility Classes</a></li>
+                                                    <li><a href="../../wrapkit/ui-accordion.html" target="_blank">Accordions</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="rounded-button">
+                                <a href="#">Login</a> - OR - <a href="#">Register</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Header 5  -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- Top header  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+                <!-- ============================================================== -->
+                <!-- Static Slider 10  -->
+                <!-- ============================================================== -->
+                <div class="static-slider10" style="background-image:url(images/banner-bg.jpg)">
+                    <div class="container">
+                        <!-- Row  -->
+                        <div class="row justify-content-center ">
+                            <!-- Column -->
+                            <div class="col-md-6 align-self-center text-center" data-aos="fade-down" data-aos-duration="1200">
+                                <h1 class="title">Build Your Site in Record time</h1>
+                                <h6 class="subtitle op-8 m-t-30">make in record time with wrapkit</h6>
+                                <a class="btn btn-danger-gradiant btn-rounded btn-md btn-arrow m-t-20 m-r-10" href="#"><span>Features <i class="ti-arrow-right"></i></span></a>
+                                <a class="btn btn-outline-light btn-rounded m-t-20 btn-md" data-toggle="modal" data-target="#static-slide7" href=""><i class="fa fa-play m-r-10"></i> Intro </a>
+                            </div>
+                            <!-- Column -->
+                            <div class="modal fade" id="static-slide7">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Watch video</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body" id="yt-player">
+                                            <iframe width="100" height="315" src="https://www.youtube.com/embed/DDwbjWCgxVM?" allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Static Slider 10  -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Feature 9  -->
+                <!-- ============================================================== -->
+                <div class="spacer feature9">
+                    <div class="container">
+                        <!-- Row  -->
+                        <div class="row justify-content-center">
+                            <div class="col-md-7 text-center">
+                                <h2 class="title">Wrapkit Digital Marketing Agency</h2>
+                                <h6 class="subtitle">You can relay on our amazing features list and also our customer services will be great experience for you without doubt and in no-time</h6>
+                            </div>
+                        </div>
+                        <!-- Row  -->
+                        <div class="row m-t-40">
+                            <!-- Column -->
+                            <div class="col-md-6 wrap-feature9-box b-r b-b">
+                                <div class="card" data-aos="fade-right" data-aos-duration="1200">
+                                    <div class="card-body d-flex">
+                                        <div class="icon-space align-self-center"><i class="icon-Computer-Secure display-4 text-info"></i></div>
+                                        <div class="align-self-center">
+                                            <h5 class="font-medium"><a href="javascript:void(0)" class="linking">Online Marketer</a></h5>
+                                            <p class="m-t-20">You can relay on our amazing features list and also our customer services will be great experience.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Column -->
+                            <!-- Column -->
+                            <div class="col-md-6 wrap-feature9-box b-b">
+                                <div class="card" data-aos="fade-left" data-aos-duration="1200">
+                                    <div class="card-body d-flex">
+                                        <div class="icon-space align-self-center"><i class="icon-Target display-4 text-info"></i></div>
+                                        <div class="align-self-center">
+                                            <h5 class="font-medium"><a href="javascript:void(0)" class="linking">Target Market</a></h5>
+                                            <p class="m-t-20">You can relay on our amazing features list and also our customer services will be great experience.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Column -->
+                            <!-- Column -->
+                            <div class="col-md-6 wrap-feature9-box b-r">
+                                <div class="card" data-aos="fade-right" data-aos-duration="1200">
+                                    <div class="card-body d-flex">
+                                        <div class="icon-space align-self-center"><i class="icon-Cloud-Smartphone display-4 text-info"></i></div>
+                                        <div class="align-self-center">
+                                            <h5 class="font-medium"><a href="javascript:void(0)" class="linking">Digital World</a></h5>
+                                            <p class="m-t-20">You can relay on our amazing features list and also our customer services will be great experience.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Column -->
+                            <!-- Column -->
+                            <div class="col-md-6 wrap-feature9-box">
+                                <div class="card" data-aos="fade-left" data-aos-duration="1200">
+                                    <div class="card-body d-flex">
+                                        <div class="icon-space align-self-center"><i class="icon-Business-ManWoman display-4 text-info"></i></div>
+                                        <div class="align-self-center">
+                                            <h5 class="font-medium"><a href="javascript:void(0)" class="linking">Meet the Team</a></h5>
+                                            <p class="m-t-20">You can relay on our amazing features list and also our customer services will be great experience.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Column -->
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Feature 9  -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Feature 16  -->
+                <!-- ============================================================== -->
+                <div class="feature16">
+                    <div class="row wrap-feature-16">
+                        <div class="col-lg-6 with-bg" style="background-image:url(images/features/img1.jpg)"></div>
+                        <div class="col-lg-6 bg-light">
+                            <div class="with-text">
+                                <h2 class="m-t-30 m-b-30">Awesome with Extra Ordinary Flexibility & Features</h2>
+                                <p class="op-7">You can relay on our amazing features list and also our customer services will be great experience for you without doubt and in no-time</p>
+                                <ul class="list-block m-b-30">
+                                    <li><i class="sl-icon-check"></i> <span class="text-dark">Powerful and Faster Results for your site</span></li>
+                                    <li><i class="sl-icon-check"></i> <span class="text-dark">Make your site in no-time with your Bootstrap WrapKit</span></li>
+                                    <li><i class="sl-icon-check"></i> <span class="text-dark">Tons of Features and Elements available here</span></li>
+                                </ul>
+                                <a class="btn btn-danger-gradiant btn-rounded btn-md btn-arrow text-white"><span>Features<i class="ti-arrow-right"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Feature 16  -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Feature 26 -->
+                <!-- ============================================================== -->
+                <div class="spacer feature26">
+                    <div class="container">
+                        <div class="row wrap-feature-26">
+                            <div class="col-md-7 align-self-center">
+                                <div class="max-box">
+                                    <h2 class="title m-t-20">Thousands of Great inbuld Elements to make your life easier </h2>
+                                    <p class="m-t-30">You can relay on our amazing features list and also our customer services will be greatexperience for you without doubt and in no-time and with great quality for design.</p>
+                                    <p>We guarantee you with our WrapKit that you will make your site in record time and it will be fun to work on.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-5 col-md-5"> <img src="images/features/img3.png" alt="wrapkit" class="img-responsive" /> </div>
+                        </div>
+                        <div class="row wrap-feature-26 m-t-40 p-t-30">
+                            <div class="col-md-6"> <img src="images/features/img4.png" alt="wrapkit" class="img-responsive" /> </div>
+                            <div class="col-md-6 align-self-center">
+                                <h2 class="title m-t-20">Get the best designed elements to make your site look modern</h2>
+                                <p class="m-t-30">You can relay on our amazing features list and also our customer services will be greatexperience for you without doubt and in no-time and with great quality for design.</p>
+                                <p>We guarantee you with our WrapKit that you will make your site in record time and it will be fun to work on.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Feature 26 -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Feature 15  -->
+                <!-- ============================================================== -->
+                <div class="bg-light spacer feature15">
+                    <div class="container">
+                        <!-- Row  -->
+                        <div class="row justify-content-center">
+                            <div class="col-md-7 text-center">
+                                <h2 class="title">Awesome with Extra Ordinary Flexibility</h2>
+                                <h6 class="subtitle">You can relay on our amazing features list and also our customer services will be great experience for you without doubt and in no-time</h6>
+                            </div>
+                        </div>
+                        <!-- Row  -->
+                        <div class="row m-t-40">
+                            <!-- Column -->
+                            <div class="col-lg-5 wrap-feature15-box">
+                                <div class="row">
+                                    <div class="col-md-12 m-b-30" data-aos="fade-down" data-aos-duration="1000">
+                                        <div class="d-flex no-block">
+                                            <div class="no-shrink"><span class="icon-round display-5 text-info "><i class="icon-Target"></i></span></div>
+                                            <div class="p-20">
+                                                <h5 class="font-medium"><a href="javascript:void(0)" class="linking">Retargeting Market <i class="ti-arrow-right"></i></a></h5>
+                                                <p class="m-t-20">You can relay on our amazing features list and also our customer services will be great experience.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 m-b-30" data-aos="fade-down" data-aos-duration="2000">
+                                        <div class="d-flex no-block">
+                                            <div class="no-shrink"><span class="icon-round display-5 text-info "><i class="icon-Car-Wheel"></i></span></div>
+                                            <div class="p-20">
+                                                <h5 class="font-medium"><a href="javascript:void(0)" class="linking">Fruitful Results <i class="ti-arrow-right"></i></a></h5>
+                                                <p class="m-t-20">You can relay on our amazing features list and also our customer services will be great experience.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 m-b-30" data-aos="fade-down" data-aos-duration="3000">
+                                        <div class="d-flex no-block">
+                                            <div class="no-shrink"><span class="icon-round display-5 text-info "><i class="icon-Mouse-3"></i></span></div>
+                                            <div class="p-20">
+                                                <h5 class="font-medium"><a href="javascript:void(0)" class="linking">Instant Solutions <i class="ti-arrow-right"></i></a></h5>
+                                                <p class="m-t-20">You can relay on our amazing features list and also our customer services will be great experience.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Column -->
+                            <div class="col-lg-6 ml-auto">
+                                <div class="card card-shadow aos-init aos-animate" data-aos="flip-left" data-aos-duration="1200">
+                                    <img class="card-img-top" src="images/features/img5.jpg" alt="wrappixel kit">
+                                    <div class="card-body p-40 po-relative">
+                                        <div class="quote icon-round bg-danger-gradiant po-absolute text-white"><img src="images/quote.png" alt="wrappixel kit"></div>
+                                        <div class="quote-text">
+                                            <h4 class=" font-light">It was incredibaly refreshing to work with an agency that is focused on our needs.</h4>
+                                            <h6 class="m-t-30 font-medium">Michale Anderson</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Column -->
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Feature 15  -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Testimonial 3  -->
+                <!-- ============================================================== -->
+                <div class="testimonial3 spacer">
+                    <div class="container-fluid">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-md-7 text-center">
+                                    <h2 class="title">Awesome with Extra Ordinary Flexibility</h2>
+                                    <h6 class="subtitle">You can relay on our amazing features list and also our customer services will be great experience for you without doubt and in no-time</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Row  -->
+                        <div class="owl-carousel owl-theme testi3 m-t-40">
+                            <!-- item -->
+                            <div class="item" data-aos="fade-right">
+                                <div class="card card-shadow" data-aos="flip-left" data-aos-duration="1200">
+                                    <a href="#" class="img-ho"><img class="card-img-top" src="images/case-study/img1.jpg" alt="wrappixel kit" /></a>
+                                    <div class="card-body">
+                                        <h5 class="font-medium m-b-0">Branding for Theme Designer</h5>
+                                        <p class="m-b-0 font-14">Digital Marketing</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- item -->
+                            <!-- item -->
+                            <div class="item" data-aos="fade-up">
+                                <div class="card card-shadow" data-aos="flip-up" data-aos-duration="1200">
+                                    <a href="#" class="img-ho"><img class="card-img-top" src="images/case-study/img2.jpg" alt="wrappixel kit" /></a>
+                                    <div class="card-body">
+                                        <h5 class="font-medium m-b-0">Button Designs Free</h5>
+                                        <p class="m-b-0 font-14">Search Engine</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- item -->
+                            <!-- item -->
+                            <div class="item" data-aos="fade-left">
+                                <div class="card card-shadow" data-aos="flip-right" data-aos-duration="1200">
+                                    <a href="#" class="img-ho"><img class="card-img-top" src="images/case-study/img3.jpg" alt="wrappixel kit" /></a>
+                                    <div class="card-body">
+                                        <h5 class="font-medium m-b-0">Branding & Co Agency</h5>
+                                        <p class="m-b-0 font-14">Admin templates</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- item -->
+                            <!-- item -->
+                            <div class="item">
+                                <div class="card card-shadow" data-aos="flip-left" data-aos-duration="1200">
+                                    <a href="#" class="img-ho"><img class="card-img-top" src="images/case-study/img4.jpg" alt="wrappixel kit" /></a>
+                                    <div class="card-body">
+                                        <h5 class="font-medium m-b-0">Zukandre Phoniex</h5>
+                                        <p class="m-b-0 font-14">Branding</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- item -->
+                            <!-- item -->
+                            <div class="item">
+                                <div class="card card-shadow" data-aos="flip-up" data-aos-duration="1200">
+                                    <a href="#" class="img-ho"><img class="card-img-top" src="images/case-study/img5.jpg" alt="wrappixel kit" /></a>
+                                    <div class="card-body">
+                                        <h5 class="font-medium m-b-0">Sionage Mokcup</h5>
+                                        <p class="m-b-0 font-14">Wll Mockup</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- item -->
+                            <!-- item -->
+                            <div class="item">
+                                <div class="card card-shadow" data-aos="flip-right" data-aos-duration="1200">
+                                    <a href="#" class="img-ho"><img class="card-img-top" src="images/case-study/img6.jpg" alt="wrappixel kit" /></a>
+                                    <div class="card-body">
+                                        <h5 class="font-medium m-b-0">Hard Cover Book Mock</h5>
+                                        <p class="m-b-0 font-14">Book Covers</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- item -->
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Testimonial 3  -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Client 2  -->
+                <!-- ============================================================== -->
+                <div class="client2 spacer p-t-0">
+                    <div class="container">
+                        <p class="text-dark text-center font-16 font-normal m-b-40">Our awesome partners to help us in best possible way</p>
+                        <div class="row client-box text-center op-7">
+                            <div class="col-lg-2 col-md-4">
+                                <img src="images/client/c1.png" alt="wrapkit" />
+                            </div>
+                            <div class="col-lg-2 col-md-4">
+                                <img src="images/client/c2.png" alt="wrapkit" />
+                            </div>
+                            <div class="col-lg-2 col-md-4">
+                                <img src="images/client/c3.png" alt="wrapkit" />
+                            </div>
+                            <div class="col-lg-2 col-md-4">
+                                <img src="images/client/c4.png" alt="wrapkit" />
+                            </div>
+                            <div class="col-lg-2 col-md-4">
+                                <img src="images/client/c5.png" alt="wrapkit" />
+                            </div>
+                            <div class="col-lg-2 col-md-4">
+                                <img src="images/client/c6.png" alt="wrapkit" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Client 2  -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Blog home 5  -->
+                <!-- ============================================================== -->
+                <div class="blog-home5 spacer bg-light">
+                    <div class="container">
+                        <!-- Row  -->
+                        <div class="row justify-content-center">
+                            <!-- Column -->
+                            <div class="col-md-8 text-center">
+                                <h2 class="title">Latest News & Blogs From Wrappixel</h2>
+                                <h6 class="subtitle">You can relay on our amazing features list and also our customer services will be great experience for you without doubt and in no-time</h6>
+                            </div>
+                            <!-- Column -->
+                        </div>
+                        <!-- Row  -->
+                        <div class="row m-t-40">
+                            <!-- Column -->
+                            <div class="col-md-4">
+                                <div class="card b-h-box font-14">
+                                    <img class="card-img" src="images/blog/img1.jpg" alt="Card image">
+                                    <div class="card-img-overlay">
+                                        <span class="bg-info-gradiant label">Charity, Ngo</span> <span class="m-l-10">Feb 18, 2018</span>
+                                        <a href="#"><h5 class="card-title">Help out the people who really need it on time.</h5></a>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Column -->
+                            <!-- Column -->
+                            <div class="col-md-4">
+                                <div class="card b-h-box font-14">
+                                    <img class="card-img" src="images/blog/img2.jpg" alt="Card image">
+                                    <div class="card-img-overlay">
+                                        <span class="bg-info-gradiant label">Charity, Ngo</span> <span class="m-l-10">Feb 18, 2018</span>
+                                        <a href="#"><h5 class="card-title">Help out the people who really need it on time.</h5></a>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Column -->
+                            <!-- Column -->
+                            <div class="col-md-4">
+                                <div class="card b-h-box font-14">
+                                    <img class="card-img" src="images/blog/img1.jpg" alt="Card image">
+                                    <div class="card-img-overlay">
+                                        <span class="bg-info-gradiant label">Charity, Ngo</span> <span class="m-l-10">Feb 18, 2018</span>
+                                        <a href="#"><h5 class="card-title">Help out the people who really need it on time.</h5></a>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Column -->
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Blog home 5  -->
+                <!-- ============================================================== -->
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- footer 2  -->
+            <!-- ============================================================== -->
+            <div class="footer2 font-14">
+                <div class="f2-topbar container">
+                    <div class="d-flex">
+                        <a href="#"><img src="images/footer-logo.png" alt="wrapkit" /></a>
+                        <div class="ml-auto align-self-center">
+                            <span class="text-dark">WrapKit by WrapPixel</span> © 2017 All rights reserved.
+                        </div>
+                    </div>
+                </div>
+                <div class="f2-middle">
+                    <div class="container">
+                        <div class="row">
+                            <!-- Column -->
+                            <div class="col-lg-4 col-md-6">
+                                <p class="p-t-10">Nullam erat ametam arcu lorme pharetra id risus act sectetur ipsum luctus est ullam erat ametam arcu lorme pharetra id us act sectetur ipsum luctus est. </p>
+                                <p>Vestibulum in accumsa maga eds maurise elit tincidunt turpis id semper. </p>
+                                <div class="m-t-20 m-b-30">
+                                    <a href="#" class="link"><i class="fa fa-facebook"></i></a>
+                                    <a href="#" class="link"><i class="fa fa-twitter"></i></a>
+                                    <a href="#" class="link"><i class="fa fa-linkedin"></i></a>
+                                    <a href="#" class="link"><i class="fa fa-pinterest"></i></a>
+                                    <a href="#" class="link"><i class="fa fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <!-- Column -->
+                            <div class="col-lg-2 col-md-6">
+                                <ul class="general-listing">
+                                    <li><a href="#"> Home</a></li>
+                                    <li><a href="#"> Services</a></li>
+                                    <li><a href="#"> Pricing</a></li>
+                                    <li><a href="#"> Case Studies</a></li>
+                                    <li><a href="#"> Blog</a></li>
+                                    <li><a href="#"> Contact Us </a></li>
+                                </ul>
+                            </div>
+                            <!-- Column -->
+                            <!-- Column -->
+                            <div class="col-lg-3 col-md-6 info-box">
+                                <div class="d-flex no-block">
+                                    <div class="display-7 m-r-20 align-self-top"><i class="icon-Location-2"></i></div>
+                                    <div class="info">
+                                        <p class="text-dark">134, Cornish Building, Some
+                                            <br/> Near by area, New York,
+                                            <br/> USA - 34556</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex no-block">
+                                    <div class="display-7 m-r-20 align-self-top"><i class="icon-Over-Time"></i></div>
+                                    <div class="info">
+                                        <span class="font-medium text-dark db  m-t-5">8.00 AM - 6:00PM</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex no-block">
+                                    <div class="display-7 m-r-20 align-self-top"><i class="icon-Phone-2"></i></div>
+                                    <div class="info">
+                                        <span class="font-medium text-dark db  m-t-5">1 (888) 123 4567</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex no-block">
+                                    <div class="display-7 m-r-20 align-self-top"><i class="icon-Mail"></i></div>
+                                    <div class="info">
+                                        <a href="#" class="font-medium text-dark db  m-t-5">info@wrappixel.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Column -->
+                            <!-- Column -->
+                            <div class="col-lg-3 col-md-6">
+                                <div class="subscribe-box bg-info-dark">
+                                    <div class="display-4 text-white"><i class="icon-Mail-3"></i></div>
+                                    <p class="text-white op-8">Nullam erat ametam arcuing lorme pharetra id risus act sectetur ipsum luctus est. </p>
+                                    <form>
+                                        <div class="m-b-20">
+                                            <input class="form-control" placeholder="enter email">
+                                        </div>
+                                        <button class="btn btn-danger-gradiant btn-rounded">JOIN US</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End footer 2  -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Back to top -->
+            <!-- ============================================================== -->
+            <a class="bt-top btn btn-circle btn-lg btn-info" href="#top"><i class="ti-arrow-up"></i></a>
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="../assets/node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap popper Core JavaScript -->
+    <script src="../assets/node_modules/popper/dist/popper.min.js"></script>
+    <script src="../assets/node_modules/bootstrap/js/bootstrap.min.js"></script>
+    <!-- This is for the animation -->
+    <script src="../assets/node_modules/aos/dist/aos.js"></script>
+    <!--Custom JavaScript -->
+    <script src="js/custom.min.js"></script>
+    <!-- ============================================================== -->
+    <!-- This page plugins -->
+    <!-- ============================================================== -->
+    <script src="../assets/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script>
+    /*******************************/
+    // this is for the testimonial 3
+    /*******************************/
+    $('.testi3').owlCarousel({
+        loop: true,
+        margin: 30,
+        center: true,
+        nav: false,
+        dots: false,
+        autoplay: true,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                nav: false
+            },
+            768: {
+                items: 2
+            },
+            1170: {
+                items: 3
+            },
+            1800: {
+                items: 4
+            }
+        }
+    })
+    </script>
+</body>
+
+</html>

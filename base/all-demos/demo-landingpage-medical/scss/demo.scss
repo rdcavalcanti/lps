@@ -1,0 +1,315 @@
+/*
+Template Name: Wrapkit
+Author: Wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+
+@import 'variable';
+
+
+/*============================================================== 
+ This scss/css we made it from our predefine componenet 
+ we just copy that css and paste here you can also do that
+ ============================================================== */
+
+
+/*******************
+This is for Header
+*******************/
+
+
+/*******************
+Header 15
+*******************/
+
+.h15-topbar {
+    border-bottom: 1px solid $border;
+    .navbar-brand {
+        font-size: 14px;
+        color: $dark;
+        font-weight: 500;
+        padding: 15px 0;
+    }
+    .navbar {
+        padding: 0;
+        .search-box {
+            padding: 15px;
+            width: 240px;
+        }
+        .nav-item .nav-link {
+            color: $muted;
+            padding: 15px 20px;
+            &:first-child {
+                padding-left: 0px;
+            }
+        }
+        .nav-item:hover .nav-link {
+            color: $info;
+        }
+        .search {
+            .dropdown-menu {
+                padding: 20px;
+                min-width: 300px;
+            }
+        }
+    }
+}
+
+.h15-navbar {
+    .navbar {
+        padding: 0;
+        .hidden-lg-up {
+            padding: 15px;
+            color: $dark;
+            font-weight: 500;
+            font-size: 14px;
+            text-transform: uppercase;
+        }
+        .navbar-nav {
+            .nav-link {
+                padding: 18px 15px;
+                color: $dark;
+                font-weight: 400;
+                font-size: 14px;
+                border-bottom: 1px solid transparent;
+            }
+            .nav-item:hover .nav-link,
+            .nav-item.active .nav-link {
+                color: $info;
+                border-bottom: 1px solid $info;
+            }
+            .search {
+                .nav-link {
+                    @include linear-gradient (to right, $success 0%, $success-dark 100%);
+                    color: $white;
+                    padding: 18px 23px;
+                    transition: 0.2s ease-in;
+                }
+                &:hover .nav-link {
+                    color: $white;
+                    @include linear-gradient (to left, $success 0%, $success-dark 100%);
+                    border-bottom: 1px solid transparent;
+                }
+                .dropdown-menu {
+                    padding: 20px;
+                    min-width: 300px;
+                }
+            }
+        }
+        .dropdown-menu {
+            background: $info;
+            border-radius: 0 0 4px 4px;
+            margin-top: 0px;
+            .dropdown-item {
+                color: $white;
+                &.active,
+                &:active,
+                &:hover {
+                    background: $border;
+                }
+            }
+        }
+    }
+}
+
+.h15-info-bar {
+    padding: 15px 0px;
+    .donate-btn {
+        a {
+            font-size: 13px;
+            font-weight: 500;
+            padding: 13px 25px;
+            margin-left: 15px;
+        }
+    }
+    .nav-item .nav-link {
+        display: flex;
+        padding: 0 25px;
+    }
+}
+
+
+/*-------------------*/
+/*Banner Style Start*/
+/*-------------------*/
+
+.banner {
+    position:relative;
+    max-height:700px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center top;
+    width:100%;
+    display:table;
+    .banner-content {
+        display:table-cell;
+        vertical-align:middle;
+        width:100%;
+    }
+}
+
+
+/*-------------------*/
+/*Banner2 Style Start*/
+/*-------------------*/
+
+#banner2 {
+    background-image:url(../images/banner-bg.jpg);
+    max-height:800px;
+    
+    .w-50 {
+        width:50%;
+    }
+    .form-row {
+        margin:0;
+    }
+    label.font-12 {
+        font-size:12px;
+        font-weight:500;
+        margin-bottom:5px;
+    }
+    input[type=text] {
+        color:$bodytext;
+        font-weight:300;
+        text-overflow: ellipsis;
+    }
+    button {
+        cursor:pointer;
+        border-radius:0;
+        &.active,
+        &:active {
+            @include linear-gradient (to right, $danger 0%, $orange 100%);
+        }
+    }
+    .date label {
+        cursor:pointer;
+        margin:0;
+    }
+}
+
+
+/*******************
+Feature 8
+*******************/
+
+.feature8{
+    .list-block{
+        li{
+            font-weight: 400;
+            color:$dark;
+        }
+    }
+}
+
+
+/*******************
+Feature 24
+*******************/
+.wrap-feature-24{
+    margin-top: 60px;
+    .card{
+        overflow: hidden;
+        transition: 0.3s ease-out;
+         -webkit-transition: 0.3s ease-out;
+        &:hover{
+            transform: translateY(-10px);
+            -webkit-transform: translateY(-10px);
+        }
+    }
+    .service-24{
+        text-align: center;
+        padding:40px 0;
+        display: block;
+        
+        i{
+            color: $info;
+            font-size:50px;
+        }
+        .ser-title{
+            margin: 10px 0 5px;
+            font-weight: 500;
+        }
+        &:hover, &:focus{
+            @include linear-gradient (to right, $danger 0%, $orange 100%);
+            i, .ser-title{
+                color:$white;
+                text-fill-color:$white;
+                -webkit-text-fill-color:$white;
+            }
+            i{
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
+
+
+/*******************
+Testimonial 7
+*******************/
+  
+.testimonial7 {
+    background: $info; /* Old browsers */
+    background: -moz-linear-gradient(left, $info 0%, $info 48%, $light 48%, $light 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, $info 0%,$info 51%,$light 48%,$light 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, $info 0%,$info 48%,$light 48%,$light 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$info', endColorstr='$light',GradientType=1 ); /* IE6-9 */
+    
+    .testi7{
+        .title{
+            margin-top: 80px;
+        }
+        .owl-nav{
+            float: right;
+            [class*='owl-']{
+                background: transparent;
+                color:$bodytext;
+                font-size: 34px;
+                margin: -100px 0 0 0px;
+                &:hover{
+                    color:$dark;
+                }
+            }
+        }
+    }
+}
+
+
+/*******************
+Client 2
+*******************/
+
+.client2 {
+    padding: 50px 0;
+    .client-box {
+        margin: 0px;
+        [class*="col-"] {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+
+/*******************
+Footer 6
+*******************/
+
+.footer6{
+    .round-social{
+        a {
+            background:$border;
+            color:$muted;
+            width:40px;
+            height:40px;
+            line-height:40px;
+            &:hover{
+                color:$dark;
+            }
+        }
+    }
+}

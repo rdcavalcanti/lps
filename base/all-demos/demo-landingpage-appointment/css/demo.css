@@ -1,0 +1,95 @@
+/*
+Template Name: Wrapkit
+Author: Wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+/*
+Template Name: Wrapkit
+Author: wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+/*Theme Colors*/
+/*bootstrap Color*/
+/*Light colors*/
+/*Normal Color*/
+/*Extra Variable*/
+/*Gradiant*/
+/*============================================================== 
+ This scss/css we made it from our predefine componenet 
+ we just copy that css and paste here you can also do that
+ ============================================================== */
+/*******************
+This is for Header
+*******************/
+/*******************
+Header 5
+*******************/
+.h5-nav-bar {
+  padding: 25px 0px;
+  position: relative;
+  width: 100%;
+  left: 0px; }
+  .h5-nav-bar .navbar-brand {
+    position: absolute; }
+  .h5-nav-bar .navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 14px;
+    padding: 25px 18px;
+    font-weight: 500;
+    opacity: 0.7; }
+  .h5-nav-bar .navbar-nav .nav-item:hover .nav-link {
+    opacity: 1; }
+
+.topbar.fixed-header .h5-nav-bar {
+  padding: 10px 0; }
+
+/*******************
+Static slide 10
+*******************/
+.static-slider10 {
+  padding: 10% 0;
+  background-size: cover;
+  background-position: center center; }
+  .static-slider10 .text-box .input-icon i {
+    top: 17px;
+    right: 30px; }
+
+/*******************
+Feature 2
+*******************/
+.wrap-feature2-box .card-body {
+  padding: 40px; }
+
+/*******************
+Feature 5
+*******************/
+.wrap-feature5-box .card-body {
+  padding: 30px; }
+  .wrap-feature5-box .card-body .icon-space {
+    padding: 0px 30px 20px 0px;
+    font-size: 45px;
+    margin: 0px; }
+  .wrap-feature5-box .card-body p {
+    margin-bottom: 0px; }
+
+/*******************
+Feature 47
+*******************/
+.wrap-feature47-box .f-47-line {
+  line-height: 40px; }
+
+.wrap-feature47-box .video-img {
+  cursor: pointer; }
+
+/*******************
+Testimonial 8
+*******************/
+.testimonial8 .testi8 .bg {
+  background-size: cover;
+  padding: 150px 0; }
+
+.testimonial8 .testi8 .play-icon {
+  font-size: 34px;
+  color: #ffffff; }

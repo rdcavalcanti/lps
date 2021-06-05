@@ -1,0 +1,402 @@
+/*
+Template Name: Wrapkit
+Author: Wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+
+@import 'variable';
+
+/*============================================================== 
+ This scss/css we made it from our predefine componenet 
+ we just copy that css and paste here you can also do that
+ ============================================================== */
+
+
+/*******************
+This is for Header
+*******************/
+/*******************
+Header 15
+*******************/
+.h15-topbar{
+        border-bottom: 1px solid $border;
+        .navbar-brand{
+            font-size: 14px;
+            color:$dark;
+            font-weight: 500;
+            padding: 15px 0;
+        }
+        .navbar{
+            padding: 0;
+            .search-box{
+                padding: 15px;
+                width: 240px;
+            }
+            .nav-item .nav-link{
+                color:$muted;
+                padding: 15px 20px;
+                &:first-child{
+                     padding-left:0px;
+                }
+            }
+            .nav-item:hover .nav-link{
+                color:$info;
+            }
+            .search {
+                .dropdown-menu{
+                    padding: 20px;
+                    min-width: 300px;
+                }
+            }
+        }
+    }
+.h15-navbar {
+    .navbar{
+        padding: 0;
+        .hidden-lg-up{
+            padding:15px;
+            color:$dark;
+            font-weight: 500;
+            font-size: 14px;
+            text-transform: uppercase;    
+        }
+        .navbar-nav{
+            .nav-link{
+                padding:18px 15px;
+                color:$dark;
+                font-weight: 400;
+                font-size: 14px;
+                border-bottom: 1px solid transparent;
+                
+            }
+            .nav-item:hover .nav-link, .nav-item.active .nav-link{
+                color:$info;
+                border-bottom: 1px solid $info;
+            }
+            .search {
+                .nav-link{
+                    padding: 18px 23px;
+                    transition: 0.2s ease-in;
+                    background: $info;
+                    color:$white;
+                }
+                &:hover .nav-link{
+                    color:$white;
+                    border-bottom: 1px solid transparent;
+                    background:$dark;
+                }
+                .dropdown-menu{
+                    padding: 20px;
+                    min-width: 300px;
+                }
+            }
+        }
+        .dropdown-menu{
+            
+            border-radius: 0 0 4px 4px;
+            margin-top: 0px;
+            .dropdown-item{
+                
+                &.active, &:active, &:hover{
+                    background: $border;
+                    
+                }
+            }    
+        }
+    }
+}
+.h15-info-bar{
+    padding: 15px 0px;
+    .donate-btn{
+        a{
+            font-size:13px;
+            font-weight: 500;
+            padding: 13px 25px;
+            margin-left: 15px;
+        }
+    }
+    .nav-item .nav-link{
+        display: flex;
+        padding: 0 25px;
+    }
+}
+
+
+
+/*-------------------*/
+/*Slider7 Style Start*/
+/*-------------------*/
+
+@keyframes imagescale {
+    0% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+		-moz-transform: scale(1.0);
+		-o-transform: scale(1.0);
+    }
+    100% {
+        transform: scale(1.3);
+        -webkit-transform: scale(1.3);
+		-moz-transform: scale(1.3);
+		-o-transform: scale(1.3);
+    }
+}
+
+.slider7 {
+    .bs-slider, .carousel-item{
+        max-height:700px;
+    }
+	.slide-image {
+		animation: imagescale 15s ease-in-out infinite alternate;
+		-webkit-animation: imagescale 15s ease-in-out infinite alternate;
+		-moz-animation: imagescale 15s ease-in-out infinite alternate;
+		-o-webkit-animation: imagescale 15s ease-in-out infinite alternate;
+	}
+	h2 {
+		font-size:32px;
+		
+	}
+	
+	.slide-content {
+		padding:80px 25px;
+		position:relative;
+		
+		border-radius:100%;
+		max-width:400px;
+		min-height:400px;
+	}
+	label {
+		line-height:31px;
+		min-width:110px;
+	}
+	a {
+		border-radius:50%;
+		height:60px;
+		width:60px;
+		position:absolute;
+		font-size:28px;
+		right:70px;
+		bottom:0;
+		
+		i {
+			line-height:60px;
+		}
+        &:hover{
+            background: $info-dark!important;
+        }
+	}
+	.carousel-indicators {
+		bottom:0;
+		
+		li {
+			background-color:rgba(0,0,0,0.3);
+			
+			&.active{
+				background-color:$dark;
+			}
+		}
+	}
+    
+}
+
+
+/*******************
+Feature 6
+*******************/
+
+.wrap-feature6-box {
+    transition: 0.2s ease-in;
+    .card-body {
+        padding: 30px;
+        .linking {
+            color: $white;
+            &:hover {
+                color: $dark;
+            }
+        }
+        p {
+            opacity: 0.8;
+        }
+    }
+    &:hover {
+        transform: scale(1.1)
+    }
+    .bg-success-light{
+        background: $megna; 
+    }
+}
+
+/*******************
+Feature 9
+*******************/
+
+.wrap-feature9-box {
+    .card-body {
+        padding: 40px 40px 0px;
+        .icon-space {
+            padding: 0px 40px 20px 0px;
+        }
+    }
+}
+/*******************
+Feature 18
+*******************/
+.wrap-feature-18{
+    margin-top: 60px;
+    [class*=col-lg-6]{
+        .card{
+            overflow: hidden;
+        }   
+    }
+    .icon-position{
+        position: relative;
+        background-size:cover;
+        background-position: center center;
+        min-height: 200px;
+        .icon-round{
+            position: absolute;
+            right:-38px;
+            top:20px;
+        }
+    }
+}
+
+/*******************
+Feature 41
+*******************/
+
+.wrap-feature41-box {
+    .f41-tab{
+        display: block;
+        li a{
+           display: flex;
+           margin-bottom: 20px;
+           padding: 25px;
+            .t-icon{
+                margin-right:25px;
+                color:$muted;
+            }
+            h5{
+                font-weight: 500;
+            }
+            h6{
+                font-size: 14px;
+                margin-bottom: 0px;
+            }
+            &.active, &:hover{
+                background: $white;
+                box-shadow: $card-shadow;
+                .t-icon{
+                    @include linear-gradient (to right, $success 0%, $success 100%);
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    text-fill-color:transparent;
+                }
+            }
+        }
+    }
+}
+
+/*******************
+Testimonial 2
+*******************/
+  
+  .testimonial2 {
+      .testi2 {
+          .image-thumb {
+              background: url(../images/grbg.jpg) no-repeat center center;
+              text-align: center;
+              padding:70px 0;
+              img {
+                  width: 400px;
+              }
+          }
+          .owl-dots {
+              display: inline-block;
+              position: relative;
+              top: -100px;
+              .owl-dot {
+                  border-radius: 100%;
+                  width: 70px;
+                  height: 70px;
+                  background-size: cover;
+                  margin-right: 10px;
+                  opacity: 0.4;
+                  cursor: pointer;
+                  span {
+                      display: none;
+                  }
+                  &.active,
+                  &:hover {
+                      opacity: 1;
+                  }
+              }
+          }
+      }
+  }
+  
+/*******************
+Blog homepage 1
+*******************/
+  
+  .blog-home1 {
+      [class*=col-] {
+          transition: 0.2s ease-in;
+          &:hover {
+              transform: translateY(-10px);
+          } 
+      }
+  }
+
+/*******************
+Footer 2
+*******************/
+.footer2{
+    padding: 60px 0;
+    .f2-middle{
+        padding-top:40px;
+    }
+    .link{
+        color:$muted;
+        padding:10px 15px 10px 0;  
+    }
+    .general-listing{
+        li a{
+            i{
+                font-size:9px;
+                margin-right: 10px;
+            }
+        }
+    }
+    .info-box .d-flex{
+        padding: 15px 0;
+        border-bottom: 1px solid $border;
+    }
+    .subscribe-box{
+        background: $border;
+        padding: 25px;
+        .form-control{
+            background: transparent;
+            padding: 10px 0;
+            border:0px;
+            border-bottom: 1px solid $border;
+            color:$white;
+            border-radius: 0px;
+            &:focus{
+                border-bottom: 1px solid $white;
+            }
+        }
+    }
+}
+.appointment-form{
+button {
+        cursor:pointer;
+        border-radius:0;
+        &.active,
+        &:active {
+            @include linear-gradient (to right, $danger 0%, $orange 100%);
+        }
+    }
+}    

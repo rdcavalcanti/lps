@@ -1,0 +1,384 @@
+/*
+Template Name: Wrapkit
+Author: Wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+
+@import 'variable';
+
+/*============================================================== 
+ This scss/css we made it from our predefine componenet 
+ we just copy that css and paste here you can also do that
+ ============================================================== */
+
+hr {
+    border-top: 1px solid rgba(255,255,255,0.3)
+}
+
+
+/*******************
+This is for Header
+*******************/
+
+.topbar.fixed-header {
+    background:$white;
+}
+
+/*******************
+Header 6
+*******************/
+.h6-topbar{
+    background: $themecolor;
+    .authentication-box{
+        margin-bottom: 0px;
+        padding:10px 0;
+        color: $dark;
+        a {
+          color: $dark;
+        }
+        li{
+            display: inline-block;
+            a{
+                padding: 3px 15px;
+                display: block;
+                color:$muted;
+                font-weight: 400;
+                border-bottom:0px !important;
+                &:hover{
+                    color:$info;
+                }
+                &:last-child{
+                    padding-right: 0px;
+                }
+            }
+            i{
+                font-size:20px;
+                vertical-align: text-bottom;
+            }
+            
+        }
+    }
+}
+.h6-nav-bar{
+    padding:0px;
+    .navbar-nav{
+        .nav-link{
+            padding: 35px 15px;
+            color:$muted;
+        }
+        .nav-item:hover .nav-link, .nav-item.active .nav-link{
+            color:$dark;
+        }
+    }
+    .act-buttons{
+        .btn{
+            margin: 10px 0 10px 10px;
+        }
+    }
+}
+
+@media(max-width:1023px) {
+    .h6-nav-bar{
+        .navbar-nav{
+            .nav-link{
+                padding: 15px 15px;
+            }
+        }
+        .act-buttons{
+            .btn{
+                margin: 10px 0 10px 0px;
+            }
+        }
+    }
+}
+
+.form2 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+}
+
+@media (max-width: 1023px) {
+    .form2 {
+        h1 {
+            margin-top: 25px;
+        }
+        .have-ac {
+            margin-top: 25px;
+        }
+    }
+}
+
+/*******************
+Feature 6
+*******************/
+.wrap-feature6-box {
+    transition: 0.2s ease-in;
+    .card-body {
+        padding: 30px;
+        .linking {
+            color: $white;
+            &:hover {
+                color: $dark;
+            }
+        }
+        p {
+            opacity: 0.8;
+        }
+    }
+    &:hover {
+        transform: scale(1.1)
+    }
+}
+
+
+/*******************
+Feature 43
+*******************/
+.wrap-feature43-box{
+    .col-md-6{
+        margin-bottom: 50px;
+    }
+}
+/*******************
+Feature 22
+*******************/
+.wrap-feature-22{
+    margin-top: 60px;
+    .text-box{
+        padding: 0 30px;
+        h3{
+            margin: 10px 0 25px 0;
+        }
+    }    
+}
+
+@media(max-width:1023px) { 
+    .wrap-feature-22 .text-box {
+        padding: 0;
+        margin-top: 30px;
+    } 
+}
+
+
+
+/*******************
+Form 5
+*******************/
+.form5 {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*******************
+team 4
+*******************/ 
+.team4{text-align: center;
+    .pro-pic{
+        
+        img{
+            border-radius: 100%;
+        }
+    }
+    ul{
+        margin-top: 30px;
+        li a{
+            color:$muted;
+            padding-right:15px;
+            transition: 0.1s ease-in;
+            display: block;
+            &:hover{
+
+                transform: translate3d(0px, -5px, 0px);
+            }
+            
+        }
+        
+    }
+    .title{
+        margin: 30px 0 0 0;
+    }
+    .subtitle{
+        margin: 0 0 20px 0; 
+        font-size: 13px;
+    }
+}
+/*******************
+Testimonial 10
+*******************/
+.testimonial10 {
+    .testi10{
+        .quote-bg{
+            max-width: 800px; 
+            width: 100%;
+            margin: 0 auto;
+            padding: 60px;
+            background: url(../images/up-quote.png) no-repeat top left, url(../images/down-quote.png) no-repeat bottom right;
+        }
+        h3{
+            line-height: 40px;
+        }
+        .customer-thumb{
+            margin: 15px 0;
+            img{
+                width: 60px;
+            }
+        }
+    }
+    
+}
+
+@media(max-width:767px) {
+   .testimonial10 {
+       .testi10 h3{
+            line-height: 30px;
+           font-size:20px;
+        }
+    }   
+}
+/*******************
+Blog homepage 1
+*******************/
+  
+.blog-home1 {
+    .col-md-4 {
+        transition: 0.2s ease-in;
+        &:hover {
+            transform: translateY(-10px);
+        } 
+    }
+}
+
+/*******************
+C2A
+*******************/
+
+.c2a5 {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*******************
+Footer 2
+*******************/
+.footer2{
+    padding: 60px 0;
+    .f2-topbar{
+        padding-bottom: 20px;
+        border-bottom: 1px solid $border;
+    }
+    .f2-middle{
+        padding-top:40px;
+    }
+    .link{
+        color:$muted;
+        padding:10px 15px 10px 0;  
+    }
+    .general-listing{
+        li a{
+            i{
+                font-size:9px;
+                margin-right: 10px;
+            }
+        }
+    }
+    .info-box .d-flex{
+        padding: 15px 0;
+        border-bottom: 1px solid $border;
+    }
+    .subscribe-box{
+        background: $border;
+        padding: 25px;
+        .form-control{
+            background: transparent;
+            padding: 10px 0;
+            border:0px;
+            border-bottom: 1px solid $border;
+            color:$white;
+            border-radius: 0px;
+            &:focus{
+                border-bottom: 1px solid $white;
+            }
+        }
+    }
+}
+
+/*******************
+Cryptobar
+*******************/
+
+.crypto-bar {
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    background-color: $themecolor;
+    color: $white;
+     overflow: hidden;
+    white-space: nowrap;
+    .c-currency {
+        padding: 0;
+        
+        li {
+            display: inline-block;
+            list-style: none;
+            flex-shrink: 0;
+            line-height: 40px;
+            padding: 0 7px;
+            font-weight: bold;
+            span.c-icon {
+                img {
+                    vertical-align: middle;
+                    height: 20px;
+                    margin-left: 8px;
+                }
+            }
+            span.c-name {
+                font-size: 14px;
+                margin-left: 6px;
+                color: $dark;
+            }
+            span.c-price {
+                font-size: 12px;
+                margin-left: 8px;
+                color: $dark;
+            }
+            span.c-changes.minus {
+                font-size: 12px;
+                margin-left: 3px;
+                color: $red;
+                .up {
+                    display: none;
+                }
+            }
+            span.c-changes.plus {
+                font-size: 12px;
+                margin-left: 3px;
+                color: $success;
+                .down {
+                    display: none;
+                }
+            }
+        }
+    }
+    #div1{
+        display: inline-block;
+        animation: marquee 30s linear infinite;
+    }
+    #div2{
+        margin-left: 30px;
+        animation: marquee2 30s linear infinite;
+        animation-delay: 15s;
+        display: inline-block;
+    }
+}
+@keyframes marquee {
+    0%   { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+@keyframes marquee2 {
+    0%   { transform: translateX(0%); }
+    100% { transform: translateX(-200%); }
+}
