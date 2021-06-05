@@ -12,12 +12,12 @@
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
     <title>Wrapkit - The awesome and beautiful ui kit</title>
     <!-- Bootstrap Core CSS -->
-    <link href="../assets/node_modules/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/node_modules/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- This is for the animation CSS -->
-    <link href="../assets/node_modules/aos/dist/aos.css" rel="stylesheet">
+    <link href="assets/node_modules/aos/dist/aos.css" rel="stylesheet">
     <!-- This page slider css -->
-    <link href="../assets/node_modules/bootstrap-touch-slider/bootstrap-touch-slider.css" rel="stylesheet" media="all">
-    <link href="../assets/node_modules/owl.carousel/dist/assets/owl.theme.green.css" rel="stylesheet">
+    <link href="assets/node_modules/bootstrap-touch-slider/bootstrap-touch-slider.css" rel="stylesheet" media="all">
+    <link href="assets/node_modules/owl.carousel/dist/assets/owl.theme.green.css" rel="stylesheet">
     <!-- This css we made it from our predefine componenet 
     we just copy that css and paste here you can also do that -->
     <link href="css/demo.css" rel="stylesheet">
@@ -46,14 +46,56 @@
     <!-- Main wrapper - style you can find in pages.scss -->
     <!-- ============================================================== -->
     <div id="main-wrapper">
-        <!-- ============================================================== -->
         <!-- Top header  -->
-        <!-- ============================================================== -->
         <div class="topbar">
+            <!-- ============================================================== -->
+            <!-- Header 4  -->
+            <!-- ============================================================== -->
+            <div class="header4 po-relative">
+                <div class="h4-navbar">
+                    <div class="container">
+                        <nav class="navbar navbar-expand-lg h4-nav-bar">
+                            <a class="navbar-brand"><img height="65px"
+                                    src="images/esteatose-hepatica-clinica-da-obesidade-marca.png"
+                                    alt="Marca da Clínica da Obesidade" /></a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#h4-info"
+                                aria-controls="h4-info" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="sl-icon-options-vertical"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="h4-info">
+                                <ul class="navbar-nav ml-auto text-uppercase">
+                                    <li class="nav-item">
+                                        <a class="nav-link">
+                                            <div class="display-6 m-r-10"><i class="icon-Mail"></i></div>
+                                            <div>
+                                                <small>Entre em contato</small><br>
+                                                <small
+                                                    style="text-transform: lowercase;">contato@clinicadaobesidade.com.br</small>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link">
+                                            <div class="display-6 m-r-10"><i class="icon-Phone-2"></i></div>
+                                            <div><small>Telefone</small><br>
+                                                <small class="">(71) 3500-6000</small>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item donate-btn"><a href="#sectionForm"
+                                            class="btn btn-outline-success">Agende
+                                            uma Avaliação</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Header 4  -->
+            <!-- ============================================================== -->
         </div>
-        <!-- ============================================================== -->
         <!-- Top header  -->
-        <!-- ============================================================== -->
         <!-- ============================================================== -->
         <!-- Page wrapper  -->
         <!-- ============================================================== -->
@@ -63,11 +105,38 @@
             <!-- ============================================================== -->
             <div class="container-fluid">
                 <!-- ============================================================== -->
-                <!-- Static Slider 1  -->
+                <!-- Static Slider 2  -->
                 <!-- ============================================================== -->
-                <h1>Starter kit</h1>
+                <div class="static-slider2 spacer" style="background-image: url(images/img1.jpg)">
+                    <div class="container">
+                        <!-- Row  -->
+                        <div class="row">
+                            <!-- Column -->
+                            <div class="col-md-5 align-self-center" data-aos="fade-right" data-aos-duration="1200">
+                                <h1 class="title">
+                                    Procedimento Cirúrgico NÃO É OPÇÃO para o emagrecimento saudável
+                                    <span class="text-megna">.</span>
+                                </h1>
+                                <h6 class="subtitle">Não busque resultados milagrosos e de ALTO RISCO
+                                    PARA SUA SAÚDE, emagrecer com saúde esta relacionado ao seu comprometimento e apoio
+                                    de profssionais capacitados a te ajudar a realizar seus objetivos.</h6>
+                                <a class="btn btn-success-gradiant btn-md btn-arrow m-t-20 m-b-10"
+                                    data-toggle="collapse" href=""><span>Hire Me <i
+                                            class="ti-arrow-right"></i></span></a>
+                                <a class="btn btn-link btn-md btn-arrow m-t-20 m-b-10 font-medium"
+                                    data-toggle="collapse" href=""><span class="underline">Check my work <i
+                                            class="ti-arrow-right"></i></span></a>
+                            </div>
+                            <!-- Column 
+                            <div class="col-md-7 img-anim" data-aos="fade-up" data-aos-duration="2200">
+                                <img src="assets/images/sliders/static-slider/slider2/img1.jpg" alt="wrapkit"
+                                    class="img-fluid m-t-20" />
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
                 <!-- ============================================================== -->
-                <!-- End Static Slider 1  -->
+                <!-- End Static Slider 2  -->
                 <!-- ============================================================== -->
             </div>
             <!-- ============================================================== -->
@@ -87,20 +156,20 @@
     <!-- ============================================================== -->
     <!-- All Jquery -->
     <!-- ============================================================== -->
-    <script src="../assets/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="assets/node_modules/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap popper Core JavaScript -->
-    <script src="../assets/node_modules/popper/dist/popper.min.js"></script>
-    <script src="../assets/node_modules/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/node_modules/popper/dist/popper.min.js"></script>
+    <script src="assets/node_modules/bootstrap/js/bootstrap.min.js"></script>
     <!-- This is for the animation -->
-    <script src="../assets/node_modules/aos/dist/aos.js"></script>
+    <script src="assets/node_modules/aos/dist/aos.js"></script>
     <!--Custom JavaScript -->
     <script src="js/custom.min.js"></script>
     <!-- ============================================================== -->
     <!-- This page plugins -->
     <!-- ============================================================== -->
     <script src="js/jquery.touchSwipe.min.js"></script>
-    <script src="../assets/node_modules/bootstrap-touch-slider/bootstrap-touch-slider.js"></script>
-    <script src="../assets/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="assets/node_modules/bootstrap-touch-slider/bootstrap-touch-slider.js"></script>
+    <script src="assets/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
 </body>
 
 </html>

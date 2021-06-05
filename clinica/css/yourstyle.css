@@ -7,3 +7,26 @@ File: scss
 /*============================================================== 
  You can write your style here and overwrite our style
  ============================================================== */
+
+
+
+ /* CSS BANNER  */
+ .static-slider3{
+    padding: 10% 0;
+    h1{
+        font-weight: 300;
+        line-height: 50px;
+        span{
+            border-bottom:3px solid $success;
+        }
+    }
+
+}
+@media(max-width:767px) {
+.static-slider3{
+        h1{
+            line-height: 30px;
+            font-size:24px;
+        }
+    }
+}
