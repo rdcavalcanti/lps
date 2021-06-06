@@ -8,25 +8,84 @@ File: scss
  You can write your style here and overwrite our style
  ============================================================== */
 
-
-
- /* CSS BANNER  */
- .static-slider3{
-    padding: 10% 0;
-    h1{
-        font-weight: 300;
-        line-height: 50px;
-        span{
-            border-bottom:3px solid $success;
-        }
+/* CSS BANNER  */
+.static-slider3 {
+  padding: 10% 0;
+  h1 {
+    font-weight: 300;
+    line-height: 50px;
+    span {
+      border-bottom: 3px solid $success;
     }
-
+  }
 }
-@media(max-width:767px) {
-.static-slider3{
-        h1{
-            line-height: 30px;
-            font-size:24px;
-        }
+@media (max-width: 767px) {
+  .static-slider3 {
+    h1 {
+      line-height: 30px;
+      font-size: 24px;
     }
+  }
 }
+
+/* CSS FORM */
+
+.form4 {
+  padding: 100px 0 200px 0;
+}
+.form4 .video-link i {
+  font-size: 36px;
+}
+
+/* CSS BUTTON */
+
+.btn-my-gradiant {
+    background: #2cdd9b;
+    background: -webkit-linear-gradient(
+      legacy-direction(to right),
+      #dd7e2c 0,
+      #f7bb11 100%
+    );
+    background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(#2cdd9b),
+      to(#1dc8cd)
+    );
+    background: -webkit-linear-gradient(left, #dd7e2c 0, #f7bb11 100%);
+    background: -o-linear-gradient(left, #dd7e2c 0, #f7bb11 100%);
+    background: linear-gradient(to right, #dd7e2c 0, #f7bb11 100%);
+    border: 0;
+  }
+  .btn-my-gradiant:hover {
+    background: #1dc8cd;
+    background: -webkit-linear-gradient(
+      legacy-direction(to right),
+      #f7bb11 0,
+      #dd7e2c 100%
+    );
+    background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(#1dc8cd),
+      to(#2cdd9b)
+    );
+    background: -webkit-linear-gradient(left, #f7bb11 0, #dd7e2c 100%);
+    background: -o-linear-gradient(left, #f7bb11 0, #dd7e2c 100%);
+    background: linear-gradient(to right, #f7bb11 0, #dd7e2c 100%);
+  }
+  .btn-success-gradiant.active,
+  .btn-success-gradiant:active,
+  .btn-success-gradiant:focus {
+    -webkit-box-shadow: 0;
+    box-shadow: 0;
+    opacity: 1;
+  }
+
+  /* COVER ACTION */
+
+  .c2a5 {
+    background-position: center center;
+    background-size: cover;
