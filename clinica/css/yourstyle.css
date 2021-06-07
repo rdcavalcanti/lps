@@ -33,11 +33,13 @@ File: scss
   color: #a1b1a0 !important;
 }
 
+.text-secondary {
+  color: #82c775 !important;
+}
+
 .text-secondary-light {
   color: #b3daaa;
 }
-
-
 
 /* CSS BANNER  */
 .static-slider3 {
@@ -226,52 +228,98 @@ File: scss
 /* CSS BUTTON */
 
 .btn-my-gradiant {
-    background: #2cdd9b;
-    background: -webkit-linear-gradient(
-      legacy-direction(to right),
-      #dd7e2c 0,
-      #f7bb11 100%
-    );
-    background: -webkit-gradient(
-      linear,
-      left top,
-      right top,
-      from(#2cdd9b),
-      to(#1dc8cd)
-    );
-    background: -webkit-linear-gradient(left, #dd7e2c 0, #f7bb11 100%);
-    background: -o-linear-gradient(left, #dd7e2c 0, #f7bb11 100%);
-    background: linear-gradient(to right, #dd7e2c 0, #f7bb11 100%);
-    border: 0;
-  }
-  .btn-my-gradiant:hover {
-    background: #1dc8cd;
-    background: -webkit-linear-gradient(
-      legacy-direction(to right),
-      #f7bb11 0,
-      #dd7e2c 100%
-    );
-    background: -webkit-gradient(
-      linear,
-      left top,
-      right top,
-      from(#1dc8cd),
-      to(#2cdd9b)
-    );
-    background: -webkit-linear-gradient(left, #f7bb11 0, #dd7e2c 100%);
-    background: -o-linear-gradient(left, #f7bb11 0, #dd7e2c 100%);
-    background: linear-gradient(to right, #f7bb11 0, #dd7e2c 100%);
-  }
-  .btn-success-gradiant.active,
-  .btn-success-gradiant:active,
-  .btn-success-gradiant:focus {
-    -webkit-box-shadow: 0;
-    box-shadow: 0;
-    opacity: 1;
-  }
+  background: #2cdd9b;
+  background: -webkit-linear-gradient(
+    legacy-direction(to right),
+    #dd7e2c 0,
+    #f7bb11 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#2cdd9b),
+    to(#1dc8cd)
+  );
+  background: -webkit-linear-gradient(left, #dd7e2c 0, #f7bb11 100%);
+  background: -o-linear-gradient(left, #dd7e2c 0, #f7bb11 100%);
+  background: linear-gradient(to right, #dd7e2c 0, #f7bb11 100%);
+  border: 0;
+}
+.btn-my-gradiant:hover {
+  background: #1dc8cd;
+  background: -webkit-linear-gradient(
+    legacy-direction(to right),
+    #f7bb11 0,
+    #dd7e2c 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#1dc8cd),
+    to(#2cdd9b)
+  );
+  background: -webkit-linear-gradient(left, #f7bb11 0, #dd7e2c 100%);
+  background: -o-linear-gradient(left, #f7bb11 0, #dd7e2c 100%);
+  background: linear-gradient(to right, #f7bb11 0, #dd7e2c 100%);
+}
+.btn-success-gradiant.active,
+.btn-success-gradiant:active,
+.btn-success-gradiant:focus {
+  -webkit-box-shadow: 0;
+  box-shadow: 0;
+  opacity: 1;
+}
 
-  /* COVER ACTION */
+/* COVER ACTION */
 
-  .c2a5 {
-    background-position: center center;
-    background-size: cover;
+.static-slider10 {
+  padding: 10% 0;
+  background-size: cover;
+  background-position: center center;
+}
+.static-slider10 .title {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 50px;
+}
+.static-slider10 .subtitle {
+  color: #fff;
+}
+.c2a1 {
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.c2a5 {
+  background-position: center center;
+  background-size: cover;
+}
+.c2a8 {
+  background-position: center center;
+  padding: 180px 0;
+}
+.c2a8 .text-box {
+  padding: 30px 20px;
+}
+.c2a9 {
+  background-position: top center;
+  padding: 90px 0 280px 0;
+}
+.c2a10 {
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: left center;
+}
+.c2a10 .text-box {
+  padding: 30px 20px;
+}
+
+@media (min-width: 1024px) {
+  .page-wrapper {
+    padding-top: 100px !important;
+  }
+}
