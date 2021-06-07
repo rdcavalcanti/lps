@@ -659,7 +659,7 @@ html body .text-purple {
   color: #7460ee; }
 
 html body .text-primary {
-  color: #316ce8 !important; }
+  color: #316ce8; }
 
 html body .text-megna {
   color: #1dc8cd; }
@@ -674,22 +674,22 @@ html body .text-themecolor {
 Background Colors
 *******************/
 .bg-primary {
-  background-color: #316ce8 !important; }
+  background-color: #316ce8; }
 
 .bg-success {
-  background-color: #2cdd9b !important; }
+  background-color: #2cdd9b; }
 
 .bg-info {
-  background-color: #188ef4 !important; }
+  background-color: #188ef4; }
 
 .bg-warning {
-  background-color: #fec500 !important; }
+  background-color: #fec500; }
 
 .bg-danger {
-  background-color: #ff4d7e !important; }
+  background-color: #ff4d7e; }
 
 .bg-orange {
-  background-color: #ff6a5b !important; }
+  background-color: #ff6a5b; }
 
 .bg-yellow {
   background-color: #fed700; }
