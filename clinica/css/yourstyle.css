@@ -329,3 +329,18 @@ File: scss
     padding-top: 100px !important;
   }
 }
+
+@media (max-width: 767px) {
+  .static-slider2 h1 {
+    line-height: 41px;
+    font-size: 36px;
+  }
+  .h2 {
+    line-height: 35px;
+    font-size: 30px;
+  }
+  
+  .wrap-feature-16 .with-text {
+    margin-left: 10px;
+  }
+}
