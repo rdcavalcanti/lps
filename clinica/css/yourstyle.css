@@ -42,24 +42,22 @@ File: scss
 }
 
 /* CSS BANNER  */
-.static-slider3 {
-  padding: 10% 0;
-  h1 {
-    font-weight: 300;
-    line-height: 50px;
-    span {
-      border-bottom: 3px solid $success;
-    }
-  }
-}
+
 @media (max-width: 767px) {
-  .static-slider3 {
-    h1 {
-      line-height: 30px;
-      font-size: 24px;
-    }
+  .static-slider2 h1 {
+    line-height: 41px;
+    font-size: 36px;
   }
+  .h2 {
+    line-height: 35px;
+    font-size: 30px;
+  }
+  .h3 {
+    
+  }
+
 }
+
 
 .wrap-feature-26 .max-box {
   max-width: 580px;
