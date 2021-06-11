@@ -57,6 +57,13 @@ File: scss
   }
 
 }
+.wrap-feature4-box .card-body {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+  padding-bottom: 0;
+}
 
 
 .wrap-feature-26 .max-box {
@@ -207,7 +214,7 @@ File: scss
 
 .wrap-feature-16 .with-bg {
   width: 100%;
-  min-height: 200px;
+  min-height: 600px;
   background-size: cover;
   background-position: center center;
 }
@@ -269,6 +276,7 @@ File: scss
   box-shadow: 0;
   opacity: 1;
 }
+
 
 /* COVER ACTION */
 
