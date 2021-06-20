@@ -37,12 +37,12 @@
     <!-- ============================================================== -->
     <!-- Preloader - style you can find in spinners.css -->
     <!-- ============================================================== -->
-    <div class="preloader">
+    <!-- <div class="preloader">
         <div class="loader">
             <div class="loader__figure"></div>
-            <p class="loader__label">Wrapkit</p>
+            <p class="loader__label">Clínica</p>
         </div>
-    </div>
+    </div> -->
     <!-- ============================================================== -->
     <!-- Main wrapper - style you can find in pages.scss -->
     <!-- ============================================================== -->
@@ -55,37 +55,15 @@
             <div class="header4 po-relative">
                 <div class="h4-navbar">
                     <div class="container">
-                        <nav class="navbar navbar-expand-lg h4-nav-bar">
-                            <a class="navbar-brand"><img height="65px"
-                                    src="images/esteatose-hepatica-clinica-da-obesidade-marca.png"
-                                    alt="Marca da Clínica da Obesidade" /></a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#h4-info"
-                                aria-controls="h4-info" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="sl-icon-options-vertical"></span>
-                            </button>
+                        <nav class="navbar navbar-expand-lg h4-nav-bar pl-0">
+                            <a class="navbar-brand d-none d-lg-block">
+                                <img height="65px" src="images/esteatose-hepatica-clinica-da-obesidade-marca.png" alt="Marca da Clínica da Obesidade" />
+                            </a>
+                            <a class="navbar-brand d-lg-none">
+                                <img height="65px" src="images/esteatose-hepatica-clinica-da-obesidade-marca-branca.png" alt="Marca da Clínica da Obesidade" />
+                            </a>
                             <div class="collapse navbar-collapse" id="h4-info">
                                 <ul class="navbar-nav ml-auto text-uppercase">
-                                    <li class="nav-item">
-                                        <a class="nav-link d-flex">
-                                            <div class="display-6 m-r-10"><i class="icon-Mail text-success"></i></div>
-                                            <div>
-                                                <small>Entre em contato</small><br>
-                                                <small
-                                                    style="text-transform: lowercase;">contato@clinicadaobesidade.com.br</small>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link d-flex">
-                                            <div class="display-6 m-r-10">
-                                                <i class="icon-Phone-2 text-success"></i>
-                                            </div>
-                                            <div>
-                                                <small>Telefone</small><br>
-                                                <small class="">(71) 3500-6000</small>
-                                            </div>
-                                        </a>
-                                    </li>
                                     <li class="nav-item donate-btn m-l-30 m-t-10">
                                         <a href="#sectionForm" class="btn btn-outline-success">
                                             Agende uma Avaliação
@@ -113,20 +91,37 @@
                 <!-- ============================================================== -->
                 <!-- Static Slider 2  -->
                 <!-- ============================================================== -->
-                <div class="static-slider2 spacer" style="background: url(images/nao-faca-cirurgia-para-emagrecer.jpg) no-repeat top; background-size: cover;">
+                <div class="static-slider2 spacer d-none d-lg-block"
+                    style="background: url(images/nao-faca-cirurgia-para-emagrecer.jpg) no-repeat center -100px; background-size: cover;">
                     <div class="container">
                         <!-- Row  -->
                         <div class="row">
                             <!-- Column -->
                             <div class="col-md-6 m-t-40 align-self-center" data-aos="fade-right"
                                 data-aos-duration="1200">
-                                <h1 class="text-secondary title font-bold">
+                                <h1 class="font-bold text-secondary mb-4">
                                     Procedimento Cirúrgico NÃO É OPÇÃO para o emagrecimento saudável
                                 </h1>
-                                <p class="text-white h6 subtitle">Não busque resultados milagrosos e de <b>ALTO RISCO
-                                        PARA SUA SAÚDE</b>, emagrecer com saúde esta relacionado ao seu comprometimento
-                                    e apoio
-                                    de profIssionais capacitados a te ajudar a realizar seus objetivos.</p>
+                                <p class="text-white h6 subtitle">
+                                    Não busque métodos rápidos e de <b>ALTO RISCO PARA SUA SAÚDE</b>. Emagrecer com saúde é resultado do seu comprometimento e do apoio de profissionais capacitados a te ajudar a realizar seus objetivos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="static-slider2 spacer d-lg-none" style="background: url(images/nao-faca-cirurgia-para-emagrecer-mob.jpg) no-repeat top; background-size: cover;">
+                    <div class="container">
+                        <!-- Row  -->
+                        <div class="row">
+                            <!-- Column -->
+                            <div class="col-10 m-t-40 align-self-center" data-aos="fade-right"
+                                data-aos-duration="1200">
+                                <p class="h2 text-secondary">
+                                    Procedimento Cirúrgico <b>NÃO É OPÇÃO</b> para o emagrecimento saudável
+                                </p>
+                                <p class="text-white h6 subtitle">
+                                    Não busque métodos rápidos e de <b>ALTO RISCO PARA SUA SAÚDE</b>. Emagrecer com saúde é resultado do seu comprometimento e do apoio de profissionais capacitados a te ajudar a realizar seus objetivos.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -138,20 +133,20 @@
                 <!-- ============================================================== -->
                 <!-- Form 4  -->
                 <!-- ============================================================== -->
-                <div id="sectionForm" class="py-5 bg-primary">
+                <div id="sectionForm" class="py-5 bg-primary" style="background:url(images/bg-form.jpg) no-repeat; background-size: cover;">
                     <div class="container">
                         <div class="row">
                             <!-- Column -->
                             <div class="col-lg-6 p-r-40">
-                                <p class="h2 text-primary-light font-bold">QUER TER CONTROLE DA SUA SAÚDE
-                                    E EMAGRECER DE VERDADE E SEM RISCOS?</p>
-                                <p class="mt-xs-2 mb-xs-5 text-white">Preencha o formulário abaixo e dê o primeiro passo
-                                    para se
-                                    transformar no protagonista da sua mudança de vida.
-                                    Teremos maior prazer em escutar seus objetivos e te ajudar nessa joranada.</p>
+                                <p class="h3 text-primary-light font-bold mb-4">
+                                    QUER TER CONTROLE DA SUA SAÚDE E EMAGRECER DE VERDADE E SEM RISCOS?</p>
+                                <p class="mt-xs-2 mb-xs-5 text-white">
+                                    Preencha o formulário e dê o primeiro passo para se transformar no protagonista da sua mudança de vida. Teremos o maior prazer em escutar seus objetivos e te ajudar nessa jornada.
+                                </p>
                             </div>
                             <div class="col-lg-5 ml-auto">
-                                <div class="text-box">
+                                <form-captacao landingpage="lp-bariatrica"></form-captacao>
+                                <!-- <div class="text-box">
                                     <form id="form-send" class="ac-form">
                                         <div class="row">
                                             <div class="col-lg-12">
@@ -203,12 +198,13 @@
                                                 </div>
                                             </div>
                                             <div class="col-lg-12 d-flex m-t-20">
-                                                <button id="btn-enviar" type="submit" class="btn btn-block btn-my-gradiant">ENVIAR
-                                                        E FALAR COM UM PROFISSIONAL</button>
+                                                <button id="btn-enviar" type="submit"
+                                                    class="btn btn-block btn-my-gradiant">ENVIAR
+                                                    E FALAR COM UM PROFISSIONAL</button>
                                             </div>
                                         </div>
                                     </form>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -226,23 +222,19 @@
                             <div class="col-md-7 align-self-center">
                                 <div class="max-box">
                                     <!-- <span class="label label-my label-rounded">Sintomas</span> -->
-                                    <p class="h2 m-t-20 font-bold text-secondary-light">Porque realizar a
-                                        bariátrica
-                                        é um risco?</p>
-                                    <p class="m-t-30 mt-xs-3 text-white">De acordo com artigo publicado pela Associação
-                                        Brasileira para o
-                                        Estudo da Obesidade e da Síndrome Metabólica (Abeso) mais de
-                                        50% DOS OPERADOS COM BARIÁTRICA VOLTAM A ENGORDAR, por
-                                        isso não adianta emagrecer fazendo cirurgia bariátrica sem
-                                        solucionar os fatores que ocasionaram o seu aumento do peso
+                                    <p class="h2 m-t-20 font-bold text-white">
+                                        POR QUE REALIZAR A BARIÁTRICA É UM RISCO?
                                     </p>
-                                    <p class="h3 m-t-20 mt-xs-3 font-bold text-secondary-light">NÃO É SÓ SOBRE PERDER
+                                    <p class="m-t-30 mt-xs-3 text-white">
+                                        De acordo com *artigo publicado pela Associação Brasileira para o Estudo da Obesidade e da Síndrome Metabólica (Abeso) mais de 50% DOS OPERADOS COM BARIÁTRICA VOLTAM A ENGORDAR, por isso não adianta emagrecer fazendo cirurgia bariátrica sem solucionar os fatores que ocasionaram o seu aumento do peso.
+                                    </p>
+                                    <p class="h3 m-t-30 mt-xs-3 font-bold text-white">NÃO É SÓ SOBRE PERDER
                                         PESO.
                                         É SOBRE GANHAR UMA VIDA INTEIRA.</p>
                                 </div>
                             </div>
                             <div class="col-md-5 col-md-5">
-                                <img src="images/fuja-do-efeito-sanfona.png"
+                                <img src="images/fuja-do-efeito-sanfona.png" data-aos="fade-left" data-aos-duration="1200"
                                     alt="Um homem que possui obesidade sentindo dores na região do figado possuindo Esteatose Hepática"
                                     class="img-responsive" />
                             </div>
@@ -255,45 +247,49 @@
                 <!-- ============================================================== -->
                 <!-- Feature 2 -->
                 <!-- ============================================================== -->
-                <div class="mini-spacer feature2">
+                <div class="mini-spacer feature2" style="background:url(images/bg-sessao.png) no-repeat; background-size: cover;">
                     <div class="container">
                         <!-- Row  -->
                         <div class="row justify-content-center">
                             <div class="col-md-8 text-center">
-                                <h2 class="title font-bold text-primary">Conheça 5 fatores que influenciam o aumento da
-                                    incidência da obesidade e que não são tratados por procedimentos cirúrgicos
-                                </h2>
+                                <p class="h4 title font-bold text-primary">
+                                    Conheça 5 fatores que aumentam a obesidade e não são tratados por procedimentos cirúrgicos
+                                </p>
                             </div>
                         </div>
                         <!-- Row  -->
                         <div class="row justify-content-center m-t-40">
                             <!-- Column -->
                             <div class="col-md-4 wrap-feature2-box">
-                                <div class="card card-shadow" data-aos="flip-left" data-aos-duration="1200">
-                                    <img class="card-img-top" src="images/influencia-do-ambiente-no-estilo-de-vida.jpg"
+                                <div class="card card-shadow" data-aos="flip-right" data-aos-duration="1200">
+                                    <img class="card-img-top" src="images/iatrogenia-farmaceutica.jpg"
                                         alt="wrappixel kit" />
                                     <div class="card-body text-center">
-                                        <p class="h6 h6 m-t-20">Influência do ambiente / Estilo de vida urbano.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Column -->
-                            <div class="col-md-4 wrap-feature2-box">
-                                <div class="card card-shadow" data-aos="flip-up" data-aos-duration="1200">
-                                    <img class="card-img-top" src="images/estresse-no-apetite.jpg"
-                                        alt="wrappixel kit" />
-                                    <div class="card-body text-center">
-                                        <p class="h6 m-t-20">Efeito do estresse no apetite de forma negativa</p>
+                                        <p class="h6 m-t-20">Efeitos colaterais de medicamentos.</p>
                                     </div>
                                 </div>
                             </div>
                             <!-- Column -->
                             <div class="col-md-4 wrap-feature2-box">
                                 <div class="card card-shadow" data-aos="flip-right" data-aos-duration="1200">
-                                    <img class="card-img-top" src="images/iatrogenia-farmaceutica.jpg"
+                                    <img class="card-img-top" src="images/estresse-no-apetite.jpg"
                                         alt="wrappixel kit" />
                                     <div class="card-body text-center">
-                                        <p class="h6 m-t-20">Iatrogenia farmacêutica.</p>
+                                        <p class="h6 m-t-20">
+                                            Doenças psicológicas como depressão, ansiedade e trasntornos alimentares
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Column -->
+                            <div class="col-md-4 wrap-feature2-box">
+                                <div class="card card-shadow" data-aos="flip-right" data-aos-duration="1200">
+                                    <img class="card-img-top" src="images/influencia-do-ambiente-no-estilo-de-vida.jpg"
+                                        alt="wrappixel kit" />
+                                    <div class="card-body text-center">
+                                        <p class="h6 h6 m-t-20">
+                                            Maus hábitos alimentares
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -316,8 +312,9 @@
                                         alt="wrappixel kit" />
                                     <div class="card-body text-center">
 
-                                        <p class="h6 m-t-20">Disruptores
-                                            endócrino</p>
+                                        <p class="h6 m-t-20">
+                                            Disfunções hormonais
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -331,21 +328,22 @@
                 <!-- Call-to-Action 5  -->
                 <!-- ============================================================== -->
                 <div class="mini-spacer c2a5"
-                    style="background-image:url(images/esteatose-hepatica-call-to-action.jpg)">
+                    style="background:#52dac2;">
                     <div class="container">
                         <div class="row d-flex align-items-center">
-                            <div class="col-md-7 display-6 align-self-right">
-                                <h3 class="text-white font-bold">Quer conquistar o auto controle necessário para
-                                    emagrecer sem arriscar a sua vida?</h3>
-                                <h5 class="text-white">Clica no botão ao lado e vamo conversar SOBRE O
-                                    MODO MAIS RÁPIDO E SAUDÁVEL de realizar seus
-                                    objetivos.</h5>
+                            <div class="col-md-7 align-self-right">
+                                <p class="h3 text-white mb-4 font-bold">Quer conquistar o auto controle necessário para
+                                    emagrecer sem arriscar a sua vida?
+                                </p>
+                                <p class="text-white">
+                                    Clique no botão e vamos conversar SOBRE O MODO MAIS SAUDÁVEL de conquistar o emagrecimento desejado.
+                                </p>
                             </div>
-                            <div class="col-md-4">
-                                <button type="button" href="#sectionForm" class="btn btn-md btn-my-gradiant btn-arrow"
+                            <div class="mt-xs-4 col-md-4 ml-auto">
+                                <button type="button" href="#sectionForm" class="btn btn-md btn-my-gradiant"
                                     data-toggle="modal" data-target="#mymodal3">
                                     <span>
-                                        Clique e vamos conversar<i class="ti-arrow-right"></i>
+                                        Clique e vamos conversar</i>
                                     </span>
                                 </button>
                             </div>
@@ -370,8 +368,8 @@
                         <div class="modal-content po-relative">
                             <div class="modal-body p-0">
                                 <div class="row">
-                                    <div class="col-lg-5 col-md-3 modal-bg-img"
-                                        style="background-image: url('assets/images/ui/modals/5.jpg');">
+                                    <div class="col-lg-5 col-md-3 modal-bg-img" 
+                                        style="background: url('images/esteatose-hepatica-call.jpg');">
                                     </div>
                                     <div class="col-lg-7 col-md-9">
                                         <div class="modal-bg">
@@ -405,10 +403,18 @@
                                                                     pattern="[0-9]+([\.,][0-9]+)?" required>
                                                             </div>
                                                         </div>
-                                                        <div class="col-lg-12">
+                                                        <div class="col-lg-6">
                                                             <div class="form-group">
-                                                                <input class="form-control" id="fconvenio" type="text"
-                                                                    placeholder="Convênio">
+                                                                <input class="form-control" id="fidade" type="text"
+                                                                    placeholder="Idade">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <select class="form-control" id="fconvenio" type="text"
+                                                                    placeholder="">
+                                                                    <option value="">Plano de Saúde</option>
+                                                                </select>
                                                             </div>
                                                         </div>
                                                         <div class="col-lg-6">
@@ -429,7 +435,7 @@
                                                         </div>
                                                         <div class="col-lg-12 d-flex m-t-20">
                                                             <button id="btn-enviar" type="submit"
-                                                                class="btn btn-md btn-block btn-my-gradiant btn-arrow">
+                                                                class="btn btn-md btn-block btn-my-gradiant">
                                                                 <span>
                                                                     FALAR COM UM PROFISSIONAL
                                                                     <i class="ti-arrow-right"></i>
@@ -462,45 +468,39 @@
                             <div class="col-md-7 align-self-center">
                                 <div class="max-box">
                                     <!-- <span class="label label-my label-rounded">Sintomas</span> -->
-                                    <h2 class="title m-t-20 font-bold text-primary-light">
-                                        Como já visto o processo cirúrgico
-                                        além de pouco eficaz em combater o
-                                        real problema da obesidade é
-                                        extramamente invasivo e GERA
-                                        RISCOS A SUA SÁUDE como:
-                                    </h2>
+                                    <p class="h4 title m-t-20 font-bold text-white">
+                                        Como já visto, procedimentos cirurgicos como: balão intragástrico, baypass, banda gástrica e bariátrica sleeve, além de pouco eficazes em combater o real problema da obesidade, são extramamente invasivos e GERAM RISCOS À SUA SÁUDE como:
+                                    </p>
                                     <p class="m-t-30">
-                                    <ul class="text-white">
+                                    <ul class="text-primary-light">
                                         <li>
-                                            <p>
-                                                Embolia pulmonar, que é o entupimento de um vaso
-                                                sanguíneo do pulmão, causando dor intensa e dificuldade para respirar;
+                                            <p class="h6">
+                                                Embolia pulmonar, que é o entupimento de um vaso sanguíneo do pulmão, causando dor intensa e dificuldade para respirar;
                                             </p>
                                         </li>
                                         <li>
-                                            <p>
+                                            <p class="h6">
                                                 Sangramento interno no local da operação;
                                             </p>
                                         </li>
                                         <li>
-                                            <p>
-                                                Fístulas, que são pequenas bolsas que se formam
-                                                nos pontos internos da região operada;
+                                            <p class="h6">
+                                                Fístulas, que são pequenas bolsas que se formam nos pontos internos da região operada;
                                             </p>
                                         </li>
                                         <li>
-                                            <p>
-                                                Vômitos;
+                                            <p class="h6">
+                                                Perfuração;
                                             </p>
                                         </li>
                                         <li>
-                                            <p>
-                                                Diarréia e fezes com sangue.
+                                            <p class="h6">
+                                                Vômitos, diarréia e fezes com sangue;
                                             </p>
                                         </li>
                                         <li>
-                                            <p>
-                                                Possibilidade de desenvolver a síndrome de dumpin
+                                            <p class="h6">
+                                                Possibilidade de desenvolver a síndrome de dumpin.
                                             </p>
                                         </li>
                                     </ul>
@@ -508,7 +508,7 @@
                                 </div>
                             </div>
                             <div class="col-md-5 col-md-5">
-                                <img src="images/sofrendo-pos-cirurgia.png"
+                                <img src="images/sofrendo-pos-cirurgia.png" data-aos="fade-left" data-aos-duration="1200"
                                     alt="Um homem que possui obesidade sentindo dores na região do figado possuindo Esteatose Hepática"
                                     class="img-responsive" />
                             </div>
@@ -524,20 +524,16 @@
                 <!-- ============================================================== -->
                 <div class="feature16">
                     <div class="row wrap-feature-16">
-                        <div class="col-lg-6 with-bg"
-                            style="background-image:url(images/mosaico-obeso-malhando-feliz.jpg)"></div>
-                        <div class="col-lg-6 text-primary">
+                        <div class="col-lg-6 with-bg d-none d-lg-block" style="background-image:url(images/mosaico-obeso-malhando-feliz.jpg)"></div>
+                        <div class="col-lg-6 text-primary pt-xs-4 pb-xs-4">
                             <div class="with-text">
                                 <!-- <span class="label label-success label-rounded">Feature 16</span> -->
-                                <h2 class="text-primary font-bold m-t-30 m-b-30">
+                                <h2 class="text-primary font-bold m-b-30">
                                     SEU CORPO É O ÚNICO LAR EM QUE VOCÊ VAI VIVER PARA SEMPRE
                                 </h2>
-                                <p class="text-secondary">Deixe um de nossos profisonais te mostrar como
-                                    emagrecer de forma mais segura, efetiva e, o melhor,
-                                    SEM RISCO A SUA SAÚDE.
-                                    Podemos te ajudar a transformar a sua vida sem dor e
-                                    de uma forma segura como já fizemos como mais de
-                                    XX pacientes.</p>
+                                <p class="text-primary">
+                                    Deixe a nossa equipe de profissionais multidisciplinar te mostrar como emagrecer de forma mais segura, efetiva e, o melhor, SEM RISCO À SUA SAÚDE. Podemos te ajudar a transformar a sua vida para sempre, como já fizemos como mais de 2 mil pacientes.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -556,11 +552,11 @@
                         <div class="row justify-content-center">
                             <div class="col-md-9 text-center">
                                 <!-- <span class="label label-danger label-rounded">Feature 4</span> -->
-                                <p class="h1 title text-white font-bold">Ainda tem dúvidas de que você pode
+                                <p class="h2 title text-white font-bold">Ainda tem dúvidas de que você pode
                                     mudar de vida de forma saudável?</p>
-                                <p class="h5 text-primary-light">Clique nos vídeos abaixo e conheça histórias de pessoas
-                                    como você que chegaram até aqui e resolveram dar um passo
-                                    adiante na transformação de suas vidas.</p>
+                                <p class="h5 text-primary-light">
+                                    Clique nos vídeos abaixo e conheça histórias de pessoas como você, que chegaram até aqui e deram um passo adiante na transformação de suas vidas.
+                                </p>
                             </div>
                         </div>
                         <!-- Row  -->
@@ -570,15 +566,15 @@
                                 <div class="card" data-aos="zoom-out-right" data-aos-duration="1200">
                                     <div class="card-body">
                                         <div class="card card-shadow" data-aos="flip-up" data-aos-duration="1200">
-                                            <img id="imgVideo01" class="card-img-top" src="images/alberto-perdeu-61kg.jpg"
-                                                alt="wrappixel kit">
+                                            <img id="imgVideo01" class="card-img-top"
+                                                src="images/alberto-perdeu-61kg.jpg" alt="wrappixel kit">
                                             <div id="video01" class="embed-responsive hide embed-responsive-16by9"
                                                 data-animation="animated fadeIn">
-                                                <iframe width="560" height="315"
+                                                <!-- <iframe width="560" height="315"
                                                     src="https://www.youtube.com/embed/NEZy172epmU"
                                                     title="YouTube video player" frameborder="0"
                                                     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                                    allowfullscreen></iframe>
+                                                    allowfullscreen></iframe> -->
                                             </div>
                                         </div>
                                     </div>
@@ -590,15 +586,15 @@
                                 <div class="card" data-aos="zoom-out-left" data-aos-duration="1200">
                                     <div class="card-body">
                                         <div class="card card-shadow" data-aos="flip-up" data-aos-duration="1200">
-                                            <img id="imgVideo02" class="card-img-top" src="images/samara-perdeu-26kg.jpg"
-                                                alt="wrappixel kit">
+                                            <img id="imgVideo02" class="card-img-top"
+                                                src="images/samara-perdeu-26kg.jpg" alt="wrappixel kit">
                                             <div id="video02" class="embed-responsive hide embed-responsive-16by9"
                                                 data-animation="animated fadeIn">
-                                                <iframe width="560" height="315"
+                                                <!-- <iframe width="560" height="315"
                                                     src="https://www.youtube.com/embed/tfDZQGL7nvk"
                                                     title="YouTube video player" frameborder="0"
                                                     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                                    allowfullscreen></iframe>
+                                                    allowfullscreen></iframe> -->
                                             </div>
                                         </div>
                                     </div>
@@ -606,12 +602,12 @@
                             </div>
                             <!-- Column -->
                         </div>
-                        <div class="row m-t-40">
+                        <!-- <div class="row m-t-40">
                             <div class="col text-center">
-                                <a class="btn btn-success btn-md btn-arrow" href="#f24"><span>CLIQUE E MUDE DE VIDA</span>
+                                <a class="btn btn-success btn-md" href="#f24"><span>CLIQUE E MUDE DE VIDA</span>
                                 </a>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <!-- ============================================================== -->
@@ -627,22 +623,22 @@
                         <!-- Row -->
                         <div class="row justify-content-center">
                             <div class="col-md-10 text-center">
-                                <p class="h2 font-bold text-white">
+                                <p class="h4 font-bold text-white">
                                     Permita-se entender mais a fundo sobre nossos programas,
                                     métodos e tratamentos para o emagracimento saudável e
                                     deixe nossa equipe multidisciplinar te ajudar nessa jornada.
                                 </p>
                             </div>
                         </div>
-                        <div class="row m-t-40 d-flex justify-content-center">
-                            <div class="col-auto">
-                                <a class="btn btn-outline-success btn-md btn-arrow" href="#f24"><span>CLIQUE E PREENCHA
-                                        O FORMULÁRIO<i class="ti-arrow-right"></i></span>
+                        <div class="row m-t-40 d-wrap justify-content-center">
+                            <div class="col-auto mb-2">
+                                <a class="btn btn-outline-success btn-md" href="#f24">
+                                    <span>PREENCHA O FORMULÁRIO</span>
                                 </a>
                             </div>
                             <div class="col-auto">
-                                <a class="btn btn-outline-success btn-md btn-arrow" href="#f24"><span>MANDE UMA
-                                        MENSAGEM<i class="ti-arrow-right"></i></span>
+                                <a class="btn btn-outline-success btn-md" href="#f24">
+                                    <span><i class="fa fa-whatsapp mr-2"></i>MANDE UMA MENSAGEM</i></span>
                                 </a>
                             </div>
                         </div>
@@ -656,16 +652,14 @@
                 <!-- ============================================================== -->
                 <!-- Feature 24  -->
                 <!-- ============================================================== -->
-
-                <div class="spacer feature24">
+                <div class="feature24 mt-n4 mb-5">
                     <div class="container">
-
-                        <div class="row wrap-feature-24">
+                        <div class="row wrap-feature-24 mt-0">
                             <!-- Column -->
                             <div class="col-lg-3 col-md-6">
                                 <div class="card card-shadow">
                                     <a href="javascript:void(0)" class="service-24"> <i class="icon-Target"></i>
-                                        <h6 class="ser-title">Retargeting Market</h6>
+                                        <h6 class="ser-title">Tratamento médico de várias especialidades</h6>
                                     </a>
                                 </div>
                             </div>
@@ -674,7 +668,8 @@
                             <div class="col-lg-3 col-md-6">
                                 <div class="card card-shadow">
                                     <a href="javascript:void(0)" class="service-24"> <i class="icon-Car-Wheel"></i>
-                                        <h6 class="ser-title">Digital Marketing</h6>
+                                        <h6 class="ser-title">Acompanhamento psicológico
+                                        </h6>
                                     </a>
                                 </div>
                             </div>
@@ -683,7 +678,7 @@
                             <div class="col-lg-3 col-md-6">
                                 <div class="card card-shadow">
                                     <a href="javascript:void(0)" class="service-24"> <i class="icon-Mouse-3"></i>
-                                        <h6 class="ser-title">SEO Techniques</h6>
+                                        <h6 class="ser-title">Cobertura urgência e emergência 24h</h6>
                                     </a>
                                 </div>
                             </div>
@@ -693,7 +688,7 @@
                                 <div class="card card-shadow">
                                     <a href="javascript:void(0)" class="service-24"> <i
                                             class="icon-Eyeglasses-Smiley"></i>
-                                        <h6 class="ser-title">Client Management</h6>
+                                        <h6 class="ser-title">Acompanhamento nutricional</h6>
                                     </a>
                                 </div>
                             </div>
@@ -702,7 +697,7 @@
                             <div class="col-lg-3 col-md-6">
                                 <div class="card card-shadow">
                                     <a href="javascript:void(0)" class="service-24"> <i class="icon-Target-Market"></i>
-                                        <h6 class="ser-title">Email Campaign</h6>
+                                        <h6 class="ser-title">Fisioterapia e reabilitação</h6>
                                     </a>
                                 </div>
                             </div>
@@ -711,7 +706,7 @@
                             <div class="col-lg-3 col-md-6">
                                 <div class="card card-shadow">
                                     <a href="javascript:void(0)" class="service-24"> <i class="icon-Laptop-Phone"></i>
-                                        <h6 class="ser-title">Website Strategy</h6>
+                                        <h6 class="ser-title">Dieta restritiva hipocalórica</h6>
                                     </a>
                                 </div>
                             </div>
@@ -720,7 +715,7 @@
                             <div class="col-lg-3 col-md-6">
                                 <div class="card card-shadow">
                                     <a href="javascript:void(0)" class="service-24"> <i class="icon-Full-Bag"></i>
-                                        <h6 class="ser-title">eCommerce Shop</h6>
+                                        <h6 class="ser-title">Programas terapêutico</h6>
                                     </a>
                                 </div>
                             </div>
@@ -730,7 +725,7 @@
                                 <div class="card card-shadow">
                                     <a href="javascript:void(0)" class="service-24"> <i
                                             class="icon-Eyeglasses-Smiley"></i>
-                                        <h6 class="ser-title">Cloud Hosting</h6>
+                                        <h6 class="ser-title">Academia e atividades físicas com acompanhamento especializado</h6>
                                     </a>
                                 </div>
                             </div>
@@ -746,20 +741,42 @@
                 <!-- ============================================================== -->
                 <!-- Feature 38  -->
                 <!-- ============================================================== -->
+                
+                <!-- ============================================================== -->
+                <!-- Feature 38  -->
+                <!-- ============================================================== -->
                 <div class="feature37 wrap-feature38-box">
-                    <div class="row bg-theme">
+                    <div class="bg-theme d-none d-lg-block">
                         <div class="col-lg-6 po-absolute"> <img src="images/balanca-esteatose-hepatica.png"
-                                alt="wrapkit" class="img-fluid" /> </div>
-                        <div class="container">
-                            <div class="row spacer">
+                                alt="wrapkit" class="img-fluid" />
+                        </div>
+                        <div class="container pb-4">
+                            <div class="row">
+                                <div class="col-lg-6 spacer">
+                                    <a class="navbar-brand"><img height="65px"
+                                            src="images/esteatose-hepatica-clinica-da-obesidade-marca-branca.png"
+                                            alt="Marca da Clínica da Obesidade" /></a>
+                                    <p class="h4 title text-white">Conheça o tratamento que vai ajudar você emagrecer
+                                        rápido e com saúde, e a tratar efetivamente a esteatose hepática</p>
+                                    <p class="text-white">A Clínica da Obesidade é referência internacional no
+                                        tratamento da obesidade, com estudos publicados no Brasil e no exterior.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-theme d-lg-none">
+                        <div class="col-lg-6 po-absolute"> <img src="images/balanca-esteatose-hepatica.png"
+                                alt="wrapkit" class="img-fluid" />
+                        </div>
+                        <div class="container pb-4">
+                            <div class="row">
                                 <div class="col-lg-6">
                                     <a class="navbar-brand"><img height="65px"
                                             src="images/esteatose-hepatica-clinica-da-obesidade-marca-branca.png"
                                             alt="Marca da Clínica da Obesidade" /></a>
-                                    <h3 class="title text-white">Conheça o tratamento que vai ajudar você emagrecer
-                                        rápido e
-                                        com saúde, e a tratar efetivamente a esteatose hepática</h3>
-                                    <p class="text-white op-8">A Clínica da Obesidade é referência internacional no
+                                    <p class="h4 title text-white">Conheça o tratamento que vai ajudar você emagrecer
+                                        rápido e com saúde, e a tratar efetivamente a esteatose hepática</p>
+                                    <p class="text-white">A Clínica da Obesidade é referência internacional no
                                         tratamento da obesidade, com estudos publicados no Brasil e no exterior.
                                 </div>
                             </div>
@@ -885,9 +902,11 @@
                                                     </div>
                                                     <div class="col-lg-12 d-flex m-t-20">
                                                         <button id="btn-enviar" type="submit"
-                                                            class="btn btn-md btn-my-gradiant btn-arrow"><span>Trate a
-                                                                Esteatose Hepática<i
-                                                                    class="ti-arrow-right"></i></span></button>
+                                                            class="btn btn-md btn-my-gradiant">
+                                                            <span>
+                                                                Fale com um especialista        
+                                                            </span>
+                                                        </button>
                                                     </div>
                                                 </div>
                                             </form>
@@ -903,13 +922,13 @@
                                                 <br> Salvador BA
                                             </p>
                                             <h5 class="text-white font-light m-b-10 m-t-40">TELEFONE PARA CONTATO</h5>
-                                            <p class="text-white op-9">(71) 98173-4534
+                                            <p class="text-white op-9">(71) 99730-4716
                                                 <br>(71) 3500 6000
                                             </p>
                                             <div class="round-social light">
-                                                <a href="#" class="m-l-0"><i class="fa fa-facebook"></i></a>
-                                                <a href="#" class=""><i class="fa fa-twitter"></i></a>
-                                                <a href="#" class=""><i class="fa fa-youtube-play"></i></a>
+                                                <a href="#" class="p-0"><i class="fa fa-facebook"></i></a>
+                                                <a href="#" class="p-0"><i class="fa fa-twitter"></i></a>
+                                                <a href="#" class="p-0"><i class="fa fa-youtube-play"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -941,20 +960,20 @@
     <!-- ============================================================== -->
     <!-- All Jquery -->
     <!-- ============================================================== -->
-    <script src="assets/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
     <!-- Bootstrap popper Core JavaScript -->
-    <script src="assets/node_modules/popper/dist/popper.min.js"></script>
-    <script src="assets/node_modules/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
     <!-- This is for the animation -->
-    <script src="assets/node_modules/aos/dist/aos.js"></script>
+    <script src="assets/js/aos.js"></script>
     <!--Custom JavaScript -->
     <script src="js/custom.min.js"></script>
     <!-- ============================================================== -->
     <!-- This page plugins -->
     <!-- ============================================================== -->
-    <script src="js/jquery.touchSwipe.min.js"></script>
-    <script src="assets/node_modules/bootstrap-touch-slider/bootstrap-touch-slider.js"></script>
-    <script src="assets/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.touchSwipe.min.js"></script>
+    <script src="assets/js/bootstrap-touch-slider.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
 </body>
 
 </html>

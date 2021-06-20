@@ -17,32 +17,24 @@ File: scss
 .label-my {
   background-color: #dd7e2c;
 }
-
 .bg-primary {
   background-color: #637c60 !important;
 }
 .bg-secondary {
   background-color: #82c775 !important;
 }
-
 .text-primary {
   color: #637c60 !important;
 }
-
 .text-primary-light {
   color: #a1b1a0 !important;
 }
-
 .text-secondary {
   color: #82c775 !important;
 }
-
 .text-secondary-light {
   color: #b3daaa;
 }
-
-/* CSS BANNER  */
-
 @media (max-width: 767px) {
   .static-slider2 h1 {
     line-height: 41px;
@@ -52,10 +44,6 @@ File: scss
     line-height: 35px;
     font-size: 30px;
   }
-  .h3 {
-    
-  }
-
 }
 .wrap-feature4-box .card-body {
   -webkit-box-flex: 1;
@@ -64,12 +52,9 @@ File: scss
   padding: 1.25rem;
   padding-bottom: 0;
 }
-
-
 .wrap-feature-26 .max-box {
   max-width: 580px;
 }
-
 .wrap-feature4-box .icon-round {
   font-size: 45px;
   width: 80px;
@@ -80,35 +65,30 @@ File: scss
   margin: 20px 0 30px;
   border-radius: 100%;
 }
-
 .wrap-feature-24 {
   margin-top: 60px;
 }
-
 .wrap-feature-24 .card {
   overflow: hidden;
   -o-transition: 0.3s ease-out;
   transition: 0.3s ease-out;
   -webkit-transition: 0.3s ease-out;
 }
-
 .wrap-feature-24 .card:hover {
   -ms-transform: translateY(-10px);
   transform: translateY(-10px);
   -webkit-transform: translateY(-10px);
 }
-
 .wrap-feature-24 .service-24 {
   text-align: center;
   padding: 40px 0;
   display: block;
 }
-
 .wrap-feature-24 .service-24 i {
   background: #07d79c;
   background: -webkit-linear-gradient(
     legacy-direction(to right),
-    #07d79c 0%,
+    #07d79c 0,
     #1dc8cd 100%
   );
   background: -webkit-gradient(
@@ -118,27 +98,25 @@ File: scss
     from(#07d79c),
     to(#1dc8cd)
   );
-  background: -webkit-linear-gradient(left, #07d79c 0%, #1dc8cd 100%);
-  background: -o-linear-gradient(left, #07d79c 0%, #1dc8cd 100%);
-  background: linear-gradient(to right, #07d79c 0%, #1dc8cd 100%);
+  background: -webkit-linear-gradient(left, #07d79c 0, #1dc8cd 100%);
+  background: -o-linear-gradient(left, #07d79c 0, #1dc8cd 100%);
+  background: linear-gradient(to right, #07d79c 0, #1dc8cd 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   text-fill-color: transparent;
   font-size: 50px;
 }
-
 .wrap-feature-24 .service-24 .ser-title {
   margin: 10px 0 5px;
   font-weight: 500;
 }
-
-.wrap-feature-24 .service-24:hover,
-.wrap-feature-24 .service-24:focus {
+.wrap-feature-24 .service-24:focus,
+.wrap-feature-24 .service-24:hover {
   background: #07d79c;
   background: -webkit-linear-gradient(
     legacy-direction(to right),
-    #07d79c 0%,
+    #07d79c 0,
     #1dc8cd 100%
   );
   background: -webkit-gradient(
@@ -148,25 +126,22 @@ File: scss
     from(#07d79c),
     to(#1dc8cd)
   );
-  background: -webkit-linear-gradient(left, #07d79c 0%, #1dc8cd 100%);
-  background: -o-linear-gradient(left, #07d79c 0%, #1dc8cd 100%);
-  background: linear-gradient(to right, #07d79c 0%, #1dc8cd 100%);
+  background: -webkit-linear-gradient(left, #07d79c 0, #1dc8cd 100%);
+  background: -o-linear-gradient(left, #07d79c 0, #1dc8cd 100%);
+  background: linear-gradient(to right, #07d79c 0, #1dc8cd 100%);
 }
-
-.wrap-feature-24 .service-24:hover i,
-.wrap-feature-24 .service-24:hover .ser-title,
+.wrap-feature-24 .service-24:focus .ser-title,
 .wrap-feature-24 .service-24:focus i,
-.wrap-feature-24 .service-24:focus .ser-title {
-  color: #ffffff;
-  text-fill-color: #ffffff;
-  -webkit-text-fill-color: #ffffff;
+.wrap-feature-24 .service-24:hover .ser-title,
+.wrap-feature-24 .service-24:hover i {
+  color: #fff;
+  text-fill-color: #fff;
+  -webkit-text-fill-color: #fff;
 }
-
-.wrap-feature-24 .service-24:hover i,
-.wrap-feature-24 .service-24:focus i {
+.wrap-feature-24 .service-24:focus i,
+.wrap-feature-24 .service-24:hover i {
   margin-bottom: 5px;
 }
-
 .wrap-feature38-box .po-absolute {
   right: 0;
   z-index: 1;
@@ -207,31 +182,22 @@ File: scss
 .contact2 .contact-container .links a {
   color: #8d97ad;
 }
-
 .wrap-feature-16 [class*="col-"] {
   padding: 80px 35px;
 }
-
 .wrap-feature-16 .with-bg {
   width: 100%;
   min-height: 600px;
   background-size: cover;
   background-position: center center;
 }
-
 .wrap-feature-16 .with-text {
   max-width: 500px;
   margin-left: 80px;
 }
-
-/* CSS FORM */
-
 .form4 .video-link i {
   font-size: 36px;
 }
-
-/* CSS BUTTON */
-
 .btn-my-gradiant {
   background: #2cdd9b;
   background: -webkit-linear-gradient(
@@ -276,10 +242,6 @@ File: scss
   box-shadow: 0;
   opacity: 1;
 }
-
-
-/* COVER ACTION */
-
 .static-slider10 {
   padding: 10% 0;
   background-size: cover;
@@ -323,13 +285,14 @@ File: scss
 .c2a10 .text-box {
   padding: 30px 20px;
 }
-
+.mt-n4 {
+  margin-top: -2rem;
+}
 @media (min-width: 1024px) {
   .page-wrapper {
     padding-top: 100px !important;
   }
 }
-
 @media (max-width: 767px) {
   .static-slider2 h1 {
     line-height: 41px;
@@ -339,8 +302,11 @@ File: scss
     line-height: 35px;
     font-size: 30px;
   }
-  
   .wrap-feature-16 .with-text {
     margin-left: 10px;
   }
+}
+
+.text-primary-dark {
+  color: #1a5413;
 }
