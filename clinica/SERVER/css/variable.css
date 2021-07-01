@@ -13,7 +13,7 @@ File: scss
 
 /* Margin and Padding */
 
-@media (min-width: 400px) {
+@media screen and (max-width: 768px) {
   .m-xs-0 {
     margin: 0 !important;
   }
@@ -284,6 +284,7 @@ h4, .h4 {
 
 h5, .h5 {
   font-size: 1.75rem;
+  line-height: 1.9rem;
 }
 
 h6, .h6 {
@@ -316,6 +317,9 @@ h6, .h6 {
 }
 .text-primary-light {
   color: #72bd9c !important;
+}
+.text-primary-dark {
+  color: #1a5413;
 }
 .text-secondary {
   color: #1f925b !important;

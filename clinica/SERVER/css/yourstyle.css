@@ -12,7 +12,12 @@ File: scss
 @import url(../assets/icons/font-awesome/css/font-awesome.min.css);
 @import url(../assets/icons/iconmind/iconmind.css);
 @import url(../assets/icons/themify-icons/themify-icons.css);
+@import url(../assets/icons/simple-line-icons/css/simple-line-icons.css);
 
+
+ul li {
+  list-style: none;
+}
 
 @media (max-width: 767px) {
   .static-slider2 h1 {
@@ -289,6 +294,47 @@ File: scss
 .static-slider10 .subtitle {
   color: #fff;
 }
+
+/* feature11 */
+.wrap-feature11-box {
+  margin-top: 60px;
+}
+.wrap-feature11-box .card-body {
+  padding: 40px;
+}
+.wrap-feature11-box .icon-space {
+  margin: -80px 0 20px;
+}
+.wrap-feature11-box .icon-space .icon-round {
+  font-size: 45px;
+  color: #ffffff;
+}
+.icon-round {
+  line-height: 80px !important;
+}
+
+
+/* feature12 */
+.wrap-feature-12 {
+  position: relative;
+}
+.wrap-feature-12 [class*=col-md-12] {
+  margin-bottom: 30px;
+  -webkit-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+
+.wrap-feature-12 [class*=col-md-12]:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.wrap-feature-12 .uneven-box {
+  margin-top: 100px;
+}
+
+/* custom */
 .c2a1 {
   background-position: center top;
   background-size: cover;
@@ -320,11 +366,22 @@ File: scss
 .mt-n4 {
   margin-top: -2rem;
 }
-
 .topbar.fixed-header {
   background: #ecf0ef;
 }
+.text-black {
+  color: #000;
+}
+.modal4 .modal-bg {
+  padding: 55px 10px;
+}
 
+/* feature16 */
+.wrap-feature-16 .list-block li {
+  padding: 3px 0;
+}
+
+/* mediaqueries */
 @media (min-width: 1024px) {
   .static-slider2.spacer {
     padding: 150px 0 !important;
@@ -344,6 +401,3 @@ File: scss
   }
 }
 
-.text-primary-dark {
-  color: #1a5413;
-}
