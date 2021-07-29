@@ -28,6 +28,11 @@ File: scss
   margin: 0;
 }
 
+.slider1 .slide-text {
+  top: 60%;
+  left: 60%;
+}
+
 .slider1 p {
   font-size: 18px;
 }
