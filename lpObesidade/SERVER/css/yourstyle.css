@@ -29,7 +29,7 @@ File: scss
 }
 
 .slider1 .slide-text {
-  top: 60%;
+  top: 65%;
   left: 60%;
 }
 
@@ -39,8 +39,30 @@ File: scss
 
 @media (max-width: 767px) {
   .slider1 .slide-image {
-    min-height: 300px;
+    min-height: 600px;
   }
+  .slider1 .slide-text {
+    top: 70%;
+    left: 50%;
+  }
+  .slider1 h2 {
+    font-size: 24px;
+    line-height: 29px;
+    padding: 10px;
+  }
+  .slider1 p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+.slider1 .slider-control span {
+  width: 53px;
+  height: 53px;
+  line-height: 53px;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #fff;
 }
 /* SLIDER */
 
@@ -406,7 +428,7 @@ ul li {
   margin-top: -2rem;
 }
 .topbar.fixed-header {
-  background: #ecf0ef;
+  background: #58a784;
 }
 .text-black {
   color: #000;
